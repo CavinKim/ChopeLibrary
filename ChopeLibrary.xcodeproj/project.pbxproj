@@ -22,6 +22,32 @@
 		AC10BFEE1839139A00324068 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC10BFD21839139900324068 /* CoreData.framework */; };
 		AC10BFF61839139A00324068 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AC10BFF41839139A00324068 /* InfoPlist.strings */; };
 		AC10BFF81839139A00324068 /* ChopeLibraryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC10BFF71839139A00324068 /* ChopeLibraryTests.m */; };
+		AC10C01D1839140A00324068 /* ChopeDataUtilTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC10C01B1839140A00324068 /* ChopeDataUtilTests.m */; };
+		AC10C01E1839140A00324068 /* ChopeDeviceUtilTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC10C01C1839140A00324068 /* ChopeDeviceUtilTests.m */; };
+		AC10C07F1839150100324068 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = AC10C05D1839150100324068 /* AFHTTPRequestOperation.m */; };
+		AC10C0801839150100324068 /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AC10C05F1839150100324068 /* AFHTTPRequestOperationManager.m */; };
+		AC10C0811839150100324068 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AC10C0611839150100324068 /* AFHTTPSessionManager.m */; };
+		AC10C0821839150100324068 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AC10C0641839150100324068 /* AFNetworkReachabilityManager.m */; };
+		AC10C0831839150100324068 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = AC10C0661839150100324068 /* AFSecurityPolicy.m */; };
+		AC10C0841839150100324068 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = AC10C0681839150100324068 /* AFURLConnectionOperation.m */; };
+		AC10C0851839150100324068 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = AC10C06A1839150100324068 /* AFURLRequestSerialization.m */; };
+		AC10C0861839150100324068 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = AC10C06C1839150100324068 /* AFURLResponseSerialization.m */; };
+		AC10C0871839150100324068 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AC10C06E1839150100324068 /* AFURLSessionManager.m */; };
+		AC10C0881839150100324068 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AC10C0711839150100324068 /* AFNetworkActivityIndicatorManager.m */; };
+		AC10C0891839150100324068 /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = AC10C0731839150100324068 /* UIActivityIndicatorView+AFNetworking.m */; };
+		AC10C08A1839150100324068 /* UIAlertView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = AC10C0751839150100324068 /* UIAlertView+AFNetworking.m */; };
+		AC10C08B1839150100324068 /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = AC10C0771839150100324068 /* UIButton+AFNetworking.m */; };
+		AC10C08C1839150100324068 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = AC10C0791839150100324068 /* UIImageView+AFNetworking.m */; };
+		AC10C08D1839150100324068 /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = AC10C07C1839150100324068 /* UIProgressView+AFNetworking.m */; };
+		AC10C08E1839150100324068 /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = AC10C07E1839150100324068 /* UIWebView+AFNetworking.m */; };
+		AC10C0A41839158200324068 /* CauinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC10C0921839158200324068 /* CauinViewController.m */; };
+		AC10C0A51839158200324068 /* ChopeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AC10C0941839158200324068 /* ChopeModel.m */; };
+		AC10C0A61839158200324068 /* ChopeNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = AC10C0971839158200324068 /* ChopeNetwork.m */; };
+		AC10C0A71839158200324068 /* ChopeApplicationUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = AC10C09A1839158200324068 /* ChopeApplicationUtil.m */; };
+		AC10C0A81839158200324068 /* ChopeDataUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = AC10C09C1839158200324068 /* ChopeDataUtil.m */; };
+		AC10C0A91839158200324068 /* ChopeDeviceUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = AC10C09E1839158200324068 /* ChopeDeviceUtil.m */; };
+		AC10C0AA1839158200324068 /* ChopeStoryboardUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = AC10C0A01839158200324068 /* ChopeStoryboardUtil.m */; };
+		AC10C0AB1839158200324068 /* ChopeLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = AC10C0A31839158200324068 /* ChopeLoadingView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +79,60 @@
 		AC10BFF31839139A00324068 /* ChopeLibraryTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ChopeLibraryTests-Info.plist"; sourceTree = "<group>"; };
 		AC10BFF51839139A00324068 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AC10BFF71839139A00324068 /* ChopeLibraryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChopeLibraryTests.m; sourceTree = "<group>"; };
+		AC10C01B1839140A00324068 /* ChopeDataUtilTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChopeDataUtilTests.m; sourceTree = "<group>"; };
+		AC10C01C1839140A00324068 /* ChopeDeviceUtilTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChopeDeviceUtilTests.m; sourceTree = "<group>"; };
+		AC10C0551839147200324068 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		AC10C0571839147700324068 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		AC10C05C1839150100324068 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		AC10C05D1839150100324068 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		AC10C05E1839150100324068 /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
+		AC10C05F1839150100324068 /* AFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperationManager.m; sourceTree = "<group>"; };
+		AC10C0601839150100324068 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		AC10C0611839150100324068 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		AC10C0621839150100324068 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		AC10C0631839150100324068 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		AC10C0641839150100324068 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		AC10C0651839150100324068 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		AC10C0661839150100324068 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		AC10C0671839150100324068 /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		AC10C0681839150100324068 /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		AC10C0691839150100324068 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		AC10C06A1839150100324068 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		AC10C06B1839150100324068 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		AC10C06C1839150100324068 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		AC10C06D1839150100324068 /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		AC10C06E1839150100324068 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		AC10C0701839150100324068 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkActivityIndicatorManager.h; sourceTree = "<group>"; };
+		AC10C0711839150100324068 /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkActivityIndicatorManager.m; sourceTree = "<group>"; };
+		AC10C0721839150100324068 /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
+		AC10C0731839150100324068 /* UIActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
+		AC10C0741839150100324068 /* UIAlertView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+AFNetworking.h"; sourceTree = "<group>"; };
+		AC10C0751839150100324068 /* UIAlertView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+AFNetworking.m"; sourceTree = "<group>"; };
+		AC10C0761839150100324068 /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+AFNetworking.h"; sourceTree = "<group>"; };
+		AC10C0771839150100324068 /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+AFNetworking.m"; sourceTree = "<group>"; };
+		AC10C0781839150100324068 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		AC10C0791839150100324068 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		AC10C07A1839150100324068 /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIKit+AFNetworking.h"; sourceTree = "<group>"; };
+		AC10C07B1839150100324068 /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
+		AC10C07C1839150100324068 /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
+		AC10C07D1839150100324068 /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
+		AC10C07E1839150100324068 /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
+		AC10C0911839158200324068 /* CauinViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CauinViewController.h; sourceTree = "<group>"; };
+		AC10C0921839158200324068 /* CauinViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CauinViewController.m; sourceTree = "<group>"; };
+		AC10C0931839158200324068 /* ChopeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChopeModel.h; sourceTree = "<group>"; };
+		AC10C0941839158200324068 /* ChopeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChopeModel.m; sourceTree = "<group>"; };
+		AC10C0961839158200324068 /* ChopeNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChopeNetwork.h; sourceTree = "<group>"; };
+		AC10C0971839158200324068 /* ChopeNetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChopeNetwork.m; sourceTree = "<group>"; };
+		AC10C0991839158200324068 /* ChopeApplicationUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChopeApplicationUtil.h; sourceTree = "<group>"; };
+		AC10C09A1839158200324068 /* ChopeApplicationUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChopeApplicationUtil.m; sourceTree = "<group>"; };
+		AC10C09B1839158200324068 /* ChopeDataUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChopeDataUtil.h; sourceTree = "<group>"; };
+		AC10C09C1839158200324068 /* ChopeDataUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChopeDataUtil.m; sourceTree = "<group>"; };
+		AC10C09D1839158200324068 /* ChopeDeviceUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChopeDeviceUtil.h; sourceTree = "<group>"; };
+		AC10C09E1839158200324068 /* ChopeDeviceUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChopeDeviceUtil.m; sourceTree = "<group>"; };
+		AC10C09F1839158200324068 /* ChopeStoryboardUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChopeStoryboardUtil.h; sourceTree = "<group>"; };
+		AC10C0A01839158200324068 /* ChopeStoryboardUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChopeStoryboardUtil.m; sourceTree = "<group>"; };
+		AC10C0A21839158200324068 /* ChopeLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChopeLoadingView.h; sourceTree = "<group>"; };
+		AC10C0A31839158200324068 /* ChopeLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChopeLoadingView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +164,8 @@
 		AC10BFC01839139900324068 = {
 			isa = PBXGroup;
 			children = (
+				AC10C08F1839158200324068 /* Classes */,
+				AC10C0591839150100324068 /* Vendors */,
 				AC10BFD41839139A00324068 /* ChopeLibrary */,
 				AC10BFF11839139A00324068 /* ChopeLibraryTests */,
 				AC10BFCB1839139900324068 /* Frameworks */,
@@ -103,6 +185,8 @@
 		AC10BFCB1839139900324068 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				AC10C0571839147700324068 /* MobileCoreServices.framework */,
+				AC10C0551839147200324068 /* SystemConfiguration.framework */,
 				AC10BFCC1839139900324068 /* Foundation.framework */,
 				AC10BFCE1839139900324068 /* CoreGraphics.framework */,
 				AC10BFD01839139900324068 /* UIKit.framework */,
@@ -138,8 +222,10 @@
 		AC10BFF11839139A00324068 /* ChopeLibraryTests */ = {
 			isa = PBXGroup;
 			children = (
-				AC10BFF71839139A00324068 /* ChopeLibraryTests.m */,
 				AC10BFF21839139A00324068 /* Supporting Files */,
+				AC10BFF71839139A00324068 /* ChopeLibraryTests.m */,
+				AC10C01B1839140A00324068 /* ChopeDataUtilTests.m */,
+				AC10C01C1839140A00324068 /* ChopeDeviceUtilTests.m */,
 			);
 			path = ChopeLibraryTests;
 			sourceTree = "<group>";
@@ -151,6 +237,126 @@
 				AC10BFF41839139A00324068 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AC10C0591839150100324068 /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+				AC10C05A1839150100324068 /* AFNetworking */,
+			);
+			path = Vendors;
+			sourceTree = "<group>";
+		};
+		AC10C05A1839150100324068 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				AC10C05B1839150100324068 /* AFNetworking */,
+				AC10C06F1839150100324068 /* UIKit+AFNetworking */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		AC10C05B1839150100324068 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				AC10C05C1839150100324068 /* AFHTTPRequestOperation.h */,
+				AC10C05D1839150100324068 /* AFHTTPRequestOperation.m */,
+				AC10C05E1839150100324068 /* AFHTTPRequestOperationManager.h */,
+				AC10C05F1839150100324068 /* AFHTTPRequestOperationManager.m */,
+				AC10C0601839150100324068 /* AFHTTPSessionManager.h */,
+				AC10C0611839150100324068 /* AFHTTPSessionManager.m */,
+				AC10C0621839150100324068 /* AFNetworking.h */,
+				AC10C0631839150100324068 /* AFNetworkReachabilityManager.h */,
+				AC10C0641839150100324068 /* AFNetworkReachabilityManager.m */,
+				AC10C0651839150100324068 /* AFSecurityPolicy.h */,
+				AC10C0661839150100324068 /* AFSecurityPolicy.m */,
+				AC10C0671839150100324068 /* AFURLConnectionOperation.h */,
+				AC10C0681839150100324068 /* AFURLConnectionOperation.m */,
+				AC10C0691839150100324068 /* AFURLRequestSerialization.h */,
+				AC10C06A1839150100324068 /* AFURLRequestSerialization.m */,
+				AC10C06B1839150100324068 /* AFURLResponseSerialization.h */,
+				AC10C06C1839150100324068 /* AFURLResponseSerialization.m */,
+				AC10C06D1839150100324068 /* AFURLSessionManager.h */,
+				AC10C06E1839150100324068 /* AFURLSessionManager.m */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		AC10C06F1839150100324068 /* UIKit+AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				AC10C0701839150100324068 /* AFNetworkActivityIndicatorManager.h */,
+				AC10C0711839150100324068 /* AFNetworkActivityIndicatorManager.m */,
+				AC10C0721839150100324068 /* UIActivityIndicatorView+AFNetworking.h */,
+				AC10C0731839150100324068 /* UIActivityIndicatorView+AFNetworking.m */,
+				AC10C0741839150100324068 /* UIAlertView+AFNetworking.h */,
+				AC10C0751839150100324068 /* UIAlertView+AFNetworking.m */,
+				AC10C0761839150100324068 /* UIButton+AFNetworking.h */,
+				AC10C0771839150100324068 /* UIButton+AFNetworking.m */,
+				AC10C0781839150100324068 /* UIImageView+AFNetworking.h */,
+				AC10C0791839150100324068 /* UIImageView+AFNetworking.m */,
+				AC10C07A1839150100324068 /* UIKit+AFNetworking.h */,
+				AC10C07B1839150100324068 /* UIProgressView+AFNetworking.h */,
+				AC10C07C1839150100324068 /* UIProgressView+AFNetworking.m */,
+				AC10C07D1839150100324068 /* UIWebView+AFNetworking.h */,
+				AC10C07E1839150100324068 /* UIWebView+AFNetworking.m */,
+			);
+			path = "UIKit+AFNetworking";
+			sourceTree = "<group>";
+		};
+		AC10C08F1839158200324068 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				AC10C0901839158200324068 /* MVC */,
+				AC10C0951839158200324068 /* Network */,
+				AC10C0981839158200324068 /* Utils */,
+				AC10C0A11839158200324068 /* Views */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		AC10C0901839158200324068 /* MVC */ = {
+			isa = PBXGroup;
+			children = (
+				AC10C0911839158200324068 /* CauinViewController.h */,
+				AC10C0921839158200324068 /* CauinViewController.m */,
+				AC10C0931839158200324068 /* ChopeModel.h */,
+				AC10C0941839158200324068 /* ChopeModel.m */,
+			);
+			path = MVC;
+			sourceTree = "<group>";
+		};
+		AC10C0951839158200324068 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				AC10C0961839158200324068 /* ChopeNetwork.h */,
+				AC10C0971839158200324068 /* ChopeNetwork.m */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		AC10C0981839158200324068 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				AC10C0991839158200324068 /* ChopeApplicationUtil.h */,
+				AC10C09A1839158200324068 /* ChopeApplicationUtil.m */,
+				AC10C09B1839158200324068 /* ChopeDataUtil.h */,
+				AC10C09C1839158200324068 /* ChopeDataUtil.m */,
+				AC10C09D1839158200324068 /* ChopeDeviceUtil.h */,
+				AC10C09E1839158200324068 /* ChopeDeviceUtil.m */,
+				AC10C09F1839158200324068 /* ChopeStoryboardUtil.h */,
+				AC10C0A01839158200324068 /* ChopeStoryboardUtil.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		AC10C0A11839158200324068 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AC10C0A21839158200324068 /* ChopeLoadingView.h */,
+				AC10C0A31839158200324068 /* ChopeLoadingView.m */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,6 +407,9 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = Chope;
 				TargetAttributes = {
+					AC10BFC81839139900324068 = {
+						DevelopmentTeam = JKB83V3G9Q;
+					};
 					AC10BFE81839139A00324068 = {
 						TestTargetID = AC10BFC81839139900324068;
 					};
@@ -249,9 +458,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC10C07F1839150100324068 /* AFHTTPRequestOperation.m in Sources */,
+				AC10C0A81839158200324068 /* ChopeDataUtil.m in Sources */,
 				AC10BFE21839139A00324068 /* ChopeLibrary.xcdatamodeld in Sources */,
+				AC10C0881839150100324068 /* AFNetworkActivityIndicatorManager.m in Sources */,
+				AC10C0A51839158200324068 /* ChopeModel.m in Sources */,
+				AC10C0871839150100324068 /* AFURLSessionManager.m in Sources */,
+				AC10C0811839150100324068 /* AFHTTPSessionManager.m in Sources */,
 				AC10BFDF1839139A00324068 /* ChopeAppDelegate.m in Sources */,
+				AC10C0821839150100324068 /* AFNetworkReachabilityManager.m in Sources */,
+				AC10C0A61839158200324068 /* ChopeNetwork.m in Sources */,
+				AC10C0A41839158200324068 /* CauinViewController.m in Sources */,
+				AC10C0A71839158200324068 /* ChopeApplicationUtil.m in Sources */,
+				AC10C0A91839158200324068 /* ChopeDeviceUtil.m in Sources */,
+				AC10C08E1839150100324068 /* UIWebView+AFNetworking.m in Sources */,
+				AC10C08C1839150100324068 /* UIImageView+AFNetworking.m in Sources */,
+				AC10C08D1839150100324068 /* UIProgressView+AFNetworking.m in Sources */,
+				AC10C0861839150100324068 /* AFURLResponseSerialization.m in Sources */,
+				AC10C0851839150100324068 /* AFURLRequestSerialization.m in Sources */,
+				AC10C0AB1839158200324068 /* ChopeLoadingView.m in Sources */,
+				AC10C0841839150100324068 /* AFURLConnectionOperation.m in Sources */,
+				AC10C08B1839150100324068 /* UIButton+AFNetworking.m in Sources */,
+				AC10C0891839150100324068 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
+				AC10C0801839150100324068 /* AFHTTPRequestOperationManager.m in Sources */,
+				AC10C0831839150100324068 /* AFSecurityPolicy.m in Sources */,
 				AC10BFDB1839139A00324068 /* main.m in Sources */,
+				AC10C0AA1839158200324068 /* ChopeStoryboardUtil.m in Sources */,
+				AC10C08A1839150100324068 /* UIAlertView+AFNetworking.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,7 +492,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC10C01E1839140A00324068 /* ChopeDeviceUtilTests.m in Sources */,
 				AC10BFF81839139A00324068 /* ChopeLibraryTests.m in Sources */,
+				AC10C01D1839140A00324068 /* ChopeDataUtilTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -370,6 +605,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ChopeLibrary/ChopeLibrary-Prefix.pch";
 				INFOPLIST_FILE = "ChopeLibrary/ChopeLibrary-Info.plist";
@@ -383,6 +619,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ChopeLibrary/ChopeLibrary-Prefix.pch";
 				INFOPLIST_FILE = "ChopeLibrary/ChopeLibrary-Info.plist";

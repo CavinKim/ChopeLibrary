@@ -1,0 +1,480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC10BFCD1839139900324068 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC10BFCC1839139900324068 /* Foundation.framework */; };
+		AC10BFCF1839139900324068 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC10BFCE1839139900324068 /* CoreGraphics.framework */; };
+		AC10BFD11839139900324068 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC10BFD01839139900324068 /* UIKit.framework */; };
+		AC10BFD31839139900324068 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC10BFD21839139900324068 /* CoreData.framework */; };
+		AC10BFD91839139A00324068 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AC10BFD71839139A00324068 /* InfoPlist.strings */; };
+		AC10BFDB1839139A00324068 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AC10BFDA1839139A00324068 /* main.m */; };
+		AC10BFDF1839139A00324068 /* ChopeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AC10BFDE1839139A00324068 /* ChopeAppDelegate.m */; };
+		AC10BFE21839139A00324068 /* ChopeLibrary.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AC10BFE01839139A00324068 /* ChopeLibrary.xcdatamodeld */; };
+		AC10BFE41839139A00324068 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC10BFE31839139A00324068 /* Images.xcassets */; };
+		AC10BFEB1839139A00324068 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC10BFEA1839139A00324068 /* XCTest.framework */; };
+		AC10BFEC1839139A00324068 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC10BFCC1839139900324068 /* Foundation.framework */; };
+		AC10BFED1839139A00324068 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC10BFD01839139900324068 /* UIKit.framework */; };
+		AC10BFEE1839139A00324068 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC10BFD21839139900324068 /* CoreData.framework */; };
+		AC10BFF61839139A00324068 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AC10BFF41839139A00324068 /* InfoPlist.strings */; };
+		AC10BFF81839139A00324068 /* ChopeLibraryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC10BFF71839139A00324068 /* ChopeLibraryTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC10BFEF1839139A00324068 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC10BFC11839139900324068 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC10BFC81839139900324068;
+			remoteInfo = ChopeLibrary;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC10BFC91839139900324068 /* ChopeLibrary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChopeLibrary.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC10BFCC1839139900324068 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AC10BFCE1839139900324068 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AC10BFD01839139900324068 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AC10BFD21839139900324068 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		AC10BFD61839139A00324068 /* ChopeLibrary-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ChopeLibrary-Info.plist"; sourceTree = "<group>"; };
+		AC10BFD81839139A00324068 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AC10BFDA1839139A00324068 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AC10BFDC1839139A00324068 /* ChopeLibrary-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ChopeLibrary-Prefix.pch"; sourceTree = "<group>"; };
+		AC10BFDD1839139A00324068 /* ChopeAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChopeAppDelegate.h; sourceTree = "<group>"; };
+		AC10BFDE1839139A00324068 /* ChopeAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChopeAppDelegate.m; sourceTree = "<group>"; };
+		AC10BFE11839139A00324068 /* ChopeLibrary.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ChopeLibrary.xcdatamodel; sourceTree = "<group>"; };
+		AC10BFE31839139A00324068 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AC10BFE91839139A00324068 /* ChopeLibraryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChopeLibraryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC10BFEA1839139A00324068 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		AC10BFF31839139A00324068 /* ChopeLibraryTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ChopeLibraryTests-Info.plist"; sourceTree = "<group>"; };
+		AC10BFF51839139A00324068 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AC10BFF71839139A00324068 /* ChopeLibraryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChopeLibraryTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC10BFC61839139900324068 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC10BFCF1839139900324068 /* CoreGraphics.framework in Frameworks */,
+				AC10BFD31839139900324068 /* CoreData.framework in Frameworks */,
+				AC10BFD11839139900324068 /* UIKit.framework in Frameworks */,
+				AC10BFCD1839139900324068 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC10BFE61839139A00324068 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC10BFEB1839139A00324068 /* XCTest.framework in Frameworks */,
+				AC10BFEE1839139A00324068 /* CoreData.framework in Frameworks */,
+				AC10BFED1839139A00324068 /* UIKit.framework in Frameworks */,
+				AC10BFEC1839139A00324068 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC10BFC01839139900324068 = {
+			isa = PBXGroup;
+			children = (
+				AC10BFD41839139A00324068 /* ChopeLibrary */,
+				AC10BFF11839139A00324068 /* ChopeLibraryTests */,
+				AC10BFCB1839139900324068 /* Frameworks */,
+				AC10BFCA1839139900324068 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC10BFCA1839139900324068 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC10BFC91839139900324068 /* ChopeLibrary.app */,
+				AC10BFE91839139A00324068 /* ChopeLibraryTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC10BFCB1839139900324068 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AC10BFCC1839139900324068 /* Foundation.framework */,
+				AC10BFCE1839139900324068 /* CoreGraphics.framework */,
+				AC10BFD01839139900324068 /* UIKit.framework */,
+				AC10BFD21839139900324068 /* CoreData.framework */,
+				AC10BFEA1839139A00324068 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AC10BFD41839139A00324068 /* ChopeLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				AC10BFDD1839139A00324068 /* ChopeAppDelegate.h */,
+				AC10BFDE1839139A00324068 /* ChopeAppDelegate.m */,
+				AC10BFE31839139A00324068 /* Images.xcassets */,
+				AC10BFE01839139A00324068 /* ChopeLibrary.xcdatamodeld */,
+				AC10BFD51839139A00324068 /* Supporting Files */,
+			);
+			path = ChopeLibrary;
+			sourceTree = "<group>";
+		};
+		AC10BFD51839139A00324068 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AC10BFD61839139A00324068 /* ChopeLibrary-Info.plist */,
+				AC10BFD71839139A00324068 /* InfoPlist.strings */,
+				AC10BFDA1839139A00324068 /* main.m */,
+				AC10BFDC1839139A00324068 /* ChopeLibrary-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AC10BFF11839139A00324068 /* ChopeLibraryTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC10BFF71839139A00324068 /* ChopeLibraryTests.m */,
+				AC10BFF21839139A00324068 /* Supporting Files */,
+			);
+			path = ChopeLibraryTests;
+			sourceTree = "<group>";
+		};
+		AC10BFF21839139A00324068 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AC10BFF31839139A00324068 /* ChopeLibraryTests-Info.plist */,
+				AC10BFF41839139A00324068 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC10BFC81839139900324068 /* ChopeLibrary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC10BFFB1839139A00324068 /* Build configuration list for PBXNativeTarget "ChopeLibrary" */;
+			buildPhases = (
+				AC10BFC51839139900324068 /* Sources */,
+				AC10BFC61839139900324068 /* Frameworks */,
+				AC10BFC71839139900324068 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChopeLibrary;
+			productName = ChopeLibrary;
+			productReference = AC10BFC91839139900324068 /* ChopeLibrary.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC10BFE81839139A00324068 /* ChopeLibraryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC10BFFE1839139A00324068 /* Build configuration list for PBXNativeTarget "ChopeLibraryTests" */;
+			buildPhases = (
+				AC10BFE51839139A00324068 /* Sources */,
+				AC10BFE61839139A00324068 /* Frameworks */,
+				AC10BFE71839139A00324068 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC10BFF01839139A00324068 /* PBXTargetDependency */,
+			);
+			name = ChopeLibraryTests;
+			productName = ChopeLibraryTests;
+			productReference = AC10BFE91839139A00324068 /* ChopeLibraryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC10BFC11839139900324068 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Chope;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Chope;
+				TargetAttributes = {
+					AC10BFE81839139A00324068 = {
+						TestTargetID = AC10BFC81839139900324068;
+					};
+				};
+			};
+			buildConfigurationList = AC10BFC41839139900324068 /* Build configuration list for PBXProject "ChopeLibrary" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AC10BFC01839139900324068;
+			productRefGroup = AC10BFCA1839139900324068 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC10BFC81839139900324068 /* ChopeLibrary */,
+				AC10BFE81839139A00324068 /* ChopeLibraryTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC10BFC71839139900324068 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC10BFD91839139A00324068 /* InfoPlist.strings in Resources */,
+				AC10BFE41839139A00324068 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC10BFE71839139A00324068 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC10BFF61839139A00324068 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC10BFC51839139900324068 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC10BFE21839139A00324068 /* ChopeLibrary.xcdatamodeld in Sources */,
+				AC10BFDF1839139A00324068 /* ChopeAppDelegate.m in Sources */,
+				AC10BFDB1839139A00324068 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC10BFE51839139A00324068 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC10BFF81839139A00324068 /* ChopeLibraryTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC10BFF01839139A00324068 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC10BFC81839139900324068 /* ChopeLibrary */;
+			targetProxy = AC10BFEF1839139A00324068 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AC10BFD71839139A00324068 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC10BFD81839139A00324068 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AC10BFF41839139A00324068 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC10BFF51839139A00324068 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC10BFF91839139A00324068 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AC10BFFA1839139A00324068 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC10BFFC1839139A00324068 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ChopeLibrary/ChopeLibrary-Prefix.pch";
+				INFOPLIST_FILE = "ChopeLibrary/ChopeLibrary-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AC10BFFD1839139A00324068 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ChopeLibrary/ChopeLibrary-Prefix.pch";
+				INFOPLIST_FILE = "ChopeLibrary/ChopeLibrary-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		AC10BFFF1839139A00324068 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ChopeLibrary.app/ChopeLibrary";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ChopeLibrary/ChopeLibrary-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ChopeLibraryTests/ChopeLibraryTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		AC10C0001839139A00324068 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ChopeLibrary.app/ChopeLibrary";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ChopeLibrary/ChopeLibrary-Prefix.pch";
+				INFOPLIST_FILE = "ChopeLibraryTests/ChopeLibraryTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC10BFC41839139900324068 /* Build configuration list for PBXProject "ChopeLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC10BFF91839139A00324068 /* Debug */,
+				AC10BFFA1839139A00324068 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC10BFFB1839139A00324068 /* Build configuration list for PBXNativeTarget "ChopeLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC10BFFC1839139A00324068 /* Debug */,
+				AC10BFFD1839139A00324068 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AC10BFFE1839139A00324068 /* Build configuration list for PBXNativeTarget "ChopeLibraryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC10BFFF1839139A00324068 /* Debug */,
+				AC10C0001839139A00324068 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AC10BFE01839139A00324068 /* ChopeLibrary.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AC10BFE11839139A00324068 /* ChopeLibrary.xcdatamodel */,
+			);
+			currentVersion = AC10BFE11839139A00324068 /* ChopeLibrary.xcdatamodel */;
+			path = ChopeLibrary.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AC10BFC11839139900324068 /* Project object */;
+}

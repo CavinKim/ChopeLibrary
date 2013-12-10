@@ -11,5 +11,6 @@
 @interface ChopeStoryboardUtil : NSObject
 
 + (UIViewController*)initialViewControllerFromStoryBoard:(NSString*)storyboardName;
++ (UIViewController*)viewControllerFromStoryBoard:(NSString*)storyboardName identifier:(NSString*)identifier;
 
 @end

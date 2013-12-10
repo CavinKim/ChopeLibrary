@@ -40,7 +40,7 @@
 		AC10C08C1839150100324068 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = AC10C0791839150100324068 /* UIImageView+AFNetworking.m */; };
 		AC10C08D1839150100324068 /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = AC10C07C1839150100324068 /* UIProgressView+AFNetworking.m */; };
 		AC10C08E1839150100324068 /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = AC10C07E1839150100324068 /* UIWebView+AFNetworking.m */; };
-		AC10C0A41839158200324068 /* CauinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC10C0921839158200324068 /* CauinViewController.m */; };
+		AC10C0A41839158200324068 /* ChopeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC10C0921839158200324068 /* ChopeViewController.m */; };
 		AC10C0A51839158200324068 /* ChopeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AC10C0941839158200324068 /* ChopeModel.m */; };
 		AC10C0A61839158200324068 /* ChopeNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = AC10C0971839158200324068 /* ChopeNetwork.m */; };
 		AC10C0A71839158200324068 /* ChopeApplicationUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = AC10C09A1839158200324068 /* ChopeApplicationUtil.m */; };
@@ -117,8 +117,8 @@
 		AC10C07C1839150100324068 /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
 		AC10C07D1839150100324068 /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
 		AC10C07E1839150100324068 /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
-		AC10C0911839158200324068 /* CauinViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CauinViewController.h; sourceTree = "<group>"; };
-		AC10C0921839158200324068 /* CauinViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CauinViewController.m; sourceTree = "<group>"; };
+		AC10C0911839158200324068 /* ChopeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChopeViewController.h; sourceTree = "<group>"; };
+		AC10C0921839158200324068 /* ChopeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChopeViewController.m; sourceTree = "<group>"; };
 		AC10C0931839158200324068 /* ChopeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChopeModel.h; sourceTree = "<group>"; };
 		AC10C0941839158200324068 /* ChopeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChopeModel.m; sourceTree = "<group>"; };
 		AC10C0961839158200324068 /* ChopeNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChopeNetwork.h; sourceTree = "<group>"; };
@@ -133,6 +133,7 @@
 		AC10C0A01839158200324068 /* ChopeStoryboardUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChopeStoryboardUtil.m; sourceTree = "<group>"; };
 		AC10C0A21839158200324068 /* ChopeLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChopeLoadingView.h; sourceTree = "<group>"; };
 		AC10C0A31839158200324068 /* ChopeLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChopeLoadingView.m; sourceTree = "<group>"; };
+		ACC1BE9E183D193D00FAE96D /* ChopeLibrary.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = ChopeLibrary.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -185,6 +186,7 @@
 		AC10BFCB1839139900324068 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				ACC1BE9E183D193D00FAE96D /* ChopeLibrary.xcodeproj */,
 				AC10C0571839147700324068 /* MobileCoreServices.framework */,
 				AC10C0551839147200324068 /* SystemConfiguration.framework */,
 				AC10BFCC1839139900324068 /* Foundation.framework */,
@@ -318,8 +320,8 @@
 		AC10C0901839158200324068 /* MVC */ = {
 			isa = PBXGroup;
 			children = (
-				AC10C0911839158200324068 /* CauinViewController.h */,
-				AC10C0921839158200324068 /* CauinViewController.m */,
+				AC10C0911839158200324068 /* ChopeViewController.h */,
+				AC10C0921839158200324068 /* ChopeViewController.m */,
 				AC10C0931839158200324068 /* ChopeModel.h */,
 				AC10C0941839158200324068 /* ChopeModel.m */,
 			);
@@ -357,6 +359,11 @@
 				AC10C0A31839158200324068 /* ChopeLoadingView.m */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		ACC1BE9F183D193D00FAE96D /* Products */ = {
+			isa = PBXGroup;
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -425,6 +432,12 @@
 			mainGroup = AC10BFC01839139900324068;
 			productRefGroup = AC10BFCA1839139900324068 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = ACC1BE9F183D193D00FAE96D /* Products */;
+					ProjectRef = ACC1BE9E183D193D00FAE96D /* ChopeLibrary.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				AC10BFC81839139900324068 /* ChopeLibrary */,
@@ -468,7 +481,7 @@
 				AC10BFDF1839139A00324068 /* ChopeAppDelegate.m in Sources */,
 				AC10C0821839150100324068 /* AFNetworkReachabilityManager.m in Sources */,
 				AC10C0A61839158200324068 /* ChopeNetwork.m in Sources */,
-				AC10C0A41839158200324068 /* CauinViewController.m in Sources */,
+				AC10C0A41839158200324068 /* ChopeViewController.m in Sources */,
 				AC10C0A71839158200324068 /* ChopeApplicationUtil.m in Sources */,
 				AC10C0A91839158200324068 /* ChopeDeviceUtil.m in Sources */,
 				AC10C08E1839150100324068 /* UIWebView+AFNetworking.m in Sources */,
@@ -689,6 +702,7 @@
 				AC10BFFD1839139A00324068 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AC10BFFE1839139A00324068 /* Build configuration list for PBXNativeTarget "ChopeLibraryTests" */ = {
 			isa = XCConfigurationList;
@@ -697,6 +711,7 @@
 				AC10C0001839139A00324068 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

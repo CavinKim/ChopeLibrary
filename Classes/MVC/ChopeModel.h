@@ -31,9 +31,5 @@
 
 - (id)initWithDelegate:(id<ChopeModelDelegate>)delegate;
 
-- (NSInteger)integerFromResponse:(NSDictionary*)response forKey:(NSString*)key;
-- (CGFloat)doubleFromResponse:(NSDictionary*)response forKey:(NSString*)key;
-- (BOOL)booleanFromResponse:(NSDictionary*)response forKey:(NSString*)key;
-- (NSString*)stringFromResponse:(NSDictionary*)response forKey:(NSString*)key;
 
 @end

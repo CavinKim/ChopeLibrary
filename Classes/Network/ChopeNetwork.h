@@ -8,8 +8,10 @@
 
 #import <Foundation/Foundation.h>
 
-#define CHOPE_NETWORK_METHOD_POST @"post";
-#define CHOPE_NETWORK_METHOD_GET @"get";
+#define CHOPE_NETWORK_METHOD_GET @"GET";
+#define CHOPE_NETWORK_METHOD_POST @"POST";
+#define CHOPE_NETWORK_METHOD_PUT @"PUT";
+#define CHOPE_NETWORK_METHOD_DELETE @"DELETE";
 
 @interface ChopeNetwork : NSObject
 

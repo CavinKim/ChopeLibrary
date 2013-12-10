@@ -11,8 +11,5 @@
 @interface ChopeDataUtil : NSObject
 
 + (BOOL)isNull:(id)object;
-+ (BOOL)isNullString:(NSString *)string;
-+ (BOOL)isEmptyString:(NSString *)string;
-+ (NSString*)trim:(NSString*)string;
 
 @end

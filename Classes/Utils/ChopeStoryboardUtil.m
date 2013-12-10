@@ -12,7 +12,7 @@
 
 + (UIViewController*)initialViewControllerFromStoryBoard:(NSString*)storyboardName
 {
-    UIStoryboard *storyboard = [ChopeStoryboardUtil storyboardFromName:storyboardName];
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:storyboardName bundle:nil];
     
     if (storyboard) {
         return storyboard.instantiateInitialViewController;
@@ -23,18 +23,13 @@
 
 + (UIViewController*)viewControllerFromStoryBoard:(NSString*)storyboardName identifier:(NSString*)identifier
 {
-    UIStoryboard *storyboard = [ChopeStoryboardUtil storyboardFromName:storyboardName];
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:storyboardName bundle:nil];
     
     if (storyboard) {
         return [storyboard instantiateViewControllerWithIdentifier:identifier];
     }
     
     return nil;
-}
-
-+ (UIStoryboard*)storyboardFromName:(NSString*)storyboardName
-{
-    return [UIStoryboard storyboardWithName:storyboardName bundle:nil];
 }
 
 @end

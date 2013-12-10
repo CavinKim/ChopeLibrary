@@ -44,84 +44,30 @@
     return _delegate;
 }
 
-- (NSInteger)integerFromResponse:(NSDictionary*)response forKey:(NSString*)key
+
+#pragma mark API
+- (BOOL)isSuccessFromResponse:(NSDictionary*)response
 {
-    if ([ChopeDataUtil isNull:response]) {
-        return -1;
-    }
-    
-    id value = [response objectForKey:key];
-    
-    if ([ChopeDataUtil isNull:value]) {
-        return -1;
-    }
-    
-    return [value integerValue];
+    [NSException raise:@"Incorrect use" format:@"You must override this method - isSuccessFromResponse"];
+    return YES;
 }
 
-- (CGFloat)doubleFromResponse:(NSDictionary*)response forKey:(NSString*)key
+- (NSDictionary*)resultDataFromResponse:(NSDictionary*)response
 {
-    if ([ChopeDataUtil isNull:response]) {
-        return -1.0;
-    }
-    
-    id value = [response objectForKey:key];
-    
-    if ([ChopeDataUtil isNull:value]) {
-        return -1.0;
-    }
-    
-    return [value floatValue];
+    [NSException raise:@"Incorrect use" format:@"You must override this method - dataFromResponse"];
+    return nil;
 }
 
-- (BOOL)booleanFromResponse:(NSDictionary*)response forKey:(NSString*)key
+- (NSInteger)resultCodeFromResponse:(NSDictionary*)response
 {
-    if ([ChopeDataUtil isNull:response]) {
-        return NO;
-    }
-    
-    id value = [response objectForKey:key];
-    
-    if ([ChopeDataUtil isNull:value]) {
-        return false;
-    }
-    
-    return [value boolValue];
+    [NSException raise:@"Incorrect use" format:@"You must override this method - resultCodeFromResponse"];
+    return 0;
 }
 
-- (NSString*)stringFromResponse:(NSDictionary*)response forKey:(NSString*)key
+- (NSString*)resultMessageFromResponse:(NSDictionary*)response
 {
-    if ([ChopeDataUtil isNull:response]) {
-        return nil;
-    }
-    
-    id value = [response objectForKey:key];
-    
-    if ([ChopeDataUtil isNullString:value]) {
-        return nil;
-    }
-    
-    if ([value isKindOfClass:[NSNumber class]]) {
-        NSNumber *number = (NSNumber*)value;
-        return [number stringValue];
-    }
-    
-    return value;
+    [NSException raise:@"Incorrect use" format:@"You must override this method - resultMessageFromResponse"];
+    return nil;
 }
-
-//- (NSDate*)dateFromResponse:(NSDictionary*)response forKey:(NSString*)key
-//{
-//    if ([ChopeDataUtil isNull:response]) {
-//        return nil;
-//    }
-//    
-//    id value = [response objectForKey:key];
-//    
-//    if ([ChopeDataUtil isNullString:value]) {
-//        return nil;
-//    }
-//    
-//    return [IumDateUtil dateForRFC3339DateTimeString:value];
-//}
 
 @end

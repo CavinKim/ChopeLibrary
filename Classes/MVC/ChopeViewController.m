@@ -1,15 +1,15 @@
 //
-//  CauinViewController.m
+//  ChopeViewController.m
 //  Cauin
 //
 //  Created by Hyun Gook Yoon on 13. 10. 17..
 //  Copyright (c) 2013년 Chope. All rights reserved.
 //
 
-#import "CauinViewController.h"
+#import "ChopeViewController.h"
 
 
-@implementation CauinViewController
+@implementation ChopeViewController
 
 - (void)viewDidLoad
 {
@@ -21,22 +21,6 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
-}
-
-- (void)showLoadingView
-{
-    if (!self.loadingView) {
-        self.loadingView = [[ChopeLoadingView alloc] init];
-    }
-    
-    [self.loadingView showInView:self.view];
-}
-
-- (void)hideLoadingView
-{
-    if (self.loadingView) {
-        [self.loadingView hide];
-    }
 }
 
 @end

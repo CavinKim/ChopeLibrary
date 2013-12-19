@@ -7,16 +7,11 @@
 //
 
 #import "NSString+Chope.h"
-#import "ChopeDataUtil.h"
 
 @implementation NSString (Chope)
 
 - (BOOL)isNull
 {
-    if ([ChopeDataUtil isNull:self]) {
-        return YES;
-    }
-
     if ([[self lowercaseString] isEqualToString:@"null"] ||
         [[self lowercaseString] isEqualToString:@"nil"]) {
         return YES;

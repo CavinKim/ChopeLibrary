@@ -7,7 +7,6 @@
 //
 
 #import "ChopeModel.h"
-#import "ChopeDataUtil.h"
 
 @implementation ChopeModel
 

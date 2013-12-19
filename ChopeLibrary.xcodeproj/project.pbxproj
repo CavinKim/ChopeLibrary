@@ -28,17 +28,21 @@
 		AC10C0A51839158200324068 /* ChopeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AC10C0941839158200324068 /* ChopeModel.m */; };
 		AC10C0A61839158200324068 /* ChopeNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = AC10C0971839158200324068 /* ChopeNetwork.m */; };
 		AC10C0A71839158200324068 /* ChopeApplicationUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = AC10C09A1839158200324068 /* ChopeApplicationUtil.m */; };
-		AC10C0A81839158200324068 /* ChopeDataUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = AC10C09C1839158200324068 /* ChopeDataUtil.m */; };
 		AC10C0A91839158200324068 /* ChopeDeviceUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = AC10C09E1839158200324068 /* ChopeDeviceUtil.m */; };
 		AC10C0AA1839158200324068 /* ChopeStoryboardUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = AC10C0A01839158200324068 /* ChopeStoryboardUtil.m */; };
 		ACEC197218631A7B0014E681 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = ACEC197118631A7B0014E681 /* README.md */; };
 		ACEC197418631AB80014E681 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = ACEC197318631AB80014E681 /* Podfile */; };
-		ACEC198118631D790014E681 /* NSDictionary+ChopeData.m in Sources */ = {isa = PBXBuildFile; fileRef = ACEC197A18631D790014E681 /* NSDictionary+ChopeData.m */; };
+		ACEC198118631D790014E681 /* NSDictionary+ChopeValue.m in Sources */ = {isa = PBXBuildFile; fileRef = ACEC197A18631D790014E681 /* NSDictionary+ChopeValue.m */; };
 		ACEC198218631D790014E681 /* NSString+Chope.m in Sources */ = {isa = PBXBuildFile; fileRef = ACEC197C18631D790014E681 /* NSString+Chope.m */; };
 		ACEC198318631D790014E681 /* NSString+ChopeSize.m in Sources */ = {isa = PBXBuildFile; fileRef = ACEC197E18631D790014E681 /* NSString+ChopeSize.m */; };
 		ACEC198418631D790014E681 /* UIView+ChopeAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = ACEC198018631D790014E681 /* UIView+ChopeAnimation.m */; };
 		ACEC198718631D9C0014E681 /* ChopeImageUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = ACEC198618631D9C0014E681 /* ChopeImageUtil.m */; };
 		ACEC198918632ADE0014E681 /* ChopeLibrary.podspec in Resources */ = {isa = PBXBuildFile; fileRef = ACEC198818632ADE0014E681 /* ChopeLibrary.podspec */; };
+		ACEC198E186331F00014E681 /* UIView+ChopeView.m in Sources */ = {isa = PBXBuildFile; fileRef = ACEC198D186331F00014E681 /* UIView+ChopeView.m */; };
+		ACEC19911863329E0014E681 /* UIScrollView+ChopePage.m in Sources */ = {isa = PBXBuildFile; fileRef = ACEC19901863329E0014E681 /* UIScrollView+ChopePage.m */; };
+		ACEC1994186332F10014E681 /* UILabel+ChopeResize.m in Sources */ = {isa = PBXBuildFile; fileRef = ACEC1993186332F10014E681 /* UILabel+ChopeResize.m */; };
+		ACEC1998186333C50014E681 /* ChopeToastMessageView.m in Sources */ = {isa = PBXBuildFile; fileRef = ACEC1997186333C50014E681 /* ChopeToastMessageView.m */; };
+		ACEC199B186334BE0014E681 /* UIImage+ChopeImage.m in Sources */ = {isa = PBXBuildFile; fileRef = ACEC199A186334BE0014E681 /* UIImage+ChopeImage.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,16 +86,14 @@
 		AC10C0971839158200324068 /* ChopeNetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChopeNetwork.m; sourceTree = "<group>"; };
 		AC10C0991839158200324068 /* ChopeApplicationUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChopeApplicationUtil.h; sourceTree = "<group>"; };
 		AC10C09A1839158200324068 /* ChopeApplicationUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChopeApplicationUtil.m; sourceTree = "<group>"; };
-		AC10C09B1839158200324068 /* ChopeDataUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChopeDataUtil.h; sourceTree = "<group>"; };
-		AC10C09C1839158200324068 /* ChopeDataUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChopeDataUtil.m; sourceTree = "<group>"; };
 		AC10C09D1839158200324068 /* ChopeDeviceUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChopeDeviceUtil.h; sourceTree = "<group>"; };
 		AC10C09E1839158200324068 /* ChopeDeviceUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChopeDeviceUtil.m; sourceTree = "<group>"; };
 		AC10C09F1839158200324068 /* ChopeStoryboardUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChopeStoryboardUtil.h; sourceTree = "<group>"; };
 		AC10C0A01839158200324068 /* ChopeStoryboardUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChopeStoryboardUtil.m; sourceTree = "<group>"; };
 		ACEC197118631A7B0014E681 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		ACEC197318631AB80014E681 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
-		ACEC197918631D790014E681 /* NSDictionary+ChopeData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+ChopeData.h"; sourceTree = "<group>"; };
-		ACEC197A18631D790014E681 /* NSDictionary+ChopeData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+ChopeData.m"; sourceTree = "<group>"; };
+		ACEC197918631D790014E681 /* NSDictionary+ChopeValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+ChopeValue.h"; sourceTree = "<group>"; };
+		ACEC197A18631D790014E681 /* NSDictionary+ChopeValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+ChopeValue.m"; sourceTree = "<group>"; };
 		ACEC197B18631D790014E681 /* NSString+Chope.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Chope.h"; sourceTree = "<group>"; };
 		ACEC197C18631D790014E681 /* NSString+Chope.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Chope.m"; sourceTree = "<group>"; };
 		ACEC197D18631D790014E681 /* NSString+ChopeSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+ChopeSize.h"; sourceTree = "<group>"; };
@@ -101,6 +103,16 @@
 		ACEC198518631D9C0014E681 /* ChopeImageUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChopeImageUtil.h; sourceTree = "<group>"; };
 		ACEC198618631D9C0014E681 /* ChopeImageUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChopeImageUtil.m; sourceTree = "<group>"; };
 		ACEC198818632ADE0014E681 /* ChopeLibrary.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ChopeLibrary.podspec; sourceTree = "<group>"; };
+		ACEC198C186331F00014E681 /* UIView+ChopeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ChopeView.h"; sourceTree = "<group>"; };
+		ACEC198D186331F00014E681 /* UIView+ChopeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ChopeView.m"; sourceTree = "<group>"; };
+		ACEC198F1863329E0014E681 /* UIScrollView+ChopePage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+ChopePage.h"; sourceTree = "<group>"; };
+		ACEC19901863329E0014E681 /* UIScrollView+ChopePage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+ChopePage.m"; sourceTree = "<group>"; };
+		ACEC1992186332F10014E681 /* UILabel+ChopeResize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+ChopeResize.h"; sourceTree = "<group>"; };
+		ACEC1993186332F10014E681 /* UILabel+ChopeResize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+ChopeResize.m"; sourceTree = "<group>"; };
+		ACEC1996186333C50014E681 /* ChopeToastMessageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChopeToastMessageView.h; sourceTree = "<group>"; };
+		ACEC1997186333C50014E681 /* ChopeToastMessageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChopeToastMessageView.m; sourceTree = "<group>"; };
+		ACEC1999186334BE0014E681 /* UIImage+ChopeImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ChopeImage.h"; sourceTree = "<group>"; };
+		ACEC199A186334BE0014E681 /* UIImage+ChopeImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ChopeImage.m"; sourceTree = "<group>"; };
 		E0040420BDF14F82A25AD913 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -219,6 +231,7 @@
 				AC10C0901839158200324068 /* MVC */,
 				AC10C0951839158200324068 /* Network */,
 				AC10C0981839158200324068 /* Utils */,
+				ACEC1995186333B00014E681 /* View */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -250,8 +263,6 @@
 				ACEC198618631D9C0014E681 /* ChopeImageUtil.m */,
 				AC10C0991839158200324068 /* ChopeApplicationUtil.h */,
 				AC10C09A1839158200324068 /* ChopeApplicationUtil.m */,
-				AC10C09B1839158200324068 /* ChopeDataUtil.h */,
-				AC10C09C1839158200324068 /* ChopeDataUtil.m */,
 				AC10C09D1839158200324068 /* ChopeDeviceUtil.h */,
 				AC10C09E1839158200324068 /* ChopeDeviceUtil.m */,
 				AC10C09F1839158200324068 /* ChopeStoryboardUtil.h */,
@@ -263,16 +274,33 @@
 		ACEC197818631D790014E681 /* Category */ = {
 			isa = PBXGroup;
 			children = (
-				ACEC197918631D790014E681 /* NSDictionary+ChopeData.h */,
-				ACEC197A18631D790014E681 /* NSDictionary+ChopeData.m */,
+				ACEC197918631D790014E681 /* NSDictionary+ChopeValue.h */,
+				ACEC197A18631D790014E681 /* NSDictionary+ChopeValue.m */,
 				ACEC197B18631D790014E681 /* NSString+Chope.h */,
 				ACEC197C18631D790014E681 /* NSString+Chope.m */,
 				ACEC197D18631D790014E681 /* NSString+ChopeSize.h */,
 				ACEC197E18631D790014E681 /* NSString+ChopeSize.m */,
 				ACEC197F18631D790014E681 /* UIView+ChopeAnimation.h */,
 				ACEC198018631D790014E681 /* UIView+ChopeAnimation.m */,
+				ACEC198C186331F00014E681 /* UIView+ChopeView.h */,
+				ACEC198D186331F00014E681 /* UIView+ChopeView.m */,
+				ACEC198F1863329E0014E681 /* UIScrollView+ChopePage.h */,
+				ACEC19901863329E0014E681 /* UIScrollView+ChopePage.m */,
+				ACEC1992186332F10014E681 /* UILabel+ChopeResize.h */,
+				ACEC1993186332F10014E681 /* UILabel+ChopeResize.m */,
+				ACEC1999186334BE0014E681 /* UIImage+ChopeImage.h */,
+				ACEC199A186334BE0014E681 /* UIImage+ChopeImage.m */,
 			);
 			path = Category;
+			sourceTree = "<group>";
+		};
+		ACEC1995186333B00014E681 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				ACEC1996186333C50014E681 /* ChopeToastMessageView.h */,
+				ACEC1997186333C50014E681 /* ChopeToastMessageView.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -413,17 +441,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACEC198318631D790014E681 /* NSString+ChopeSize.m in Sources */,
-				AC10C0A81839158200324068 /* ChopeDataUtil.m in Sources */,
+				ACEC198E186331F00014E681 /* UIView+ChopeView.m in Sources */,
+				ACEC1998186333C50014E681 /* ChopeToastMessageView.m in Sources */,
+				ACEC19911863329E0014E681 /* UIScrollView+ChopePage.m in Sources */,
 				ACEC198718631D9C0014E681 /* ChopeImageUtil.m in Sources */,
+				ACEC199B186334BE0014E681 /* UIImage+ChopeImage.m in Sources */,
 				ACEC198218631D790014E681 /* NSString+Chope.m in Sources */,
 				AC10C0A51839158200324068 /* ChopeModel.m in Sources */,
 				AC10BFDF1839139A00324068 /* ChopeAppDelegate.m in Sources */,
 				AC10C0A61839158200324068 /* ChopeNetwork.m in Sources */,
 				AC10C0A41839158200324068 /* ChopeViewController.m in Sources */,
 				AC10C0A71839158200324068 /* ChopeApplicationUtil.m in Sources */,
-				ACEC198118631D790014E681 /* NSDictionary+ChopeData.m in Sources */,
+				ACEC198118631D790014E681 /* NSDictionary+ChopeValue.m in Sources */,
 				AC10C0A91839158200324068 /* ChopeDeviceUtil.m in Sources */,
 				ACEC198418631D790014E681 /* UIView+ChopeAnimation.m in Sources */,
+				ACEC1994186332F10014E681 /* UILabel+ChopeResize.m in Sources */,
 				AC10BFDB1839139A00324068 /* main.m in Sources */,
 				AC10C0AA1839158200324068 /* ChopeStoryboardUtil.m in Sources */,
 			);

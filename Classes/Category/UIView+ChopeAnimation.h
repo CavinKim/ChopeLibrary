@@ -10,4 +10,8 @@
 
 @interface UIView (ChopeAnimation)
 
+- (void)fadeIn:(NSTimeInterval)time delay:(NSTimeInterval)delay completion:(void (^)(BOOL finished))completion;
+- (void)fadeOut:(NSTimeInterval)time delay:(NSTimeInterval)delay completion:(void (^)(BOOL finished))completion;
+- (void)fadeInOut:(NSTimeInterval)time completion:(void (^)(BOOL finished))completion;
+
 @end

@@ -1,22 +1,21 @@
 //
-//  NSDictionary+ChopeData.m
+//  NSDictionary+ChopeValue.m
 //  ChopeLibrary
 //
 //  Created by Hyun Gook Yoon on 2013. 12. 6..
 //  Copyright (c) 2013년 Chope. All rights reserved.
 //
 
-#import "NSDictionary+ChopeData.h"
-#import "ChopeDataUtil.h"
+#import "NSDictionary+ChopeValue.h"
 
-@implementation NSDictionary (ChopeData)
+@implementation NSDictionary (ChopeValue)
 
 - (NSInteger)integerForKey:(NSString*)key
 {
     id value = [self objectForKey:key];
     
-    if ([ChopeDataUtil isNull:value]) {
-        return -1;
+    if (!value) {
+        return 0;
     }
     
     return [value integerValue];
@@ -26,8 +25,8 @@
 {
     id value = [self objectForKey:key];
     
-    if ([ChopeDataUtil isNull:value]) {
-        return -DBL_MIN;
+    if (!value) {
+        return 0.0;
     }
     
     return [value doubleValue];
@@ -37,8 +36,8 @@
 {
     id value = [self objectForKey:key];
     
-    if ([ChopeDataUtil isNull:value]) {
-        return -FLT_MIN;
+    if (!value) {
+        return 0.0;
     }
     
     return [value floatValue];
@@ -48,7 +47,7 @@
 {
     id value = [self objectForKey:key];
     
-    if ([ChopeDataUtil isNull:value]) {
+    if (!value) {
         return false;
     }
     
@@ -59,7 +58,7 @@
 {
     id value = [self objectForKey:key];
     
-    if ([ChopeDataUtil isNull:value]) {
+    if (!value) {
         return nil;
     }
     

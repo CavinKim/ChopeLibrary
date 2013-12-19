@@ -12,4 +12,7 @@
 
 - (CGSize)boundingRectWithSize:(CGSize)size font:(UIFont*)font;
 
+- (CGSize)boundingRectWithMaxWidth:(CGFloat)width font:(UIFont*)font;
+- (CGSize)boundingRectWithMinWidth:(CGFloat)width font:(UIFont*)font;
+
 @end

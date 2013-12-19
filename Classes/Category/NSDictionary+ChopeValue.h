@@ -1,5 +1,5 @@
 //
-//  NSDictionary+ChopeData.h
+//  NSDictionary+ChopeValue.h
 //  ChopeLibrary
 //
 //  Created by Hyun Gook Yoon on 2013. 12. 6..
@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NSDictionary (ChopeData)
+@interface NSDictionary (ChopeValue)
 
 - (NSInteger)integerForKey:(NSString*)key;
 - (double)doubleForKey:(NSString*)key;

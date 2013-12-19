@@ -43,4 +43,19 @@
     return resultSize;
 }
 
+- (CGSize)boundingRectWithMaxWidth:(CGFloat)width font:(UIFont*)font
+{
+    CGSize size = [self boundingRectWithSize:CGSizeMake(width, CGFLOAT_MAX)
+                                        font:font];
+    return size;
+}
+
+- (CGSize)boundingRectWithMinWidth:(CGFloat)width font:(UIFont*)font
+{
+    CGSize size = [self boundingRectWithSize:CGSizeMake(CGFLOAT_MAX, CGFLOAT_MAX)
+                                        font:font];
+    size.width = size.width < width ? width : size.width;
+    return size;
+}
+
 @end

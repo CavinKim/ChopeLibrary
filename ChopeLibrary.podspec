@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.version      = '0.1'
   s.homepage     = 'https://github.com/chope-yoonhg84/ChopeLibrary'
   s.source   = { :git => 'git@github.com:chope-yoonhg84/ChopeLibrary.git'}
-  s.source_files = 'Classes/*'
+  s.source_files = 'Classes/**/*.{h,m}'
   s.requires_arc  = true
 
   s.dependency 'AFNetworking', '~>2.0.0'

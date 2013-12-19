@@ -9,5 +9,10 @@ Pod::Spec.new do |s|
 
   s.dependency 'AFNetworking', '~>2.0.0'
   s.dependency 'StackBluriOS', '~>0.0.1'
+  
+  s.subspec 'Classes' do |ss|
+    ss.source_files = 'Classes/*.*'
+    ss.resources = 'Resources/*.*'
+  end
 
 end

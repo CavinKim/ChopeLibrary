@@ -1,8 +1,8 @@
 //
 //  ChopeDataUtil.h
-//  Cauin
+//  ChopeLibrary
 //
-//  Created by Hyun Gook Yoon on 13. 10. 18..
+//  Created by Chope on 13. 10. 18..
 //  Copyright (c) 2013년 Chope. All rights reserved.
 //
 

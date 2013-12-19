@@ -1,14 +1,44 @@
 //
 //  ChopeNetwork.m
-//  Cauin
+//  ChopeLibrary
 //
-//  Created by Hyun Gook Yoon on 13. 10. 18..
+//  Created by Chope on 13. 10. 18..
 //  Copyright (c) 2013년 Chope. All rights reserved.
 //
 
 #import "ChopeNetwork.h"
 #import "AFNetworking.h"
 #import "AFHTTPRequestOperation.h"
+
+
+@interface AFHTTPRequestOperationManager (ChopeNetwork)
+
+- (AFHTTPRequestOperation *)requestWithMethod:(NSString*)method
+                                    urlString:(NSString *)URLString
+                                   parameters:(NSDictionary *)parameters
+                                      success:(void (^)(AFHTTPRequestOperation *operation, id responseObject))success
+                                      failure:(void (^)(AFHTTPRequestOperation *operation, NSError *error))failure;
+
+@end
+
+@implementation AFHTTPRequestOperationManager (ChopeNetwork)
+
+- (AFHTTPRequestOperation *)requestWithMethod:(NSString*)method
+                                    urlString:(NSString *)URLString
+                                   parameters:(NSDictionary *)parameters
+                                      success:(void (^)(AFHTTPRequestOperation *operation, id responseObject))success
+                                      failure:(void (^)(AFHTTPRequestOperation *operation, NSError *error))failure
+{
+    NSMutableURLRequest *request = [self.requestSerializer requestWithMethod:method URLString:[[NSURL URLWithString:URLString relativeToURL:self.baseURL] absoluteString] parameters:parameters];
+    AFHTTPRequestOperation *operation = [self HTTPRequestOperationWithRequest:request success:success failure:failure];
+    [self.operationQueue addOperation:operation];
+    
+    return operation;
+}
+
+@end
+
+
 
 @implementation ChopeNetwork
 

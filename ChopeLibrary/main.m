@@ -2,7 +2,7 @@
 //  main.m
 //  ChopeLibrary
 //
-//  Created by Hyun Gook Yoon on 2013. 11. 18..
+//  Created by Chope on 2013. 11. 18..
 //  Copyright (c) 2013년 Chope. All rights reserved.
 //
 

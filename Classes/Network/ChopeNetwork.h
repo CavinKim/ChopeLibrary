@@ -1,8 +1,8 @@
 //
 //  ChopeNetwork.h
-//  Cauin
+//  ChopeLibrary
 //
-//  Created by Hyun Gook Yoon on 13. 10. 18..
+//  Created by Chope on 13. 10. 18..
 //  Copyright (c) 2013년 Chope. All rights reserved.
 //
 
@@ -12,6 +12,7 @@
 #define CHOPE_NETWORK_METHOD_POST @"POST";
 #define CHOPE_NETWORK_METHOD_PUT @"PUT";
 #define CHOPE_NETWORK_METHOD_DELETE @"DELETE";
+
 
 @interface ChopeNetwork : NSObject
 

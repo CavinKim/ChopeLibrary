@@ -1,8 +1,8 @@
 //
 //  ChopeViewController.h
-//  Cauin
+//  ChopeLibrary
 //
-//  Created by Hyun Gook Yoon on 13. 10. 17..
+//  Created by Chope on 13. 10. 17..
 //  Copyright (c) 2013년 Chope. All rights reserved.
 //
 

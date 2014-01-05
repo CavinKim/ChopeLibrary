@@ -38,11 +38,6 @@
     return self;
 }
 
-- (id<ChopeModelDelegate>)delegate
-{
-    return _delegate;
-}
-
 
 #pragma mark API
 - (BOOL)isSuccessFromResponse:(NSDictionary*)response

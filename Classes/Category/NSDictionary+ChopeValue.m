@@ -7,6 +7,8 @@
 //
 
 #import "NSDictionary+ChopeValue.h"
+#import "NSObject+ChopeValue.h"
+#import "ChopeDateUtil.h"
 
 @implementation NSDictionary (ChopeValue)
 
@@ -14,7 +16,7 @@
 {
     id value = [self objectForKey:key];
     
-    if (!value) {
+    if (!value || [value isNull]) {
         return 0;
     }
     
@@ -25,7 +27,7 @@
 {
     id value = [self objectForKey:key];
     
-    if (!value) {
+    if (!value || [value isNull]) {
         return 0.0;
     }
     
@@ -36,18 +38,18 @@
 {
     id value = [self objectForKey:key];
     
-    if (!value) {
+    if (!value || [value isNull]) {
         return 0.0;
     }
     
     return [value floatValue];
 }
 
-- (BOOL)booleanForKey:(NSString*)key
+- (BOOL)boolForKey:(NSString*)key
 {
     id value = [self objectForKey:key];
     
-    if (!value) {
+    if (!value || [value isNull]) {
         return false;
     }
     
@@ -58,13 +60,30 @@
 {
     id value = [self objectForKey:key];
     
-    if (!value) {
+    if (!value || [value isNull]) {
         return nil;
     }
     
     if ([value isKindOfClass:[NSNumber class]]) {
         NSNumber *number = (NSNumber*)value;
         return [number stringValue];
+    }
+    
+    return value;
+}
+
+- (NSDate*)dateForKey:(NSString*)key
+{
+    id value = [self objectForKey:key];
+    
+    if (!value || [value isNull] || ![value isKindOfClass:[NSString class]]) {
+        return nil;
+    }
+    
+    NSDate *date = [ChopeDateUtil dateFromDefaultString:value];
+    
+    if (!date) {
+        date = [ChopeDateUtil dateForRFC3339UTCString:value];
     }
     
     return value;

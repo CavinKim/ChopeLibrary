@@ -13,7 +13,8 @@
 - (NSInteger)integerForKey:(NSString*)key;
 - (double)doubleForKey:(NSString*)key;
 - (float)floatForKey:(NSString*)key;
-- (BOOL)booleanForKey:(NSString*)key;
+- (BOOL)boolForKey:(NSString*)key;
 - (NSString*)stringForKey:(NSString*)key;
+- (NSDate*)dateForKey:(NSString*)key;
 
 @end

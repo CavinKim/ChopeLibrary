@@ -10,8 +10,6 @@
 
 @interface ChopeDeviceUtil : NSObject
 
-+ (CGSize)windowSize;
-
 + (NSString*)systemVersion;
 + (NSString*)currentCountryCode;
 + (NSString*)currentLanguageCode;

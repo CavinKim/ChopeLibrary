@@ -10,11 +10,6 @@
 
 @implementation ChopeDeviceUtil
 
-+ (CGSize)windowSize
-{
-    return [[UIScreen mainScreen] bounds].size;
-}
-
 + (NSString*)systemVersion
 {
     return [[UIDevice currentDevice] systemVersion];

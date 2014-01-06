@@ -7,14 +7,6 @@
 //
 
 #import "ChopeTestViewController.h"
-#import "ChopeTestImageCell.h"
-#import "ChopeImageService.h"
-
-@interface ChopeTestViewController ()
-
-@property (nonatomic, retain) NSMutableArray *images;
-
-@end
 
 @implementation ChopeTestViewController
 
@@ -32,12 +24,9 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
     
-    self.imageService = [[ChopeImageService alloc] init];
-    self.images = [[NSMutableArray alloc] init];
-    
-    for (NSInteger i=1; i<=1199; i++) {
-        [self.images addObject:[NSString stringWithFormat:@"http://192.168.0.7/images/NationalGeographic/%d.jpg", i]];
-    }
+    [self.linearView setLinearViewAlignType:ChopeLinearViewAlignTypeVertical];
+//    [self.linearView setResizeAfterLayout:YES];
+    [self.linearView setCenterAfterLayout:YES];
 }
 
 - (void)viewDidAppear:(BOOL)animated
@@ -51,27 +40,6 @@
     // Dispose of any resources that can be recreated.
 }
 
-
-#pragma mark - UICollectionViewDataSource
-- (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section
-{
-    return self.images.count;
-}
-
-- (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath
-{
-    ChopeTestImageCell *cell = (ChopeTestImageCell*) [collectionView dequeueReusableCellWithReuseIdentifier:@"testCell" forIndexPath:indexPath];
-    
-//    [[FICImageCache sharedImageCache] retrieveImageForEntity:entity withFormatName:IMAGE_FORMAT_NAME_THUMBNAIL completionBlock:^(id<FICEntity> entity, NSString *formatName, UIImage *image) {
-//        // This completion block may be called much later. We should check to make sure this cell hasn't been reused for different photos before displaying the image that has loaded.
-//        [cell.imageView setImage:image];
-//    }];
-//
-    cell.imageView.image = nil;
-    [self.imageService imageView:cell.imageView url:[self.images objectAtIndex:indexPath.row]];
-    
-    return cell;
-}
 
 
 @end

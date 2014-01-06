@@ -7,11 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "ChopeImageService.h"
+#import "ChopeLinearView.h"
 
-@interface ChopeTestViewController : UIViewController <UICollectionViewDataSource, UICollectionViewDelegate>
+@interface ChopeTestViewController : UIViewController
 
-@property (nonatomic, weak) IBOutlet UICollectionView *collectionView;
-@property (nonatomic, retain) ChopeImageService *imageService;
+@property (nonatomic, weak) IBOutlet ChopeLinearView *linearView;
+
 
 @end

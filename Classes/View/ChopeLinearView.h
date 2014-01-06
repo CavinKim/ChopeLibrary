@@ -16,8 +16,9 @@ enum ChopeLinearViewAlignType {
 
 @interface ChopeLinearView : UIView
 
-@property (nonatomic) enum ChopeLinearViewAlignType alignType;
-@property (nonatomic) BOOL resize;
+@property (nonatomic) enum ChopeLinearViewAlignType linearViewAlignType;
+@property (nonatomic) BOOL resizeAfterLayout;
+@property (nonatomic) BOOL centerAfterLayout;
 @property (nonatomic) CGFloat interViewSpacing;
 @property (nonatomic) CGFloat maxSize;
 

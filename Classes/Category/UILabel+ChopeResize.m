@@ -12,8 +12,7 @@
 
 @implementation UILabel (ChopeResize)
 
-#pragma mark -
-#pragma mark Fit Width
+#pragma mark - Fit Width
 - (void)sizeToFitMinWidth:(CGFloat)width
 {
     CGSize size = [self.text boundingRectWithMaxWidth:CGFLOAT_MAX font:self.font];
@@ -48,8 +47,7 @@
 }
 
 
-#pragma mark -
-#pragma mark Fit SuperView Width
+#pragma mark - Fit SuperView Width
 - (void)sizeToFitMinWith:(CGFloat)width forSuperView:(UIView*)superView
 {
     CGFloat superViewHeight = superView.frame.size.height;

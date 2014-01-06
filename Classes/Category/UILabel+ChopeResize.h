@@ -10,15 +10,13 @@
 
 @interface UILabel (ChopeResize)
 
-#pragma mark -
-#pragma mark Fit Width
+#pragma mark - Fit Width
 - (void)sizeToFitMinWidth:(CGFloat)width;
 - (void)sizeToFitMaxWidth:(CGFloat)width;
 - (void)sizeToFitFixedWidth:(CGFloat)width;
 
 
-#pragma mark -
-#pragma mark Fit SuperView Width
+#pragma mark - Fit SuperView Width
 - (void)sizeToFitMinWith:(CGFloat)width forSuperView:(UIView*)superView;
 - (void)sizeToFitMaxWith:(CGFloat)width forSuperView:(UIView*)superView;
 - (void)sizeToFitFixedWidth:(CGFloat)width forSuperView:(UIView*)superView;

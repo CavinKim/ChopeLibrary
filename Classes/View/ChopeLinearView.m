@@ -12,6 +12,8 @@
 
 - (void)layoutSubviews
 {
+    [super layoutSubviews];
+    
     NSArray *views = self.subviews;
     CGFloat origin = 0;
     
@@ -22,6 +24,10 @@
     }
     
     [self setSize:origin];
+    
+    if (self.centerAfterLayout) {
+        [self setCenterSubviews];
+    }
 }
 
 - (NSInteger)setSubviewOrigin:(CGFloat)origin view:(UIView*)view
@@ -29,7 +35,7 @@
     CGRect frame = view.frame;
     CGFloat newOrigin = origin;
     
-    if (self.alignType == ChopeLinearViewAlignTypeVertical) {
+    if (self.linearViewAlignType == ChopeLinearViewAlignTypeVertical) {
         frame.origin.x = 0;
         frame.origin.y = origin;
         newOrigin += frame.size.height;
@@ -51,8 +57,8 @@
 {
     CGRect frame = self.frame;
     
-    if (self.resize) {
-        if (self.alignType == ChopeLinearViewAlignTypeVertical) {
+    if (self.resizeAfterLayout) {
+        if (self.linearViewAlignType == ChopeLinearViewAlignTypeVertical) {
             frame.size.width = self.maxSize;
             frame.size.height = newSize;
         }
@@ -63,6 +69,26 @@
     }
     
     self.frame = frame;
+}
+
+- (void)setCenterSubviews
+{
+    NSArray *views = self.subviews;
+    
+    for (NSInteger i=0; i<self.subviews.count; i++) {
+        UIView *view = [views objectAtIndex:i];
+        
+        CGPoint center = view.center;
+
+        if (self.linearViewAlignType == ChopeLinearViewAlignTypeVertical) {
+            center.x = self.center.x;
+        }
+        else {
+            center.y = self.center.y;
+        }
+        
+        [view setCenter:center];
+    }
 }
 
 @end

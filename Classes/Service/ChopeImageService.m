@@ -7,7 +7,6 @@
 //
 
 #import "ChopeImageService.h"
-#import "TMCache.h"
 #import <WebP/decode.h>
 #import "UIImageView+AFNetworking.h"
 
@@ -19,29 +18,6 @@
     if (!self.imageView) {
         self.imageView = [[UIImageView alloc] init];
     }
-    
-    NSString *key = [NSString stringWithFormat:@"image_%@",url];
-    
-    [[TMCache sharedCache] objectForKey:key
-                                  block:^(TMCache *cache, NSString *key, id object) {
-                                      if (object) {
-                                          UIImage *image = (UIImage *)object;
-//                                          [imageView setImage:image];
-                                          NSLog(@"image scale: %f", image.scale);
-                                          
-                                          [imageView performSelectorOnMainThread:@selector(setImage:) withObject:image waitUntilDone:NO];
-                                      }
-                                      else {
-                                          NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:url]];
-                                          [self.imageView setImageWithURLRequest:request placeholderImage:nil success:^(NSURLRequest *request, NSHTTPURLResponse *response, UIImage *image) {
-                                              [imageView setImage:image];
-                                              
-                                              dispatch_async(dispatch_get_main_queue(), ^{
-                                                  [[TMCache sharedCache] setObject:image forKey:key];
-                                              });
-                                          } failure:nil];
-                                      }
-                                  }];
 }
 
 

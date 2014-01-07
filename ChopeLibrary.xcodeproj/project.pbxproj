@@ -32,7 +32,6 @@
 		ACB688001871F6BC0058A00F /* ChopeImageService.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB687FF1871F6BC0058A00F /* ChopeImageService.m */; };
 		ACB688021872005D0058A00F /* ChopeTest.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACB688011872005D0058A00F /* ChopeTest.storyboard */; };
 		ACB68805187200810058A00F /* ChopeTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB68804187200810058A00F /* ChopeTestViewController.m */; };
-		ACB68808187200FB0058A00F /* ChopeTestImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB68807187200FB0058A00F /* ChopeTestImageCell.m */; };
 		ACB7013E187823DD00493580 /* NSObject+ChopeValue.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB7013D187823DD00493580 /* NSObject+ChopeValue.m */; };
 		ACB701411878244000493580 /* NSObjectChopeValueTest.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB701401878244000493580 /* NSObjectChopeValueTest.m */; };
 		ACB701431878262300493580 /* NSDictionaryChopeValue.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB701421878262300493580 /* NSDictionaryChopeValue.m */; };
@@ -101,8 +100,6 @@
 		ACB688011872005D0058A00F /* ChopeTest.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ChopeTest.storyboard; sourceTree = "<group>"; };
 		ACB68803187200810058A00F /* ChopeTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChopeTestViewController.h; sourceTree = "<group>"; };
 		ACB68804187200810058A00F /* ChopeTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChopeTestViewController.m; sourceTree = "<group>"; };
-		ACB68806187200FB0058A00F /* ChopeTestImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChopeTestImageCell.h; sourceTree = "<group>"; };
-		ACB68807187200FB0058A00F /* ChopeTestImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChopeTestImageCell.m; sourceTree = "<group>"; };
 		ACB7013C187823DD00493580 /* NSObject+ChopeValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+ChopeValue.h"; sourceTree = "<group>"; };
 		ACB7013D187823DD00493580 /* NSObject+ChopeValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ChopeValue.m"; sourceTree = "<group>"; };
 		ACB701401878244000493580 /* NSObjectChopeValueTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSObjectChopeValueTest.m; sourceTree = "<group>"; };
@@ -214,8 +211,6 @@
 				ACB688011872005D0058A00F /* ChopeTest.storyboard */,
 				ACB68803187200810058A00F /* ChopeTestViewController.h */,
 				ACB68804187200810058A00F /* ChopeTestViewController.m */,
-				ACB68806187200FB0058A00F /* ChopeTestImageCell.h */,
-				ACB68807187200FB0058A00F /* ChopeTestImageCell.m */,
 			);
 			path = ChopeLibrary;
 			sourceTree = "<group>";
@@ -503,7 +498,6 @@
 				ACEC19911863329E0014E681 /* UIScrollView+ChopePage.m in Sources */,
 				ACEC199B186334BE0014E681 /* UIImage+ChopeImage.m in Sources */,
 				ACEC199E18633C9C0014E681 /* ChopeLinearView.m in Sources */,
-				ACB68808187200FB0058A00F /* ChopeTestImageCell.m in Sources */,
 				ACEC198218631D790014E681 /* NSString+Chope.m in Sources */,
 				AC10C0A51839158200324068 /* ChopeModel.m in Sources */,
 				AC10BFDF1839139A00324068 /* ChopeAppDelegate.m in Sources */,

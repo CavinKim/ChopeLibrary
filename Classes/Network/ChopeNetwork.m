@@ -43,114 +43,117 @@
 @implementation ChopeNetwork
 
 - (id)initWithHost:(NSString*)host
-              path:(NSString*)path
 {
     self = [super init];
     if (self) {
-        self.host = host;
-        self.path = path;
+        self.operationManager = [[AFHTTPRequestOperationManager alloc] initWithBaseURL:[NSURL URLWithString:host]];
     }
     return self;
 }
 
-- (NSString*)fullUrlString
+- (void)requestWithMethod:(NSString*)method
+                     path:(NSString*)path
+               parameters:(NSDictionary*)parameters
+                  success:(void(^)(NSDictionary *data))successBlock
+                    error:(void(^)(NSError *error))errorBlock
 {
-    return [NSString stringWithFormat:@"%@/%@", self.host, self.path];
-}
-
-- (void)requestWithSuccess:(void(^)(NSDictionary *data))successBlock
-                     error:(void(^)(NSError *error))errorBlock
-{
-    NSLog(@"[ChopeNetwork][%@] %@", self.method, [self fullUrlString]);
-    NSLog(@"[ChopeNetwork][Parameters] %@", self.parameters);
+    NSLog(@"[ChopeNetwork][%@] %@", method, path);
+    NSLog(@"[ChopeNetwork][Parameters] %@", parameters);
     
-    AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
-    [manager requestWithMethod:self.method
-                     urlString:[self fullUrlString]
-                    parameters:self.parameters
-                       success:^(AFHTTPRequestOperation *operation, id responseObject) {
-                           NSLog(@"[ChopeNetwork][success] %@", [self fullUrlString]);
+    [self.operationManager requestWithMethod:method
+                                   urlString:path
+                                  parameters:parameters
+                                     success:^(AFHTTPRequestOperation *operation, id responseObject) {
+                                         NSLog(@"[ChopeNetwork][success] %@", path);
                            
-                           NSDictionary *data = [self dataFromResponse:responseObject];
+                                         NSDictionary *data = [self dataFromResponse:responseObject];
 
-                           if ([self isSuccessFromResponse:responseObject]) {
-                               if (successBlock) {
-                                   successBlock(data);
-                               }
-                           }
-                           else {
-                               if (errorBlock) {
-                                   NSUInteger resultCode = [self resultCodeFromResponse:responseObject];
-                                   NSString *resultMessage = [self resultMessageFromResponse:responseObject];
-                                   NSDictionary *userInfo = nil;
-                                   
-                                   if (resultMessage) {
-                                       userInfo = @{ @"message": resultMessage };
-                                   }
-                                   
-                                   NSError *error = [NSError errorWithDomain:@"API Falure"
-                                                                        code:resultCode
-                                                                    userInfo:userInfo];
-                                   
-                                   errorBlock(error);
-                               }
-                           }
-                       }
-                       failure:^(AFHTTPRequestOperation *operation, NSError *error) {
-                           NSLog(@"[ChopeNetwork][error] %@", error);
-                           
-                           if (errorBlock) {
-                               errorBlock(error);
-                           }
-                       }];
+                                         if ([self isSuccessFromResponse:responseObject]) {
+                                             if (successBlock) {
+                                                 successBlock(data);
+                                             }
+                                         }
+                                         else {
+                                             if (errorBlock) {
+                                                 NSUInteger resultCode = [self resultCodeFromResponse:responseObject];
+                                                 NSString *resultMessage = [self resultMessageFromResponse:responseObject];
+                                                 NSDictionary *userInfo = nil;
+                                               
+                                                 if (resultMessage) {
+                                                     userInfo = @{ @"message": resultMessage };
+                                                 }
+                                               
+                                                 NSError *error = [NSError errorWithDomain:@"API Falure"
+                                                                                      code:resultCode
+                                                                                  userInfo:userInfo];
+                                               
+                                                 errorBlock(error);
+                                             }
+                                         }
+                                     }
+                                     failure:^(AFHTTPRequestOperation *operation, NSError *error) {
+                                         NSLog(@"[ChopeNetwork][error] %@", error);
+                                       
+                                         if (errorBlock) {
+                                             errorBlock(error);
+                                         }
+                                     }];
 }
 
 
 #pragma mark Must override
 - (BOOL)isSuccessFromResponse:(NSDictionary*)response
 {
-    [NSException raise:@"Incorrect use" format:@"You must override this method - isSuccessFromResponse"];
+    [NSException raise:@"Incorrect use"
+                format:@"You must override this method - isSuccessFromResponse"];
     return YES;
 }
 
 - (NSDictionary*)dataFromResponse:(NSDictionary*)response
 {
-    [NSException raise:@"Incorrect use" format:@"You must override this method - dataFromResponse"];
+    [NSException raise:@"Incorrect use"
+                format:@"You must override this method - dataFromResponse"];
     return nil;
 }
 
 - (NSInteger)resultCodeFromResponse:(NSDictionary*)response
 {
-    [NSException raise:@"Incorrect use" format:@"You must override this method - resultCodeFromResponse"];
+    [NSException raise:@"Incorrect use"
+                format:@"You must override this method - resultCodeFromResponse"];
     return 0;
 }
 
 - (NSString*)resultMessageFromResponse:(NSDictionary*)response
 {
-    [NSException raise:@"Incorrect use" format:@"You must override this method - resultMessageFromResponse"];
+    [NSException raise:@"Incorrect use"
+                format:@"You must override this method - resultMessageFromResponse"];
     return nil;
 }
 
 
 #pragma mark Public Method
-- (void)post:(NSDictionary*)parameters
+- (void)post:(NSString*)path
+  parameters:(NSDictionary*)parameters
      success:(void(^)(NSDictionary *data))successBlock
        error:(void(^)(NSError *error))errorBlock
 {
-    self.parameters = parameters;
-    self.method = CHOPE_NETWORK_METHOD_POST;
-    
-    [self requestWithSuccess:successBlock error:errorBlock];
+    [self requestWithMethod:@"POST"
+                       path:path
+                 parameters:parameters
+                    success:successBlock
+                      error:errorBlock];
 }
 
-- (void)get:(NSDictionary*)parameters
+- (void)get:(NSString*)path
+ parameters:(NSDictionary*)parameters
     success:(void(^)(NSDictionary *data))successBlock
       error:(void(^)(NSError *error))errorBlock
 {
-    self.parameters = parameters;
-    self.method = CHOPE_NETWORK_METHOD_GET;
-    
-    [self requestWithSuccess:successBlock error:errorBlock];
+    [self requestWithMethod:@"GET"
+                       path:path
+                 parameters:parameters
+                    success:successBlock
+                      error:errorBlock];
 }
 
 @end

@@ -28,7 +28,6 @@
 		AC10C0A61839158200324068 /* ChopeNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = AC10C0971839158200324068 /* ChopeNetwork.m */; };
 		AC10C0A91839158200324068 /* ChopeDeviceUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = AC10C09E1839158200324068 /* ChopeDeviceUtil.m */; };
 		AC10C0AA1839158200324068 /* ChopeStoryboardUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = AC10C0A01839158200324068 /* ChopeStoryboardUtil.m */; };
-		AC96749B1865C3590018F900 /* WebP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC96749A1865C3590018F900 /* WebP.framework */; };
 		ACB688021872005D0058A00F /* ChopeTest.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACB688011872005D0058A00F /* ChopeTest.storyboard */; };
 		ACB68805187200810058A00F /* ChopeTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB68804187200810058A00F /* ChopeTestViewController.m */; };
 		ACB7013E187823DD00493580 /* NSObject+ChopeValue.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB7013D187823DD00493580 /* NSObject+ChopeValue.m */; };
@@ -135,7 +134,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC96749B1865C3590018F900 /* WebP.framework in Frameworks */,
 				AC10BFCF1839139900324068 /* CoreGraphics.framework in Frameworks */,
 				AC10BFD31839139900324068 /* CoreData.framework in Frameworks */,
 				AC10BFD11839139900324068 /* UIKit.framework in Frameworks */,

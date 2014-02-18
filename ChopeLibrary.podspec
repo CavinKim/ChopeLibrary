@@ -11,5 +11,6 @@ Pod::Spec.new do |s|
   s.dependency 'AFNetworking', '~> 2.0.0'
   s.dependency 'StackBluriOS', '~> 0.0.1'
   s.dependency 'SDWebImage', '~> 3.5.2'
+  s.dependency 'ChopeToastView', '~> 0.1'
 
 end

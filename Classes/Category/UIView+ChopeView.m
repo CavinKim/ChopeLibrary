@@ -10,8 +10,7 @@
 
 @implementation UIView (ChopeView)
 
-#pragma mark -
-#pragma mark Size & Position
+#pragma mark - Size & Position
 - (void)setSize:(CGSize)size
 {
     CGRect frame = self.frame;
@@ -69,8 +68,7 @@
 }
 
 
-#pragma mark -
-#pragma mark Shape
+#pragma mark - Shape
 - (void)setRound:(CGFloat)radius
 {
     self.layer.cornerRadius = radius;
@@ -84,8 +82,7 @@
 }
 
 
-#pragma mark -
-#pragma mark Capture
+#pragma mark - Capture
 - (UIImage*)toImage
 {
     UIGraphicsBeginImageContext(self.bounds.size);

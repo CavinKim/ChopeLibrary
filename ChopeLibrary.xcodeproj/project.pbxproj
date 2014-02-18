@@ -29,7 +29,6 @@
 		AC10C0A91839158200324068 /* ChopeDeviceUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = AC10C09E1839158200324068 /* ChopeDeviceUtil.m */; };
 		AC10C0AA1839158200324068 /* ChopeStoryboardUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = AC10C0A01839158200324068 /* ChopeStoryboardUtil.m */; };
 		AC96749B1865C3590018F900 /* WebP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC96749A1865C3590018F900 /* WebP.framework */; };
-		ACB688001871F6BC0058A00F /* ChopeImageService.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB687FF1871F6BC0058A00F /* ChopeImageService.m */; };
 		ACB688021872005D0058A00F /* ChopeTest.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACB688011872005D0058A00F /* ChopeTest.storyboard */; };
 		ACB68805187200810058A00F /* ChopeTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB68804187200810058A00F /* ChopeTestViewController.m */; };
 		ACB7013E187823DD00493580 /* NSObject+ChopeValue.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB7013D187823DD00493580 /* NSObject+ChopeValue.m */; };
@@ -95,8 +94,6 @@
 		AC10C09F1839158200324068 /* ChopeStoryboardUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChopeStoryboardUtil.h; sourceTree = "<group>"; };
 		AC10C0A01839158200324068 /* ChopeStoryboardUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChopeStoryboardUtil.m; sourceTree = "<group>"; };
 		AC96749A1865C3590018F900 /* WebP.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebP.framework; path = Framework/WebP.framework; sourceTree = "<group>"; };
-		ACB687FE1871F6BC0058A00F /* ChopeImageService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChopeImageService.h; sourceTree = "<group>"; };
-		ACB687FF1871F6BC0058A00F /* ChopeImageService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChopeImageService.m; sourceTree = "<group>"; };
 		ACB688011872005D0058A00F /* ChopeTest.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ChopeTest.storyboard; sourceTree = "<group>"; };
 		ACB68803187200810058A00F /* ChopeTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChopeTestViewController.h; sourceTree = "<group>"; };
 		ACB68804187200810058A00F /* ChopeTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChopeTestViewController.m; sourceTree = "<group>"; };
@@ -207,10 +204,10 @@
 				AC10BFDD1839139A00324068 /* ChopeAppDelegate.h */,
 				AC10BFDE1839139A00324068 /* ChopeAppDelegate.m */,
 				AC10BFE31839139A00324068 /* Images.xcassets */,
-				AC10BFD51839139A00324068 /* Supporting Files */,
 				ACB688011872005D0058A00F /* ChopeTest.storyboard */,
 				ACB68803187200810058A00F /* ChopeTestViewController.h */,
 				ACB68804187200810058A00F /* ChopeTestViewController.m */,
+				AC10BFD51839139A00324068 /* Supporting Files */,
 			);
 			path = ChopeLibrary;
 			sourceTree = "<group>";
@@ -296,8 +293,6 @@
 		ACB687FD1871F6150058A00F /* Service */ = {
 			isa = PBXGroup;
 			children = (
-				ACB687FE1871F6BC0058A00F /* ChopeImageService.h */,
-				ACB687FF1871F6BC0058A00F /* ChopeImageService.m */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -506,7 +501,6 @@
 				ACB68805187200810058A00F /* ChopeTestViewController.m in Sources */,
 				AC10C0A41839158200324068 /* ChopeViewController.m in Sources */,
 				ACEC198118631D790014E681 /* NSDictionary+ChopeValue.m in Sources */,
-				ACB688001871F6BC0058A00F /* ChopeImageService.m in Sources */,
 				ACEC19A118633DA90014E681 /* UIApplication+ChopeApplication.m in Sources */,
 				AC10C0A91839158200324068 /* ChopeDeviceUtil.m in Sources */,
 				ACEC198418631D790014E681 /* UIView+ChopeAnimation.m in Sources */,

@@ -58,9 +58,8 @@
     return [NSString stringWithFormat:@"%@/%@", self.host, self.path];
 }
 
-- (void)requestWithSuccess:(void(^)(ChopeNetwork *network, NSDictionary *data))successBlock
-                   failure:(void(^)(ChopeNetwork *network, NSUInteger code, NSString *message))failureBlock
-                     error:(void(^)(ChopeNetwork *network, NSError *error))errorBlock
+- (void)requestWithSuccess:(void(^)(NSDictionary *data))successBlock
+                     error:(void(^)(NSError *error))errorBlock
 {
     NSLog(@"[ChopeNetwork][%@] %@", self.method, [self fullUrlString]);
     NSLog(@"[ChopeNetwork][Parameters] %@", self.parameters);
@@ -76,15 +75,24 @@
 
                            if ([self isSuccessFromResponse:responseObject]) {
                                if (successBlock) {
-                                   successBlock(self, data);
+                                   successBlock(data);
                                }
                            }
                            else {
-                               if (failureBlock) {
+                               if (errorBlock) {
                                    NSUInteger resultCode = [self resultCodeFromResponse:responseObject];
                                    NSString *resultMessage = [self resultMessageFromResponse:responseObject];
+                                   NSDictionary *userInfo = nil;
                                    
-                                   failureBlock(self, resultCode, resultMessage);
+                                   if (resultMessage) {
+                                       userInfo = @{ @"message": resultMessage };
+                                   }
+                                   
+                                   NSError *error = [NSError errorWithDomain:@"API Falure"
+                                                                        code:resultCode
+                                                                    userInfo:userInfo];
+                                   
+                                   errorBlock(error);
                                }
                            }
                        }
@@ -92,7 +100,7 @@
                            NSLog(@"[ChopeNetwork][error] %@", error);
                            
                            if (errorBlock) {
-                               errorBlock(self, error);
+                               errorBlock(error);
                            }
                        }];
 }
@@ -126,25 +134,23 @@
 
 #pragma mark Public Method
 - (void)post:(NSDictionary*)parameters
-     success:(void(^)(ChopeNetwork *network, NSDictionary *data))successBlock
-     failure:(void(^)(ChopeNetwork *network, NSUInteger resultCode, NSString *resultMessage))failureBlock
-       error:(void(^)(ChopeNetwork *network, NSError *error))errorBlock
+     success:(void(^)(NSDictionary *data))successBlock
+       error:(void(^)(NSError *error))errorBlock
 {
     self.parameters = parameters;
     self.method = CHOPE_NETWORK_METHOD_POST;
     
-    [self requestWithSuccess:successBlock failure:failureBlock error:errorBlock];
+    [self requestWithSuccess:successBlock error:errorBlock];
 }
 
 - (void)get:(NSDictionary*)parameters
-    success:(void(^)(ChopeNetwork *network, NSDictionary *data))successBlock
-    failure:(void(^)(ChopeNetwork *network, NSUInteger resultCode, NSString *resultMessage))failureBlock
-      error:(void(^)(ChopeNetwork *network, NSError *error))errorBlock
+    success:(void(^)(NSDictionary *data))successBlock
+      error:(void(^)(NSError *error))errorBlock
 {
     self.parameters = parameters;
     self.method = CHOPE_NETWORK_METHOD_GET;
     
-    [self requestWithSuccess:successBlock failure:failureBlock error:errorBlock];
+    [self requestWithSuccess:successBlock error:errorBlock];
 }
 
 @end

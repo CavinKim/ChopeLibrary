@@ -12,31 +12,11 @@
 
 - (CGSize)boundingRectWithSize:(CGSize)size font:(UIFont*)font
 {
-    CGSize resultSize;
+    CGSize resultSize = [self boundingRectWithSize:size
+                                           options:NSStringDrawingUsesLineFragmentOrigin
+                                        attributes:@{ NSFontAttributeName:font }
+                                           context:nil].size;
     
-#ifdef __IPHONE_7_0
-    if ([self respondsToSelector:@selector(boundingRectWithSize:options:context:)]) {
-        resultSize = [self boundingRectWithSize:size
-                                        options:NSStringDrawingUsesLineFragmentOrigin
-                                     attributes:@{ NSFontAttributeName:font }
-                                        context:nil].size;
-    }
-    else {
-#   pragma clang diagnostic push
-#   pragma clang diagnostic ignored "-Wdeprecated-declarations"
-        resultSize = [self sizeWithFont:font
-                      constrainedToSize:size
-                          lineBreakMode:NSLineBreakByWordWrapping];
-#   pragma clang diagnostic pop
-    }
-#else
-#   pragma clang diagnostic push
-#   pragma clang diagnostic ignored "-Wdeprecated-declarations"
-    resultSize = [self sizeWithFont:font
-                  constrainedToSize:size
-                      lineBreakMode:NSLineBreakByWordWrapping];
-#   pragma clang diagnostic pop
-#endif
     resultSize.width = ceil(resultSize.width);
     resultSize.height = ceil(resultSize.height);
     

@@ -12,7 +12,8 @@
 
 - (BOOL)isNull
 {
-    if ([[self lowercaseString] isEqualToString:@"null"] ||
+    if ([self isNull] ||
+        [[self lowercaseString] isEqualToString:@"null"] ||
         [[self lowercaseString] isEqualToString:@"nil"]) {
         return YES;
     }

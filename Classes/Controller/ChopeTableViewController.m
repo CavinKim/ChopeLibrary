@@ -7,6 +7,7 @@
 //
 
 #import "ChopeTableViewController.h"
+#import "ChopeLibrary.h"
 
 @interface ChopeTableViewController ()
 
@@ -26,12 +27,47 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+	// Do any additional setup after loading the view, typically from a nib.
+    
+    if ([[ChopeLibrary SharedInstance].delegate respondsToSelector:@selector(viewDidLoadInviewController:)]) {
+        [[ChopeLibrary SharedInstance].delegate viewDidLoadInviewController:self];
+    }
+}
 
-    // Uncomment the following line to preserve selection between presentations.
-    // self.clearsSelectionOnViewWillAppear = NO;
- 
-    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+- (void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    
+    if ([[ChopeLibrary SharedInstance].delegate respondsToSelector:@selector(viewWillAppearInViewController:)]) {
+        [[ChopeLibrary SharedInstance].delegate viewWillAppearInViewController:self];
+    }
+}
+
+- (void)viewDidAppear:(BOOL)animated
+{
+    [super viewDidAppear:animated];
+    
+    if ([[ChopeLibrary SharedInstance].delegate respondsToSelector:@selector(viewDidAppearInViewController:)]) {
+        [[ChopeLibrary SharedInstance].delegate viewDidAppearInViewController:self];
+    }
+}
+
+- (void)viewWillDisappear:(BOOL)animated
+{
+    [super viewWillDisappear:animated];
+    
+    if ([[ChopeLibrary SharedInstance].delegate respondsToSelector:@selector(viewWillDisappearInViewController:)]) {
+        [[ChopeLibrary SharedInstance].delegate viewWillDisappearInViewController:self];
+    }
+}
+
+- (void)viewDidDisappear:(BOOL)animated
+{
+    [super viewDidDisappear:animated];
+    
+    if ([[ChopeLibrary SharedInstance].delegate respondsToSelector:@selector(viewDidDisappearInViewController:)]) {
+        [[ChopeLibrary SharedInstance].delegate viewDidDisappearInViewController:self];
+    }
 }
 
 - (void)didReceiveMemoryWarning

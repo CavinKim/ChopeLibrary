@@ -7,11 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "ChopeLinearView.h"
+#import "ChopeViewController.h"
 
-@interface ChopeTestViewController : UIViewController
-
-@property (nonatomic, weak) IBOutlet ChopeLinearView *linearView;
+@interface ChopeTestViewController : ChopeViewController
 
 
 @end

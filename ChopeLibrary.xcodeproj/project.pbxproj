@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D55BC5718BCCB7000901D5D /* UIViewController+Chope.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D55BC5618BCCB7000901D5D /* UIViewController+Chope.m */; };
+		1D55BC5A18BCD51F00901D5D /* ChopeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D55BC5918BCD51F00901D5D /* ChopeTableViewController.m */; };
+		1D55BC5F18BCD8FD00901D5D /* ChopeLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D55BC5E18BCD8FD00901D5D /* ChopeLibrary.m */; };
 		4D57EF390F63447C85EFF1B7 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E0040420BDF14F82A25AD913 /* libPods.a */; };
 		AC10BFCD1839139900324068 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC10BFCC1839139900324068 /* Foundation.framework */; };
 		AC10BFCF1839139900324068 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC10BFCE1839139900324068 /* CoreGraphics.framework */; };
@@ -61,6 +64,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1D55BC5518BCCB7000901D5D /* UIViewController+Chope.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Chope.h"; sourceTree = "<group>"; };
+		1D55BC5618BCCB7000901D5D /* UIViewController+Chope.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Chope.m"; sourceTree = "<group>"; };
+		1D55BC5818BCD51F00901D5D /* ChopeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChopeTableViewController.h; sourceTree = "<group>"; };
+		1D55BC5918BCD51F00901D5D /* ChopeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChopeTableViewController.m; sourceTree = "<group>"; };
+		1D55BC5D18BCD8FD00901D5D /* ChopeLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChopeLibrary.h; sourceTree = "<group>"; };
+		1D55BC5E18BCD8FD00901D5D /* ChopeLibrary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChopeLibrary.m; sourceTree = "<group>"; };
 		4B7866A3B3B444648A647880 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		AC10BFC91839139900324068 /* ChopeLibrary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChopeLibrary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC10BFCC1839139900324068 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -247,7 +256,7 @@
 			children = (
 				ACB687FD1871F6150058A00F /* Service */,
 				ACEC197818631D790014E681 /* Category */,
-				AC10C0901839158200324068 /* MVC */,
+				AC10C0901839158200324068 /* Controller */,
 				AC10C0951839158200324068 /* Network */,
 				AC10C0981839158200324068 /* Utils */,
 				ACEC1995186333B00014E681 /* View */,
@@ -255,15 +264,19 @@
 			path = Classes;
 			sourceTree = "<group>";
 		};
-		AC10C0901839158200324068 /* MVC */ = {
+		AC10C0901839158200324068 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
 				AC10C0911839158200324068 /* ChopeViewController.h */,
 				AC10C0921839158200324068 /* ChopeViewController.m */,
+				1D55BC5818BCD51F00901D5D /* ChopeTableViewController.h */,
+				1D55BC5918BCD51F00901D5D /* ChopeTableViewController.m */,
 				AC10C0931839158200324068 /* ChopeModel.h */,
 				AC10C0941839158200324068 /* ChopeModel.m */,
+				1D55BC5D18BCD8FD00901D5D /* ChopeLibrary.h */,
+				1D55BC5E18BCD8FD00901D5D /* ChopeLibrary.m */,
 			);
-			path = MVC;
+			path = Controller;
 			sourceTree = "<group>";
 		};
 		AC10C0951839158200324068 /* Network */ = {
@@ -335,6 +348,8 @@
 				ACEC19A018633DA90014E681 /* UIApplication+ChopeApplication.m */,
 				ACB7013C187823DD00493580 /* NSObject+ChopeValue.h */,
 				ACB7013D187823DD00493580 /* NSObject+ChopeValue.m */,
+				1D55BC5518BCCB7000901D5D /* UIViewController+Chope.h */,
+				1D55BC5618BCCB7000901D5D /* UIViewController+Chope.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -492,8 +507,10 @@
 				ACEC199B186334BE0014E681 /* UIImage+ChopeImage.m in Sources */,
 				ACEC199E18633C9C0014E681 /* ChopeLinearView.m in Sources */,
 				ACEC198218631D790014E681 /* NSString+Chope.m in Sources */,
+				1D55BC5F18BCD8FD00901D5D /* ChopeLibrary.m in Sources */,
 				AC10C0A51839158200324068 /* ChopeModel.m in Sources */,
 				AC10BFDF1839139A00324068 /* ChopeAppDelegate.m in Sources */,
+				1D55BC5718BCCB7000901D5D /* UIViewController+Chope.m in Sources */,
 				ACB7014618782F0700493580 /* ChopeDateUtil.m in Sources */,
 				AC10C0A61839158200324068 /* ChopeNetwork.m in Sources */,
 				ACB68805187200810058A00F /* ChopeTestViewController.m in Sources */,
@@ -502,6 +519,7 @@
 				ACEC19A118633DA90014E681 /* UIApplication+ChopeApplication.m in Sources */,
 				AC10C0A91839158200324068 /* ChopeDeviceUtil.m in Sources */,
 				ACEC198418631D790014E681 /* UIView+ChopeAnimation.m in Sources */,
+				1D55BC5A18BCD51F00901D5D /* ChopeTableViewController.m in Sources */,
 				ACEC1994186332F10014E681 /* UILabel+ChopeResize.m in Sources */,
 				AC10BFDB1839139A00324068 /* main.m in Sources */,
 				AC10C0AA1839158200324068 /* ChopeStoryboardUtil.m in Sources */,
@@ -633,7 +651,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					/Users/yoonhg84/Desktop/XCodeProject/ChopeLibrary/Framework,
+					"$(SRCROOT)/Framework",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ChopeLibrary/ChopeLibrary-Prefix.pch";
@@ -654,7 +672,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					/Users/yoonhg84/Desktop/XCodeProject/ChopeLibrary/Framework,
+					"$(SRCROOT)/Framework",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ChopeLibrary/ChopeLibrary-Prefix.pch";

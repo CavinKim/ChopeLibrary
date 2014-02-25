@@ -8,6 +8,8 @@
 
 #import "ChopeTestViewController.h"
 #import "ChopeToastView.h"
+#import "UIViewController+Chope.h"
+#import "ChopeAppDelegate.h"
 
 @implementation ChopeTestViewController
 
@@ -28,6 +30,29 @@
 //    [self.linearView setLinearViewAlignType:ChopeLinearViewAlignTypeVertical];
 //    [self.linearView setResizeAfterLayout:YES];
 //    [self.linearView setCenterAfterLayout:YES];
+    
+//    NSLog(@"navigationController : %@", self.navigationController);
+//    NSLog(@"navigationItem : %@", self.navigationItem);
+//    NSLog(@"tabBarController : %@", self.tabBarController);
+//    NSLog(@"tabBarItem : %@", self.tabBarItem);
+//
+//    [self.navigationItem setTitle:@"A"];
+//    [self.tabBarItem setTitle:@"B"];
+    
+//    NSLog(@"navigationController : %@", self.reiterationNavigationController);
+//    NSLog(@"navigationItem : %@", self.reiterationNavigationItem);
+//    NSLog(@"tabBarController : %@", self.reiterationTabBarController);
+//    NSLog(@"tabBarItem : %@", self.reiterationTabBarItem);
+//    
+//    [self.reiterationNavigationItem setTitle:@"A"];
+//    [self.reiterationTabBarItem setTitle:@"B"];
+    
+//    [self setTitle:@"A"];
+    
+    NSLog(@"%@", [UIApplication sharedApplication].windows.firstObject);
+    
+    ChopeAppDelegate *delegate = [UIApplication sharedApplication].delegate;
+    NSLog(@"%@", delegate.window);
 }
 
 - (void)viewDidAppear:(BOOL)animated

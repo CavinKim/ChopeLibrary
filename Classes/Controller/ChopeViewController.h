@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "UIViewController+Chope.h"
 
 @interface ChopeViewController : UIViewController
 

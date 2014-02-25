@@ -22,7 +22,7 @@
 @end
 
 
-
+__attribute__((deprecated))
 @interface ChopeModel : NSObject
 
 @property (nonatomic, weak) id<ChopeModelDelegate> delegate;

@@ -10,6 +10,6 @@
 
 @interface NSObject (ChopeValue)
 
-- (BOOL)isNull;
+- (BOOL)isNull DEPRECATED_ATTRIBUTE;
 
 @end

@@ -12,7 +12,7 @@
 
 - (BOOL)isNull
 {
-    if ([self isNull] ||
+    if ([self isKindOfClass:[NSNull class]] ||
         [[self lowercaseString] isEqualToString:@"null"] ||
         [[self lowercaseString] isEqualToString:@"nil"]) {
         return YES;

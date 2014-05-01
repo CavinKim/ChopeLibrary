@@ -5,11 +5,11 @@ inhibit_all_warnings!
 pod 'ChopeToastView', '~> 0.1'
 
 # Networking
-pod 'AFNetworking', '~> 2.0.0'
-pod 'SDWebImage', '~> 3.5.2'
+pod 'AFNetworking', '~> 2.0'
+pod 'SDWebImage', '~> 3.5'
 
 # SNS
-pod 'Facebook-iOS-SDK', '~> 3.10.0'
+pod 'Facebook-iOS-SDK', '~> 3.10'
 
 # ETC
 pod 'StackBluriOS', '~> 0.0.1'

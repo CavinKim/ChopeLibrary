@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.source_files = 'Classes/**/*.{h,m}'
   s.requires_arc  = true
 
-  s.dependency 'AFNetworking', '~> 2.0'
+  s.dependency 'AFNetworking', '~> 2.2'
   s.dependency 'StackBluriOS', '~> 0.0.1'
   s.dependency 'SDWebImage', '~> 3.5'
   s.dependency 'ChopeToastView', '~> 0.1'

@@ -5,7 +5,7 @@ inhibit_all_warnings!
 pod 'ChopeToastView', '~> 0.1'
 
 # Networking
-pod 'AFNetworking', '~> 2.0'
+pod 'AFNetworking', '~> 2.2'
 pod 'SDWebImage', '~> 3.5'
 
 # SNS

@@ -10,6 +10,10 @@
 		1D55BC5718BCCB7000901D5D /* UIViewController+Chope.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D55BC5618BCCB7000901D5D /* UIViewController+Chope.m */; };
 		1D55BC5A18BCD51F00901D5D /* ChopeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D55BC5918BCD51F00901D5D /* ChopeTableViewController.m */; };
 		1D55BC5F18BCD8FD00901D5D /* ChopeLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D55BC5E18BCD8FD00901D5D /* ChopeLibrary.m */; };
+		1DDB64DB191771D60023388F /* ChopeFacebook.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DDB64D6191771D60023388F /* ChopeFacebook.m */; };
+		1DDB64DC191771D60023388F /* ChopeKakao.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DDB64D8191771D60023388F /* ChopeKakao.m */; };
+		1DDB64DD191771D60023388F /* ChopeThirdpartyAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DDB64DA191771D60023388F /* ChopeThirdpartyAccount.m */; };
+		1DDB64DF191772530023388F /* KakaoOpenSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DDB64DE191772530023388F /* KakaoOpenSDK.framework */; };
 		4D57EF390F63447C85EFF1B7 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E0040420BDF14F82A25AD913 /* libPods.a */; };
 		AC10BFCD1839139900324068 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC10BFCC1839139900324068 /* Foundation.framework */; };
 		AC10BFCF1839139900324068 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC10BFCE1839139900324068 /* CoreGraphics.framework */; };
@@ -70,6 +74,13 @@
 		1D55BC5918BCD51F00901D5D /* ChopeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChopeTableViewController.m; sourceTree = "<group>"; };
 		1D55BC5D18BCD8FD00901D5D /* ChopeLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChopeLibrary.h; sourceTree = "<group>"; };
 		1D55BC5E18BCD8FD00901D5D /* ChopeLibrary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChopeLibrary.m; sourceTree = "<group>"; };
+		1DDB64D5191771D60023388F /* ChopeFacebook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChopeFacebook.h; sourceTree = "<group>"; };
+		1DDB64D6191771D60023388F /* ChopeFacebook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChopeFacebook.m; sourceTree = "<group>"; };
+		1DDB64D7191771D60023388F /* ChopeKakao.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChopeKakao.h; sourceTree = "<group>"; };
+		1DDB64D8191771D60023388F /* ChopeKakao.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChopeKakao.m; sourceTree = "<group>"; };
+		1DDB64D9191771D60023388F /* ChopeThirdpartyAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChopeThirdpartyAccount.h; sourceTree = "<group>"; };
+		1DDB64DA191771D60023388F /* ChopeThirdpartyAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChopeThirdpartyAccount.m; sourceTree = "<group>"; };
+		1DDB64DE191772530023388F /* KakaoOpenSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KakaoOpenSDK.framework; path = Framework/KakaoOpenSDK.framework; sourceTree = "<group>"; };
 		4B7866A3B3B444648A647880 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		AC10BFC91839139900324068 /* ChopeLibrary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChopeLibrary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC10BFCC1839139900324068 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -143,6 +154,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DDB64DF191772530023388F /* KakaoOpenSDK.framework in Frameworks */,
 				AC10BFCF1839139900324068 /* CoreGraphics.framework in Frameworks */,
 				AC10BFD31839139900324068 /* CoreData.framework in Frameworks */,
 				AC10BFD11839139900324068 /* UIKit.framework in Frameworks */,
@@ -165,6 +177,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1DDB64D4191771D60023388F /* Thirdparty */ = {
+			isa = PBXGroup;
+			children = (
+				1DDB64D5191771D60023388F /* ChopeFacebook.h */,
+				1DDB64D6191771D60023388F /* ChopeFacebook.m */,
+				1DDB64D7191771D60023388F /* ChopeKakao.h */,
+				1DDB64D8191771D60023388F /* ChopeKakao.m */,
+				1DDB64D9191771D60023388F /* ChopeThirdpartyAccount.h */,
+				1DDB64DA191771D60023388F /* ChopeThirdpartyAccount.m */,
+			);
+			path = Thirdparty;
+			sourceTree = "<group>";
+		};
 		AC10BFC01839139900324068 = {
 			isa = PBXGroup;
 			children = (
@@ -192,6 +217,7 @@
 		AC10BFCB1839139900324068 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1DDB64DE191772530023388F /* KakaoOpenSDK.framework */,
 				AC96749A1865C3590018F900 /* WebP.framework */,
 				AC10C0571839147700324068 /* MobileCoreServices.framework */,
 				AC10C0551839147200324068 /* SystemConfiguration.framework */,
@@ -254,6 +280,7 @@
 		AC10C08F1839158200324068 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				1DDB64D4191771D60023388F /* Thirdparty */,
 				ACB687FD1871F6150058A00F /* Service */,
 				ACEC197818631D790014E681 /* Category */,
 				AC10C0901839158200324068 /* Controller */,
@@ -410,7 +437,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = Chope;
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = Chope;
 				TargetAttributes = {
 					AC10BFC81839139900324068 = {
@@ -509,11 +536,14 @@
 				ACEC198218631D790014E681 /* NSString+Chope.m in Sources */,
 				1D55BC5F18BCD8FD00901D5D /* ChopeLibrary.m in Sources */,
 				AC10C0A51839158200324068 /* ChopeModel.m in Sources */,
+				1DDB64DB191771D60023388F /* ChopeFacebook.m in Sources */,
+				1DDB64DC191771D60023388F /* ChopeKakao.m in Sources */,
 				AC10BFDF1839139A00324068 /* ChopeAppDelegate.m in Sources */,
 				1D55BC5718BCCB7000901D5D /* UIViewController+Chope.m in Sources */,
 				ACB7014618782F0700493580 /* ChopeDateUtil.m in Sources */,
 				AC10C0A61839158200324068 /* ChopeNetwork.m in Sources */,
 				ACB68805187200810058A00F /* ChopeTestViewController.m in Sources */,
+				1DDB64DD191771D60023388F /* ChopeThirdpartyAccount.m in Sources */,
 				AC10C0A41839158200324068 /* ChopeViewController.m in Sources */,
 				ACEC198118631D790014E681 /* NSDictionary+ChopeValue.m in Sources */,
 				ACEC19A118633DA90014E681 /* UIApplication+ChopeApplication.m in Sources */,
@@ -573,7 +603,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -612,7 +641,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -652,12 +680,14 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/Framework",
+					"$(PROJECT_DIR)/Framework",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ChopeLibrary/ChopeLibrary-Prefix.pch";
 				INFOPLIST_FILE = "ChopeLibrary/ChopeLibrary-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				VALID_ARCHS = "arm64 armv7 armv7s";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -673,12 +703,14 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/Framework",
+					"$(PROJECT_DIR)/Framework",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ChopeLibrary/ChopeLibrary-Prefix.pch";
 				INFOPLIST_FILE = "ChopeLibrary/ChopeLibrary-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				VALID_ARCHS = "arm64 armv7 armv7s";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -686,7 +718,6 @@
 		AC10BFFF1839139A00324068 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ChopeLibrary.app/ChopeLibrary";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -709,7 +740,6 @@
 		AC10C0001839139A00324068 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ChopeLibrary.app/ChopeLibrary";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",

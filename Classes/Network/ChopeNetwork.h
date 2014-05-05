@@ -31,4 +31,8 @@
     success:(void(^)(NSDictionary *data))successBlock
       error:(void(^)(NSError *error))errorBlock;
 
++ (void)downloadImageWithUrl:(NSString*)urlString
+                     success:(void(^)(UIImage *photoImage))success
+                     failure:(void(^)(NSError *error))failure;
+
 @end

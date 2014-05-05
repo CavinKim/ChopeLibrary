@@ -11,5 +11,6 @@
 
 @interface ChopeTestViewController : ChopeViewController
 
+@property (nonatomic, weak) IBOutlet UIImageView *imageView;
 
 @end

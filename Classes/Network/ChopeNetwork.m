@@ -156,4 +156,22 @@
                       error:errorBlock];
 }
 
++ (void)downloadImageWithUrl:(NSString*)urlString
+                     success:(void(^)(UIImage *photoImage))success
+                     failure:(void(^)(NSError *error))failure {
+    NSURL *url = [NSURL URLWithString:urlString];
+    NSURLRequest *request = [NSURLRequest requestWithURL:url];
+    
+    AFHTTPRequestOperation *operation = [[AFHTTPRequestOperation alloc] initWithRequest:request];
+    operation.responseSerializer = [AFImageResponseSerializer serializer];
+    
+    [operation setCompletionBlockWithSuccess:^(AFHTTPRequestOperation *operation, id responseObject) {
+        success(responseObject);
+    } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
+        failure(error);
+    }];
+    
+    [operation start];
+}
+
 @end

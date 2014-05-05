@@ -6,6 +6,8 @@
 //  Copyright (c) 2013년 Chope. All rights reserved.
 //
 
+#import <FacebookSDK.h>
+#import <KakaoOpenSDK/KakaoOpenSDK.h>
 #import "ChopeAppDelegate.h"
 
 @implementation ChopeAppDelegate
@@ -43,12 +45,25 @@
 - (void)applicationDidBecomeActive:(UIApplication *)application
 {
     // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
+    [FBAppCall handleDidBecomeActive];
+    [KOSession handleDidBecomeActive];
 }
 
 - (void)applicationWillTerminate:(UIApplication *)application
 {
     // Saves changes in the application's managed object context before the application terminates.
     [self saveContext];
+}
+
+- (BOOL)application:(UIApplication *)application
+            openURL:(NSURL *)url
+  sourceApplication:(NSString *)sourceApplication
+         annotation:(id)annotation
+{
+    if( [KOSession isKakaoAccountLoginCallback:url] ) {
+        return [KOSession handleOpenURL:url];
+    }
+    return [FBAppCall handleOpenURL:url sourceApplication:sourceApplication];
 }
 
 - (void)saveContext

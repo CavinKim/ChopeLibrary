@@ -10,6 +10,8 @@
 #import "ChopeToastView.h"
 #import "UIViewController+Chope.h"
 #import "ChopeAppDelegate.h"
+#import "ChopeFacebook.h"
+#import "ChopeKakao.h"
 
 @implementation ChopeTestViewController
 
@@ -53,6 +55,23 @@
     
     ChopeAppDelegate *delegate = [UIApplication sharedApplication].delegate;
     NSLog(@"%@", delegate.window);
+    
+//    ChopeFacebook *facebook = [[ChopeFacebook alloc] init];
+////    [facebook open];
+//    [facebook loadProfileWithSuccess:^(ChopeThirdpartyUser *user) {
+//        self.imageView.image = user.photoImage;
+//        NSLog(@"user : %@", user);
+//    } failure:^(NSError *error) {
+//        NSLog(@"user : %@", error);
+//    }];
+    
+    ChopeThirdpartyAccount *thirdpartyLogin = [ChopeThirdpartyAccount thirdpartyLogin:ChopeThirdpartyLoginTypeKakao];
+    [thirdpartyLogin loadProfileWithSuccess:^(ChopeThirdpartyUser *user) {
+        self.imageView.image = user.photoImage;
+        NSLog(@"user : %@", user);
+    } failure:^(NSError *error) {
+        NSLog(@"user : %@", error);
+    }];
 }
 
 - (void)viewDidAppear:(BOOL)animated

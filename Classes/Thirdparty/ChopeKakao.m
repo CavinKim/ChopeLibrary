@@ -31,14 +31,19 @@
 
 - (void)closeWithSuccess:(void(^)())successCallback
                  failure:(void(^)(NSError *error))failure {
-    [[KOSession sharedSession] logoutAndCloseWithCompletionHandler:^(BOOL success, NSError *error) {
-        if (error) {
-            failure(error);
-        }
-        else if (success) {
-            successCallback();
-        }
-    }];
+    if ([self isOpened]) {
+        successCallback();
+    }
+    else {
+        [[KOSession sharedSession] logoutAndCloseWithCompletionHandler:^(BOOL success, NSError *error) {
+            if (error) {
+                failure(error);
+            }
+            else if (success) {
+                successCallback();
+            }
+        }];
+    }
 }
 
 - (void)loadProfileWithSuccess:(void(^)(ChopeThirdpartyUser *user))success

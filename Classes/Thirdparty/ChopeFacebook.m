@@ -21,14 +21,19 @@
 
 - (void)openWithSuccess:(void(^)())success
                 failure:(void(^)(NSError *error))failure {
-    [FBSession openActiveSessionWithReadPermissions:@[@"public_profile"] allowLoginUI:YES completionHandler:^(FBSession *session, FBSessionState status, NSError *error) {
-        if (error) {
-            failure(error);
-        }
-        else {
-            success();
-        }
-    }];
+    if ([self isOpened]) {
+        success();
+    }
+    else {
+        [FBSession openActiveSessionWithReadPermissions:@[@"public_profile"] allowLoginUI:YES completionHandler:^(FBSession *session, FBSessionState status, NSError *error) {
+            if (error) {
+                failure(error);
+            }
+            else {
+                success();
+            }
+        }];
+    }
 }
 
 - (void)closeWithSuccess:(void(^)())successCallback

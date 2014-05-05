@@ -12,5 +12,6 @@ Pod::Spec.new do |s|
   s.dependency 'StackBluriOS', '~> 0.0.1'
   s.dependency 'SDWebImage', '~> 3.5'
   s.dependency 'ChopeToastView', '~> 0.1'
+  s.dependency 'Facebook-iOS-SDK', '~> 3.10'
 
 end

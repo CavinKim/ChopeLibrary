@@ -35,4 +35,8 @@
     return nil;
 }
 
++ (NSString*)thirdpartyName {
+    return nil;
+}
+
 @end

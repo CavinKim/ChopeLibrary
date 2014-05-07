@@ -32,6 +32,8 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     
+    self.loadingView = [[ChopeLoadingView alloc] init];
+    
     if ([[ChopeLibrary SharedInstance].delegate respondsToSelector:@selector(viewDidLoadInviewController:)]) {
         [[ChopeLibrary SharedInstance].delegate viewDidLoadInviewController:self];
     }

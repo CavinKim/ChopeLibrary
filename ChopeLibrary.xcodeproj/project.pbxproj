@@ -10,6 +10,7 @@
 		1D55BC5718BCCB7000901D5D /* UIViewController+Chope.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D55BC5618BCCB7000901D5D /* UIViewController+Chope.m */; };
 		1D55BC5A18BCD51F00901D5D /* ChopeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D55BC5918BCD51F00901D5D /* ChopeTableViewController.m */; };
 		1D55BC5F18BCD8FD00901D5D /* ChopeLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D55BC5E18BCD8FD00901D5D /* ChopeLibrary.m */; };
+		1DA166FC191A9AC200AF4466 /* ChopeLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DA166FB191A9AC200AF4466 /* ChopeLoadingView.m */; };
 		1DDB64DB191771D60023388F /* ChopeFacebook.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DDB64D6191771D60023388F /* ChopeFacebook.m */; };
 		1DDB64DC191771D60023388F /* ChopeKakao.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DDB64D8191771D60023388F /* ChopeKakao.m */; };
 		1DDB64DD191771D60023388F /* ChopeThirdpartyAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DDB64DA191771D60023388F /* ChopeThirdpartyAccount.m */; };
@@ -74,6 +75,8 @@
 		1D55BC5918BCD51F00901D5D /* ChopeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChopeTableViewController.m; sourceTree = "<group>"; };
 		1D55BC5D18BCD8FD00901D5D /* ChopeLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChopeLibrary.h; sourceTree = "<group>"; };
 		1D55BC5E18BCD8FD00901D5D /* ChopeLibrary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChopeLibrary.m; sourceTree = "<group>"; };
+		1DA166FA191A9AC200AF4466 /* ChopeLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChopeLoadingView.h; sourceTree = "<group>"; };
+		1DA166FB191A9AC200AF4466 /* ChopeLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChopeLoadingView.m; sourceTree = "<group>"; };
 		1DDB64D5191771D60023388F /* ChopeFacebook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChopeFacebook.h; sourceTree = "<group>"; };
 		1DDB64D6191771D60023388F /* ChopeFacebook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChopeFacebook.m; sourceTree = "<group>"; };
 		1DDB64D7191771D60023388F /* ChopeKakao.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChopeKakao.h; sourceTree = "<group>"; };
@@ -386,6 +389,8 @@
 			children = (
 				ACEC199C18633C9C0014E681 /* ChopeLinearView.h */,
 				ACEC199D18633C9C0014E681 /* ChopeLinearView.m */,
+				1DA166FA191A9AC200AF4466 /* ChopeLoadingView.h */,
+				1DA166FB191A9AC200AF4466 /* ChopeLoadingView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -546,6 +551,7 @@
 				1DDB64DD191771D60023388F /* ChopeThirdpartyAccount.m in Sources */,
 				AC10C0A41839158200324068 /* ChopeViewController.m in Sources */,
 				ACEC198118631D790014E681 /* NSDictionary+ChopeValue.m in Sources */,
+				1DA166FC191A9AC200AF4466 /* ChopeLoadingView.m in Sources */,
 				ACEC19A118633DA90014E681 /* UIApplication+ChopeApplication.m in Sources */,
 				AC10C0A91839158200324068 /* ChopeDeviceUtil.m in Sources */,
 				ACEC198418631D790014E681 /* UIView+ChopeAnimation.m in Sources */,

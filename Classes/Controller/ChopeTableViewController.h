@@ -11,4 +11,7 @@
 
 @interface ChopeTableViewController : UITableViewController
 
+- (void)showLoadingView;
+- (void)hideLoadingView;
+
 @end

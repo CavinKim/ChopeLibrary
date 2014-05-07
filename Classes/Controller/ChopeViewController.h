@@ -11,4 +11,7 @@
 
 @interface ChopeViewController : UIViewController
 
+- (void)showLoadingView;
+- (void)hideLoadingView;
+
 @end

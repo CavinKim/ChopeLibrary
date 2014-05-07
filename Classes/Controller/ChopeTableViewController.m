@@ -8,8 +8,11 @@
 
 #import "ChopeTableViewController.h"
 #import "ChopeLibrary.h"
+#import "ChopeLoadingView.h"
 
 @interface ChopeTableViewController ()
+
+@property (nonatomic, retain) ChopeLoadingView *loadingView;
 
 @end
 
@@ -74,6 +77,14 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (void)showLoadingView {
+    [self.loadingView show];
+}
+
+- (void)hideLoadingView {
+    [self.loadingView hide];
 }
 
 @end

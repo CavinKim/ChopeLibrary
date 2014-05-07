@@ -73,6 +73,9 @@
                                                }
                                                failure:failure];
                 }
+                else {
+                    success(thirdpartyUser);
+                }
             }
             else {
                 failure(error);

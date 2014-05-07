@@ -13,6 +13,10 @@
 
 @implementation ChopeKakao
 
++ (NSString*)thirdpartyName {
+    return @"kakao";
+}
+
 - (BOOL)isOpened {
     return [[KOSession sharedSession] isOpen];
 }

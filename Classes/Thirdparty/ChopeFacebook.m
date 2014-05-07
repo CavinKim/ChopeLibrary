@@ -15,6 +15,10 @@
 
 @implementation ChopeFacebook
 
++ (NSString*)thirdpartyName {
+    return @"facebook";
+}
+
 - (BOOL)isOpened {
     return [[FBSession activeSession] isOpen];
 }

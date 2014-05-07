@@ -19,6 +19,7 @@
 
 @protocol ChopeThirdpartyLoginDelegate <NSObject>
 
++ (NSString*)thirdpartyName;
 
 @optional
 - (BOOL)isOpened;

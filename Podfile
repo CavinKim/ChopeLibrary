@@ -6,7 +6,7 @@ pod 'ChopeToastView', '~> 0.1'
 
 # Networking
 pod 'AFNetworking', '~> 2.2'
-pod 'SDWebImage', '~> 3.5'
+pod 'SDWebImage', '~> 3.6'
 
 # SNS
 pod 'Facebook-iOS-SDK', '~> 3.10'

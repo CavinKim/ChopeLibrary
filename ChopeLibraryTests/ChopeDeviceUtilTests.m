@@ -1,13 +1,13 @@
 //
 //  ChopeDeviceUtilTests.m
-//  ChopeLibrary
+//  CPApplication
 //
 //  Created by Chope on 2013. 11. 15..
 //  Copyright (c) 2013년 Chope. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>
-#import "ChopeDeviceUtil.h"
+#import "CPDeviceUtil.h"
 
 @interface ChopeDeviceUtilTests : XCTestCase
 
@@ -29,14 +29,14 @@
 
 - (void)testCurrentCountryCode
 {
-    XCTAssertEqualObjects([[ChopeDeviceUtil currentCountryCode] uppercaseString], [ChopeDeviceUtil currentCountryCode], @"");
-    XCTAssertNotEqualObjects([[ChopeDeviceUtil currentCountryCode] lowercaseString], [ChopeDeviceUtil currentCountryCode], @"");
+    XCTAssertEqualObjects([[CPDeviceUtil currentCountryCode] uppercaseString], [CPDeviceUtil currentCountryCode], @"");
+    XCTAssertNotEqualObjects([[CPDeviceUtil currentCountryCode] lowercaseString], [CPDeviceUtil currentCountryCode], @"");
 }
 
 - (void)testCurrentLanguageCode
 {
-    XCTAssertEqualObjects([[ChopeDeviceUtil currentLanguageCode] lowercaseString], [ChopeDeviceUtil currentLanguageCode], @"");
-    XCTAssertNotEqualObjects([[ChopeDeviceUtil currentLanguageCode] uppercaseString], [ChopeDeviceUtil currentLanguageCode], @"");
+    XCTAssertEqualObjects([[CPDeviceUtil currentLanguageCode] lowercaseString], [CPDeviceUtil currentLanguageCode], @"");
+    XCTAssertNotEqualObjects([[CPDeviceUtil currentLanguageCode] uppercaseString], [CPDeviceUtil currentLanguageCode], @"");
 }
 
 @end

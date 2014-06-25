@@ -27,7 +27,7 @@
 			<string>Editor</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>fb1391089297843696</string>
+				<string>fb241043082761236</string>
 			</array>
 		</dict>
 		<dict>
@@ -35,20 +35,20 @@
 			<string>Editor</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>kakao3111a131dc23292ca7c674c895bb7463</string>
+				<string>kakao03f589fa62584e59b7737eadc0505ae7</string>
 			</array>
 		</dict>
 	</array>
 	<key>CFBundleVersion</key>
 	<string>1.0</string>
 	<key>FacebookAppID</key>
-	<string>1391089297843696</string>
+	<string>241043082761236</string>
 	<key>KAKAO_APP_KEY</key>
-	<string>3111a131dc23292ca7c674c895bb7463</string>
+	<string>03f589fa62584e59b7737eadc0505ae7</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>UIMainStoryboardFile</key>
-	<string>ChopeTest</string>
+	<string>CPTest</string>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>

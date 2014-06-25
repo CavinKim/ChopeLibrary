@@ -7,14 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1D55BC5718BCCB7000901D5D /* UIViewController+Chope.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D55BC5618BCCB7000901D5D /* UIViewController+Chope.m */; };
-		1D55BC5A18BCD51F00901D5D /* ChopeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D55BC5918BCD51F00901D5D /* ChopeTableViewController.m */; };
-		1D55BC5F18BCD8FD00901D5D /* ChopeLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D55BC5E18BCD8FD00901D5D /* ChopeLibrary.m */; };
-		1DA166FC191A9AC200AF4466 /* ChopeLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DA166FB191A9AC200AF4466 /* ChopeLoadingView.m */; };
-		1DDB64DB191771D60023388F /* ChopeFacebook.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DDB64D6191771D60023388F /* ChopeFacebook.m */; };
-		1DDB64DC191771D60023388F /* ChopeKakao.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DDB64D8191771D60023388F /* ChopeKakao.m */; };
-		1DDB64DD191771D60023388F /* ChopeThirdpartyAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DDB64DA191771D60023388F /* ChopeThirdpartyAccount.m */; };
+		1D6C2524194449C900340305 /* CPParseAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6C2522194449C900340305 /* CPParseAccount.m */; };
+		1DA166FC191A9AC200AF4466 /* CPLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DA166FB191A9AC200AF4466 /* CPLoadingView.m */; };
+		1DDB64DB191771D60023388F /* CPFacebook.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DDB64D6191771D60023388F /* CPFacebook.m */; };
+		1DDB64DC191771D60023388F /* CPKakao.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DDB64D8191771D60023388F /* CPKakao.m */; };
+		1DDB64DD191771D60023388F /* CPThirdpartyAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DDB64DA191771D60023388F /* CPThirdpartyAccount.m */; };
 		1DDB64DF191772530023388F /* KakaoOpenSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DDB64DE191772530023388F /* KakaoOpenSDK.framework */; };
+		1DFD68141940BD670005A09A /* CPTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DFD68131940BD670005A09A /* CPTableViewCell.m */; };
+		3E11B1C87252AB8FD6054BEE /* CPTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E11B06BEF09E54519C21BAF /* CPTableViewController.m */; };
+		3E11B392CC9C57E499A021E5 /* UIApplication+ChopeApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E11BD69C1DFA26D6F5E577D /* UIApplication+ChopeApplication.m */; };
+		3E11B4C41CE8A7920E79A6B9 /* UIViewController+Chope.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E11BADAAAAA704187D41A9C /* UIViewController+Chope.m */; };
+		3E11B5948B4218462741F457 /* UILabel+ChopeResize.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E11B2B628196C23F4403209 /* UILabel+ChopeResize.m */; };
+		3E11B5EC4E9C39C6EA83ED31 /* CPTestLabelTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E11B1C6244749645811F62C /* CPTestLabelTableViewCell.m */; };
+		3E11B6AA6DBC9C63ACDFA7FC /* UIImage+ChopeImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E11B8F4AE3FB1298E26C1C0 /* UIImage+ChopeImage.m */; };
+		3E11B72B130BA845706DD2FE /* NSObject+ChopeValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E11B55146B8C15DDE523CBB /* NSObject+ChopeValue.m */; };
+		3E11B848D055E6D5CFE97547 /* CPAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E11BB01BDE474173A9C6D90 /* CPAppearance.m */; };
+		3E11B896BBE9B6A7502D679E /* NSString+ChopeSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E11B15658B707AA65CE207D /* NSString+ChopeSize.m */; };
+		3E11B9D56A84DC9103D2EB79 /* UIView+ChopeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E11B59258146CCD8D6E1329 /* UIView+ChopeView.m */; };
+		3E11BAF8CBE23D0AFA8DFB2E /* UIScrollView+ChopePage.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E11BF3FD7F27A40E0119BA2 /* UIScrollView+ChopePage.m */; };
+		3E11BBB7669C3A2E793687F3 /* CPCoreTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E11B9B9905D7CD102F94AD9 /* CPCoreTestViewController.m */; };
+		3E11BC44C9BF0008B8CA8866 /* UIView+ChopeAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E11BB86A0C19B72428F43A7 /* UIView+ChopeAnimation.m */; };
+		3E11BCDF175E7BF0B742798D /* UIColor+ChopeColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E11BBA22F5218DA028BB8EE /* UIColor+ChopeColor.m */; };
+		3E11BD447061671EE0096D95 /* CPTestTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E11BFC12D9DFA0792FA1574 /* CPTestTableViewController.m */; };
+		3E11BDFDA3414B8E98BACFAE /* NSDictionary+ChopeValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E11B925047E640363DFF944 /* NSDictionary+ChopeValue.m */; };
+		3E11BE56EC64B040983C830B /* CPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E11BEDE436B31200917A006 /* CPViewController.m */; };
+		3E11BF4C0FEC48DB664153DB /* NSString+Chope.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E11BD393100F18E35379D42 /* NSString+Chope.m */; };
 		4D57EF390F63447C85EFF1B7 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E0040420BDF14F82A25AD913 /* libPods.a */; };
 		AC10BFCD1839139900324068 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC10BFCC1839139900324068 /* Foundation.framework */; };
 		AC10BFCF1839139900324068 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC10BFCE1839139900324068 /* CoreGraphics.framework */; };
@@ -22,7 +39,7 @@
 		AC10BFD31839139900324068 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC10BFD21839139900324068 /* CoreData.framework */; };
 		AC10BFD91839139A00324068 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AC10BFD71839139A00324068 /* InfoPlist.strings */; };
 		AC10BFDB1839139A00324068 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AC10BFDA1839139A00324068 /* main.m */; };
-		AC10BFDF1839139A00324068 /* ChopeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AC10BFDE1839139A00324068 /* ChopeAppDelegate.m */; };
+		AC10BFDF1839139A00324068 /* CPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AC10BFDE1839139A00324068 /* CPAppDelegate.m */; };
 		AC10BFE41839139A00324068 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC10BFE31839139A00324068 /* Images.xcassets */; };
 		AC10BFEB1839139A00324068 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC10BFEA1839139A00324068 /* XCTest.framework */; };
 		AC10BFEC1839139A00324068 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC10BFCC1839139900324068 /* Foundation.framework */; };
@@ -31,31 +48,18 @@
 		AC10BFF61839139A00324068 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AC10BFF41839139A00324068 /* InfoPlist.strings */; };
 		AC10BFF81839139A00324068 /* ChopeLibraryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC10BFF71839139A00324068 /* ChopeLibraryTests.m */; };
 		AC10C01E1839140A00324068 /* ChopeDeviceUtilTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC10C01C1839140A00324068 /* ChopeDeviceUtilTests.m */; };
-		AC10C0A41839158200324068 /* ChopeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC10C0921839158200324068 /* ChopeViewController.m */; };
-		AC10C0A51839158200324068 /* ChopeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AC10C0941839158200324068 /* ChopeModel.m */; };
-		AC10C0A61839158200324068 /* ChopeNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = AC10C0971839158200324068 /* ChopeNetwork.m */; };
-		AC10C0A91839158200324068 /* ChopeDeviceUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = AC10C09E1839158200324068 /* ChopeDeviceUtil.m */; };
-		AC10C0AA1839158200324068 /* ChopeStoryboardUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = AC10C0A01839158200324068 /* ChopeStoryboardUtil.m */; };
-		ACB688021872005D0058A00F /* ChopeTest.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACB688011872005D0058A00F /* ChopeTest.storyboard */; };
-		ACB68805187200810058A00F /* ChopeTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB68804187200810058A00F /* ChopeTestViewController.m */; };
-		ACB7013E187823DD00493580 /* NSObject+ChopeValue.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB7013D187823DD00493580 /* NSObject+ChopeValue.m */; };
+		AC10C0A61839158200324068 /* CPNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = AC10C0971839158200324068 /* CPNetwork.m */; };
+		AC10C0A91839158200324068 /* CPDeviceUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = AC10C09E1839158200324068 /* CPDeviceUtil.m */; };
+		AC10C0AA1839158200324068 /* CPStoryboardUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = AC10C0A01839158200324068 /* CPStoryboardUtil.m */; };
+		ACB688021872005D0058A00F /* CPTest.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACB688011872005D0058A00F /* CPTest.storyboard */; };
 		ACB701411878244000493580 /* NSObjectChopeValueTest.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB701401878244000493580 /* NSObjectChopeValueTest.m */; };
 		ACB701431878262300493580 /* NSDictionaryChopeValue.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB701421878262300493580 /* NSDictionaryChopeValue.m */; };
-		ACB7014618782F0700493580 /* ChopeDateUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB7014518782F0700493580 /* ChopeDateUtil.m */; };
+		ACB7014618782F0700493580 /* CPDateUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB7014518782F0700493580 /* CPDateUtil.m */; };
 		ACB701501878352E00493580 /* ChopeDateUtilTest.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB7014F1878352E00493580 /* ChopeDateUtilTest.m */; };
 		ACEC197218631A7B0014E681 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = ACEC197118631A7B0014E681 /* README.md */; };
 		ACEC197418631AB80014E681 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = ACEC197318631AB80014E681 /* Podfile */; };
-		ACEC198118631D790014E681 /* NSDictionary+ChopeValue.m in Sources */ = {isa = PBXBuildFile; fileRef = ACEC197A18631D790014E681 /* NSDictionary+ChopeValue.m */; };
-		ACEC198218631D790014E681 /* NSString+Chope.m in Sources */ = {isa = PBXBuildFile; fileRef = ACEC197C18631D790014E681 /* NSString+Chope.m */; };
-		ACEC198318631D790014E681 /* NSString+ChopeSize.m in Sources */ = {isa = PBXBuildFile; fileRef = ACEC197E18631D790014E681 /* NSString+ChopeSize.m */; };
-		ACEC198418631D790014E681 /* UIView+ChopeAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = ACEC198018631D790014E681 /* UIView+ChopeAnimation.m */; };
 		ACEC198918632ADE0014E681 /* ChopeLibrary.podspec in Resources */ = {isa = PBXBuildFile; fileRef = ACEC198818632ADE0014E681 /* ChopeLibrary.podspec */; };
-		ACEC198E186331F00014E681 /* UIView+ChopeView.m in Sources */ = {isa = PBXBuildFile; fileRef = ACEC198D186331F00014E681 /* UIView+ChopeView.m */; };
-		ACEC19911863329E0014E681 /* UIScrollView+ChopePage.m in Sources */ = {isa = PBXBuildFile; fileRef = ACEC19901863329E0014E681 /* UIScrollView+ChopePage.m */; };
-		ACEC1994186332F10014E681 /* UILabel+ChopeResize.m in Sources */ = {isa = PBXBuildFile; fileRef = ACEC1993186332F10014E681 /* UILabel+ChopeResize.m */; };
-		ACEC199B186334BE0014E681 /* UIImage+ChopeImage.m in Sources */ = {isa = PBXBuildFile; fileRef = ACEC199A186334BE0014E681 /* UIImage+ChopeImage.m */; };
-		ACEC199E18633C9C0014E681 /* ChopeLinearView.m in Sources */ = {isa = PBXBuildFile; fileRef = ACEC199D18633C9C0014E681 /* ChopeLinearView.m */; };
-		ACEC19A118633DA90014E681 /* UIApplication+ChopeApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = ACEC19A018633DA90014E681 /* UIApplication+ChopeApplication.m */; };
+		ACEC199E18633C9C0014E681 /* CPLinearView.m in Sources */ = {isa = PBXBuildFile; fileRef = ACEC199D18633C9C0014E681 /* CPLinearView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,21 +73,55 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1D55BC5518BCCB7000901D5D /* UIViewController+Chope.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Chope.h"; sourceTree = "<group>"; };
-		1D55BC5618BCCB7000901D5D /* UIViewController+Chope.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Chope.m"; sourceTree = "<group>"; };
-		1D55BC5818BCD51F00901D5D /* ChopeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChopeTableViewController.h; sourceTree = "<group>"; };
-		1D55BC5918BCD51F00901D5D /* ChopeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChopeTableViewController.m; sourceTree = "<group>"; };
-		1D55BC5D18BCD8FD00901D5D /* ChopeLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChopeLibrary.h; sourceTree = "<group>"; };
-		1D55BC5E18BCD8FD00901D5D /* ChopeLibrary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChopeLibrary.m; sourceTree = "<group>"; };
-		1DA166FA191A9AC200AF4466 /* ChopeLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChopeLoadingView.h; sourceTree = "<group>"; };
-		1DA166FB191A9AC200AF4466 /* ChopeLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChopeLoadingView.m; sourceTree = "<group>"; };
-		1DDB64D5191771D60023388F /* ChopeFacebook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChopeFacebook.h; sourceTree = "<group>"; };
-		1DDB64D6191771D60023388F /* ChopeFacebook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChopeFacebook.m; sourceTree = "<group>"; };
-		1DDB64D7191771D60023388F /* ChopeKakao.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChopeKakao.h; sourceTree = "<group>"; };
-		1DDB64D8191771D60023388F /* ChopeKakao.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChopeKakao.m; sourceTree = "<group>"; };
-		1DDB64D9191771D60023388F /* ChopeThirdpartyAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChopeThirdpartyAccount.h; sourceTree = "<group>"; };
-		1DDB64DA191771D60023388F /* ChopeThirdpartyAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChopeThirdpartyAccount.m; sourceTree = "<group>"; };
+		1D6C2522194449C900340305 /* CPParseAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPParseAccount.m; sourceTree = "<group>"; };
+		1D6C2523194449C900340305 /* CPParseAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPParseAccount.h; sourceTree = "<group>"; };
+		1DA166FA191A9AC200AF4466 /* CPLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPLoadingView.h; sourceTree = "<group>"; };
+		1DA166FB191A9AC200AF4466 /* CPLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPLoadingView.m; sourceTree = "<group>"; };
+		1DDB64D5191771D60023388F /* CPFacebook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPFacebook.h; sourceTree = "<group>"; };
+		1DDB64D6191771D60023388F /* CPFacebook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPFacebook.m; sourceTree = "<group>"; };
+		1DDB64D7191771D60023388F /* CPKakao.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPKakao.h; sourceTree = "<group>"; };
+		1DDB64D8191771D60023388F /* CPKakao.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPKakao.m; sourceTree = "<group>"; };
+		1DDB64D9191771D60023388F /* CPThirdpartyAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPThirdpartyAccount.h; sourceTree = "<group>"; };
+		1DDB64DA191771D60023388F /* CPThirdpartyAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPThirdpartyAccount.m; sourceTree = "<group>"; };
 		1DDB64DE191772530023388F /* KakaoOpenSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KakaoOpenSDK.framework; path = Framework/KakaoOpenSDK.framework; sourceTree = "<group>"; };
+		1DFD68121940BD670005A09A /* CPTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTableViewCell.h; sourceTree = "<group>"; };
+		1DFD68131940BD670005A09A /* CPTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPTableViewCell.m; sourceTree = "<group>"; };
+		3E11B06BEF09E54519C21BAF /* CPTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPTableViewController.m; sourceTree = "<group>"; };
+		3E11B095543838B0EC4DFB3D /* UIApplication+ChopeApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+ChopeApplication.h"; sourceTree = "<group>"; };
+		3E11B15658B707AA65CE207D /* NSString+ChopeSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+ChopeSize.m"; sourceTree = "<group>"; };
+		3E11B1C6244749645811F62C /* CPTestLabelTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPTestLabelTableViewCell.m; sourceTree = "<group>"; };
+		3E11B2761DA898A67BFFC0AF /* UILabel+ChopeResize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+ChopeResize.h"; sourceTree = "<group>"; };
+		3E11B2B628196C23F4403209 /* UILabel+ChopeResize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+ChopeResize.m"; sourceTree = "<group>"; };
+		3E11B3A372831B88384FDE19 /* UIScrollView+ChopePage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+ChopePage.h"; sourceTree = "<group>"; };
+		3E11B3B2D1A2E0A87B56196A /* CPCoreTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPCoreTestViewController.h; sourceTree = "<group>"; };
+		3E11B3D71A0EBD1CD196C0E6 /* UIImage+ChopeImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ChopeImage.h"; sourceTree = "<group>"; };
+		3E11B3D7B8C435C1A791DFF4 /* NSObject+ChopeValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+ChopeValue.h"; sourceTree = "<group>"; };
+		3E11B4002478681D56A680E5 /* NSDictionary+ChopeValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+ChopeValue.h"; sourceTree = "<group>"; };
+		3E11B55146B8C15DDE523CBB /* NSObject+ChopeValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ChopeValue.m"; sourceTree = "<group>"; };
+		3E11B59258146CCD8D6E1329 /* UIView+ChopeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ChopeView.m"; sourceTree = "<group>"; };
+		3E11B59F97550219852B3193 /* UIView+ChopeAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ChopeAnimation.h"; sourceTree = "<group>"; };
+		3E11B8123F99EC16806ECC39 /* UIColor+ChopeColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+ChopeColor.h"; sourceTree = "<group>"; };
+		3E11B898BD0A923AF72ACBE8 /* CPTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTableViewController.h; sourceTree = "<group>"; };
+		3E11B8F4AE3FB1298E26C1C0 /* UIImage+ChopeImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ChopeImage.m"; sourceTree = "<group>"; };
+		3E11B925047E640363DFF944 /* NSDictionary+ChopeValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+ChopeValue.m"; sourceTree = "<group>"; };
+		3E11B9B9905D7CD102F94AD9 /* CPCoreTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPCoreTestViewController.m; sourceTree = "<group>"; };
+		3E11BA3A7CCB25371BB2ED89 /* UIViewController+Chope.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Chope.h"; sourceTree = "<group>"; };
+		3E11BAD9CF3BB645C6E7FA6A /* CPTestTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTestTableViewController.h; sourceTree = "<group>"; };
+		3E11BADAAAAA704187D41A9C /* UIViewController+Chope.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Chope.m"; sourceTree = "<group>"; };
+		3E11BB01BDE474173A9C6D90 /* CPAppearance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPAppearance.m; sourceTree = "<group>"; };
+		3E11BB86A0C19B72428F43A7 /* UIView+ChopeAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ChopeAnimation.m"; sourceTree = "<group>"; };
+		3E11BBA22F5218DA028BB8EE /* UIColor+ChopeColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ChopeColor.m"; sourceTree = "<group>"; };
+		3E11BBA396BCA4712282DA8D /* UIView+ChopeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ChopeView.h"; sourceTree = "<group>"; };
+		3E11BBD93A10852F5D06FF22 /* NSString+ChopeSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+ChopeSize.h"; sourceTree = "<group>"; };
+		3E11BD20E54640D20B8F4A45 /* CPAppearance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPAppearance.h; sourceTree = "<group>"; };
+		3E11BD393100F18E35379D42 /* NSString+Chope.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Chope.m"; sourceTree = "<group>"; };
+		3E11BD69C1DFA26D6F5E577D /* UIApplication+ChopeApplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+ChopeApplication.m"; sourceTree = "<group>"; };
+		3E11BDFE0D63D14FA96643D0 /* NSString+Chope.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Chope.h"; sourceTree = "<group>"; };
+		3E11BE04CE21343842A33ED2 /* CPTestLabelTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTestLabelTableViewCell.h; sourceTree = "<group>"; };
+		3E11BEDE436B31200917A006 /* CPViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPViewController.m; sourceTree = "<group>"; };
+		3E11BF27D08A87C86A0E4FE5 /* CPViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPViewController.h; sourceTree = "<group>"; };
+		3E11BF3FD7F27A40E0119BA2 /* UIScrollView+ChopePage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+ChopePage.m"; sourceTree = "<group>"; };
+		3E11BFC12D9DFA0792FA1574 /* CPTestTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPTestTableViewController.m; sourceTree = "<group>"; };
 		4B7866A3B3B444648A647880 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		AC10BFC91839139900324068 /* ChopeLibrary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChopeLibrary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC10BFCC1839139900324068 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -94,8 +132,8 @@
 		AC10BFD81839139A00324068 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AC10BFDA1839139A00324068 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AC10BFDC1839139A00324068 /* ChopeLibrary-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ChopeLibrary-Prefix.pch"; sourceTree = "<group>"; };
-		AC10BFDD1839139A00324068 /* ChopeAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChopeAppDelegate.h; sourceTree = "<group>"; };
-		AC10BFDE1839139A00324068 /* ChopeAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChopeAppDelegate.m; sourceTree = "<group>"; };
+		AC10BFDD1839139A00324068 /* CPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPAppDelegate.h; sourceTree = "<group>"; };
+		AC10BFDE1839139A00324068 /* CPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPAppDelegate.m; sourceTree = "<group>"; };
 		AC10BFE31839139A00324068 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		AC10BFE91839139A00324068 /* ChopeLibraryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChopeLibraryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC10BFEA1839139A00324068 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -105,50 +143,24 @@
 		AC10C01C1839140A00324068 /* ChopeDeviceUtilTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChopeDeviceUtilTests.m; sourceTree = "<group>"; };
 		AC10C0551839147200324068 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		AC10C0571839147700324068 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
-		AC10C0911839158200324068 /* ChopeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChopeViewController.h; sourceTree = "<group>"; };
-		AC10C0921839158200324068 /* ChopeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChopeViewController.m; sourceTree = "<group>"; };
-		AC10C0931839158200324068 /* ChopeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChopeModel.h; sourceTree = "<group>"; };
-		AC10C0941839158200324068 /* ChopeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChopeModel.m; sourceTree = "<group>"; };
-		AC10C0961839158200324068 /* ChopeNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChopeNetwork.h; sourceTree = "<group>"; };
-		AC10C0971839158200324068 /* ChopeNetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChopeNetwork.m; sourceTree = "<group>"; };
-		AC10C09D1839158200324068 /* ChopeDeviceUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChopeDeviceUtil.h; sourceTree = "<group>"; };
-		AC10C09E1839158200324068 /* ChopeDeviceUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChopeDeviceUtil.m; sourceTree = "<group>"; };
-		AC10C09F1839158200324068 /* ChopeStoryboardUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChopeStoryboardUtil.h; sourceTree = "<group>"; };
-		AC10C0A01839158200324068 /* ChopeStoryboardUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChopeStoryboardUtil.m; sourceTree = "<group>"; };
+		AC10C0961839158200324068 /* CPNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPNetwork.h; sourceTree = "<group>"; };
+		AC10C0971839158200324068 /* CPNetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPNetwork.m; sourceTree = "<group>"; };
+		AC10C09D1839158200324068 /* CPDeviceUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPDeviceUtil.h; sourceTree = "<group>"; };
+		AC10C09E1839158200324068 /* CPDeviceUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPDeviceUtil.m; sourceTree = "<group>"; };
+		AC10C09F1839158200324068 /* CPStoryboardUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPStoryboardUtil.h; sourceTree = "<group>"; };
+		AC10C0A01839158200324068 /* CPStoryboardUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPStoryboardUtil.m; sourceTree = "<group>"; };
 		AC96749A1865C3590018F900 /* WebP.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebP.framework; path = Framework/WebP.framework; sourceTree = "<group>"; };
-		ACB688011872005D0058A00F /* ChopeTest.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ChopeTest.storyboard; sourceTree = "<group>"; };
-		ACB68803187200810058A00F /* ChopeTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChopeTestViewController.h; sourceTree = "<group>"; };
-		ACB68804187200810058A00F /* ChopeTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChopeTestViewController.m; sourceTree = "<group>"; };
-		ACB7013C187823DD00493580 /* NSObject+ChopeValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+ChopeValue.h"; sourceTree = "<group>"; };
-		ACB7013D187823DD00493580 /* NSObject+ChopeValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ChopeValue.m"; sourceTree = "<group>"; };
+		ACB688011872005D0058A00F /* CPTest.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CPTest.storyboard; sourceTree = "<group>"; };
 		ACB701401878244000493580 /* NSObjectChopeValueTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSObjectChopeValueTest.m; sourceTree = "<group>"; };
 		ACB701421878262300493580 /* NSDictionaryChopeValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDictionaryChopeValue.m; sourceTree = "<group>"; };
-		ACB7014418782F0700493580 /* ChopeDateUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChopeDateUtil.h; sourceTree = "<group>"; };
-		ACB7014518782F0700493580 /* ChopeDateUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChopeDateUtil.m; sourceTree = "<group>"; };
+		ACB7014418782F0700493580 /* CPDateUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPDateUtil.h; sourceTree = "<group>"; };
+		ACB7014518782F0700493580 /* CPDateUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPDateUtil.m; sourceTree = "<group>"; };
 		ACB7014F1878352E00493580 /* ChopeDateUtilTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChopeDateUtilTest.m; sourceTree = "<group>"; };
 		ACEC197118631A7B0014E681 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		ACEC197318631AB80014E681 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		ACEC197918631D790014E681 /* NSDictionary+ChopeValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+ChopeValue.h"; sourceTree = "<group>"; };
-		ACEC197A18631D790014E681 /* NSDictionary+ChopeValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+ChopeValue.m"; sourceTree = "<group>"; };
-		ACEC197B18631D790014E681 /* NSString+Chope.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Chope.h"; sourceTree = "<group>"; };
-		ACEC197C18631D790014E681 /* NSString+Chope.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Chope.m"; sourceTree = "<group>"; };
-		ACEC197D18631D790014E681 /* NSString+ChopeSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+ChopeSize.h"; sourceTree = "<group>"; };
-		ACEC197E18631D790014E681 /* NSString+ChopeSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+ChopeSize.m"; sourceTree = "<group>"; };
-		ACEC197F18631D790014E681 /* UIView+ChopeAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ChopeAnimation.h"; sourceTree = "<group>"; };
-		ACEC198018631D790014E681 /* UIView+ChopeAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ChopeAnimation.m"; sourceTree = "<group>"; };
 		ACEC198818632ADE0014E681 /* ChopeLibrary.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ChopeLibrary.podspec; sourceTree = "<group>"; };
-		ACEC198C186331F00014E681 /* UIView+ChopeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ChopeView.h"; sourceTree = "<group>"; };
-		ACEC198D186331F00014E681 /* UIView+ChopeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ChopeView.m"; sourceTree = "<group>"; };
-		ACEC198F1863329E0014E681 /* UIScrollView+ChopePage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+ChopePage.h"; sourceTree = "<group>"; };
-		ACEC19901863329E0014E681 /* UIScrollView+ChopePage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+ChopePage.m"; sourceTree = "<group>"; };
-		ACEC1992186332F10014E681 /* UILabel+ChopeResize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+ChopeResize.h"; sourceTree = "<group>"; };
-		ACEC1993186332F10014E681 /* UILabel+ChopeResize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+ChopeResize.m"; sourceTree = "<group>"; };
-		ACEC1999186334BE0014E681 /* UIImage+ChopeImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ChopeImage.h"; sourceTree = "<group>"; };
-		ACEC199A186334BE0014E681 /* UIImage+ChopeImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ChopeImage.m"; sourceTree = "<group>"; };
-		ACEC199C18633C9C0014E681 /* ChopeLinearView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChopeLinearView.h; sourceTree = "<group>"; };
-		ACEC199D18633C9C0014E681 /* ChopeLinearView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChopeLinearView.m; sourceTree = "<group>"; };
-		ACEC199F18633DA90014E681 /* UIApplication+ChopeApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+ChopeApplication.h"; sourceTree = "<group>"; };
-		ACEC19A018633DA90014E681 /* UIApplication+ChopeApplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+ChopeApplication.m"; sourceTree = "<group>"; };
+		ACEC199C18633C9C0014E681 /* CPLinearView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPLinearView.h; sourceTree = "<group>"; };
+		ACEC199D18633C9C0014E681 /* CPLinearView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPLinearView.m; sourceTree = "<group>"; };
 		E0040420BDF14F82A25AD913 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -183,14 +195,67 @@
 		1DDB64D4191771D60023388F /* Thirdparty */ = {
 			isa = PBXGroup;
 			children = (
-				1DDB64D5191771D60023388F /* ChopeFacebook.h */,
-				1DDB64D6191771D60023388F /* ChopeFacebook.m */,
-				1DDB64D7191771D60023388F /* ChopeKakao.h */,
-				1DDB64D8191771D60023388F /* ChopeKakao.m */,
-				1DDB64D9191771D60023388F /* ChopeThirdpartyAccount.h */,
-				1DDB64DA191771D60023388F /* ChopeThirdpartyAccount.m */,
+				1DDB64D5191771D60023388F /* CPFacebook.h */,
+				1DDB64D6191771D60023388F /* CPFacebook.m */,
+				1DDB64D7191771D60023388F /* CPKakao.h */,
+				1DDB64D8191771D60023388F /* CPKakao.m */,
+				1DDB64D9191771D60023388F /* CPThirdpartyAccount.h */,
+				1DDB64DA191771D60023388F /* CPThirdpartyAccount.m */,
+				1D6C2522194449C900340305 /* CPParseAccount.m */,
+				1D6C2523194449C900340305 /* CPParseAccount.h */,
 			);
 			path = Thirdparty;
+			sourceTree = "<group>";
+		};
+		3E11B27101A1D899C4339CE4 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3E11B898BD0A923AF72ACBE8 /* CPTableViewController.h */,
+				3E11BEDE436B31200917A006 /* CPViewController.m */,
+				3E11B06BEF09E54519C21BAF /* CPTableViewController.m */,
+				3E11BF27D08A87C86A0E4FE5 /* CPViewController.h */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		3E11B477DE1882AC96B9D8E9 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				3E11B3D7B8C435C1A791DFF4 /* NSObject+ChopeValue.h */,
+				3E11B925047E640363DFF944 /* NSDictionary+ChopeValue.m */,
+				3E11B4002478681D56A680E5 /* NSDictionary+ChopeValue.h */,
+				3E11BDFE0D63D14FA96643D0 /* NSString+Chope.h */,
+				3E11BD393100F18E35379D42 /* NSString+Chope.m */,
+				3E11B55146B8C15DDE523CBB /* NSObject+ChopeValue.m */,
+				3E11BD69C1DFA26D6F5E577D /* UIApplication+ChopeApplication.m */,
+				3E11B15658B707AA65CE207D /* NSString+ChopeSize.m */,
+				3E11B095543838B0EC4DFB3D /* UIApplication+ChopeApplication.h */,
+				3E11BBD93A10852F5D06FF22 /* NSString+ChopeSize.h */,
+				3E11B2761DA898A67BFFC0AF /* UILabel+ChopeResize.h */,
+				3E11B59258146CCD8D6E1329 /* UIView+ChopeView.m */,
+				3E11BF3FD7F27A40E0119BA2 /* UIScrollView+ChopePage.m */,
+				3E11B2B628196C23F4403209 /* UILabel+ChopeResize.m */,
+				3E11B8123F99EC16806ECC39 /* UIColor+ChopeColor.h */,
+				3E11B3D71A0EBD1CD196C0E6 /* UIImage+ChopeImage.h */,
+				3E11B8F4AE3FB1298E26C1C0 /* UIImage+ChopeImage.m */,
+				3E11BADAAAAA704187D41A9C /* UIViewController+Chope.m */,
+				3E11BA3A7CCB25371BB2ED89 /* UIViewController+Chope.h */,
+				3E11B3A372831B88384FDE19 /* UIScrollView+ChopePage.h */,
+				3E11BBA396BCA4712282DA8D /* UIView+ChopeView.h */,
+				3E11B59F97550219852B3193 /* UIView+ChopeAnimation.h */,
+				3E11BBA22F5218DA028BB8EE /* UIColor+ChopeColor.m */,
+				3E11BB86A0C19B72428F43A7 /* UIView+ChopeAnimation.m */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		3E11BAB1A65ED527FCB8C719 /* Appearance */ = {
+			isa = PBXGroup;
+			children = (
+				3E11BB01BDE474173A9C6D90 /* CPAppearance.m */,
+				3E11BD20E54640D20B8F4A45 /* CPAppearance.h */,
+			);
+			path = Appearance;
 			sourceTree = "<group>";
 		};
 		AC10BFC01839139900324068 = {
@@ -237,13 +302,17 @@
 		AC10BFD41839139A00324068 /* ChopeLibrary */ = {
 			isa = PBXGroup;
 			children = (
-				AC10BFDD1839139A00324068 /* ChopeAppDelegate.h */,
-				AC10BFDE1839139A00324068 /* ChopeAppDelegate.m */,
+				AC10BFDD1839139A00324068 /* CPAppDelegate.h */,
+				AC10BFDE1839139A00324068 /* CPAppDelegate.m */,
 				AC10BFE31839139A00324068 /* Images.xcassets */,
-				ACB688011872005D0058A00F /* ChopeTest.storyboard */,
-				ACB68803187200810058A00F /* ChopeTestViewController.h */,
-				ACB68804187200810058A00F /* ChopeTestViewController.m */,
+				ACB688011872005D0058A00F /* CPTest.storyboard */,
 				AC10BFD51839139A00324068 /* Supporting Files */,
+				3E11BFC12D9DFA0792FA1574 /* CPTestTableViewController.m */,
+				3E11BAD9CF3BB645C6E7FA6A /* CPTestTableViewController.h */,
+				3E11B1C6244749645811F62C /* CPTestLabelTableViewCell.m */,
+				3E11BE04CE21343842A33ED2 /* CPTestLabelTableViewCell.h */,
+				3E11B9B9905D7CD102F94AD9 /* CPCoreTestViewController.m */,
+				3E11B3B2D1A2E0A87B56196A /* CPCoreTestViewController.h */,
 			);
 			path = ChopeLibrary;
 			sourceTree = "<group>";
@@ -285,11 +354,13 @@
 			children = (
 				1DDB64D4191771D60023388F /* Thirdparty */,
 				ACB687FD1871F6150058A00F /* Service */,
-				ACEC197818631D790014E681 /* Category */,
 				AC10C0901839158200324068 /* Controller */,
 				AC10C0951839158200324068 /* Network */,
 				AC10C0981839158200324068 /* Utils */,
 				ACEC1995186333B00014E681 /* View */,
+				3E11B477DE1882AC96B9D8E9 /* Core */,
+				3E11BAB1A65ED527FCB8C719 /* Appearance */,
+				3E11B27101A1D899C4339CE4 /* ViewController */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -297,14 +368,6 @@
 		AC10C0901839158200324068 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				AC10C0911839158200324068 /* ChopeViewController.h */,
-				AC10C0921839158200324068 /* ChopeViewController.m */,
-				1D55BC5818BCD51F00901D5D /* ChopeTableViewController.h */,
-				1D55BC5918BCD51F00901D5D /* ChopeTableViewController.m */,
-				AC10C0931839158200324068 /* ChopeModel.h */,
-				AC10C0941839158200324068 /* ChopeModel.m */,
-				1D55BC5D18BCD8FD00901D5D /* ChopeLibrary.h */,
-				1D55BC5E18BCD8FD00901D5D /* ChopeLibrary.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -312,8 +375,8 @@
 		AC10C0951839158200324068 /* Network */ = {
 			isa = PBXGroup;
 			children = (
-				AC10C0961839158200324068 /* ChopeNetwork.h */,
-				AC10C0971839158200324068 /* ChopeNetwork.m */,
+				AC10C0961839158200324068 /* CPNetwork.h */,
+				AC10C0971839158200324068 /* CPNetwork.m */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -321,12 +384,12 @@
 		AC10C0981839158200324068 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
-				AC10C09D1839158200324068 /* ChopeDeviceUtil.h */,
-				AC10C09E1839158200324068 /* ChopeDeviceUtil.m */,
-				AC10C09F1839158200324068 /* ChopeStoryboardUtil.h */,
-				AC10C0A01839158200324068 /* ChopeStoryboardUtil.m */,
-				ACB7014418782F0700493580 /* ChopeDateUtil.h */,
-				ACB7014518782F0700493580 /* ChopeDateUtil.m */,
+				AC10C09D1839158200324068 /* CPDeviceUtil.h */,
+				AC10C09E1839158200324068 /* CPDeviceUtil.m */,
+				AC10C09F1839158200324068 /* CPStoryboardUtil.h */,
+				AC10C0A01839158200324068 /* CPStoryboardUtil.m */,
+				ACB7014418782F0700493580 /* CPDateUtil.h */,
+				ACB7014518782F0700493580 /* CPDateUtil.m */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -355,42 +418,15 @@
 			path = Utils;
 			sourceTree = "<group>";
 		};
-		ACEC197818631D790014E681 /* Category */ = {
-			isa = PBXGroup;
-			children = (
-				ACEC197918631D790014E681 /* NSDictionary+ChopeValue.h */,
-				ACEC197A18631D790014E681 /* NSDictionary+ChopeValue.m */,
-				ACEC197B18631D790014E681 /* NSString+Chope.h */,
-				ACEC197C18631D790014E681 /* NSString+Chope.m */,
-				ACEC197D18631D790014E681 /* NSString+ChopeSize.h */,
-				ACEC197E18631D790014E681 /* NSString+ChopeSize.m */,
-				ACEC197F18631D790014E681 /* UIView+ChopeAnimation.h */,
-				ACEC198018631D790014E681 /* UIView+ChopeAnimation.m */,
-				ACEC198C186331F00014E681 /* UIView+ChopeView.h */,
-				ACEC198D186331F00014E681 /* UIView+ChopeView.m */,
-				ACEC198F1863329E0014E681 /* UIScrollView+ChopePage.h */,
-				ACEC19901863329E0014E681 /* UIScrollView+ChopePage.m */,
-				ACEC1992186332F10014E681 /* UILabel+ChopeResize.h */,
-				ACEC1993186332F10014E681 /* UILabel+ChopeResize.m */,
-				ACEC1999186334BE0014E681 /* UIImage+ChopeImage.h */,
-				ACEC199A186334BE0014E681 /* UIImage+ChopeImage.m */,
-				ACEC199F18633DA90014E681 /* UIApplication+ChopeApplication.h */,
-				ACEC19A018633DA90014E681 /* UIApplication+ChopeApplication.m */,
-				ACB7013C187823DD00493580 /* NSObject+ChopeValue.h */,
-				ACB7013D187823DD00493580 /* NSObject+ChopeValue.m */,
-				1D55BC5518BCCB7000901D5D /* UIViewController+Chope.h */,
-				1D55BC5618BCCB7000901D5D /* UIViewController+Chope.m */,
-			);
-			path = Category;
-			sourceTree = "<group>";
-		};
 		ACEC1995186333B00014E681 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				ACEC199C18633C9C0014E681 /* ChopeLinearView.h */,
-				ACEC199D18633C9C0014E681 /* ChopeLinearView.m */,
-				1DA166FA191A9AC200AF4466 /* ChopeLoadingView.h */,
-				1DA166FB191A9AC200AF4466 /* ChopeLoadingView.m */,
+				ACEC199C18633C9C0014E681 /* CPLinearView.h */,
+				ACEC199D18633C9C0014E681 /* CPLinearView.m */,
+				1DA166FA191A9AC200AF4466 /* CPLoadingView.h */,
+				1DA166FB191A9AC200AF4466 /* CPLoadingView.m */,
+				1DFD68121940BD670005A09A /* CPTableViewCell.h */,
+				1DFD68131940BD670005A09A /* CPTableViewCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -441,7 +477,7 @@
 		AC10BFC11839139900324068 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				CLASSPREFIX = Chope;
+				CLASSPREFIX = CP;
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = Chope;
 				TargetAttributes = {
@@ -478,7 +514,7 @@
 			files = (
 				ACEC198918632ADE0014E681 /* ChopeLibrary.podspec in Resources */,
 				ACEC197218631A7B0014E681 /* README.md in Resources */,
-				ACB688021872005D0058A00F /* ChopeTest.storyboard in Resources */,
+				ACB688021872005D0058A00F /* CPTest.storyboard in Resources */,
 				AC10BFD91839139A00324068 /* InfoPlist.strings in Resources */,
 				ACEC197418631AB80014E681 /* Podfile in Resources */,
 				AC10BFE41839139A00324068 /* Images.xcassets in Resources */,
@@ -533,33 +569,37 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACEC198318631D790014E681 /* NSString+ChopeSize.m in Sources */,
-				ACEC198E186331F00014E681 /* UIView+ChopeView.m in Sources */,
-				ACEC19911863329E0014E681 /* UIScrollView+ChopePage.m in Sources */,
-				ACEC199B186334BE0014E681 /* UIImage+ChopeImage.m in Sources */,
-				ACEC199E18633C9C0014E681 /* ChopeLinearView.m in Sources */,
-				ACEC198218631D790014E681 /* NSString+Chope.m in Sources */,
-				1D55BC5F18BCD8FD00901D5D /* ChopeLibrary.m in Sources */,
-				AC10C0A51839158200324068 /* ChopeModel.m in Sources */,
-				1DDB64DB191771D60023388F /* ChopeFacebook.m in Sources */,
-				1DDB64DC191771D60023388F /* ChopeKakao.m in Sources */,
-				AC10BFDF1839139A00324068 /* ChopeAppDelegate.m in Sources */,
-				1D55BC5718BCCB7000901D5D /* UIViewController+Chope.m in Sources */,
-				ACB7014618782F0700493580 /* ChopeDateUtil.m in Sources */,
-				AC10C0A61839158200324068 /* ChopeNetwork.m in Sources */,
-				ACB68805187200810058A00F /* ChopeTestViewController.m in Sources */,
-				1DDB64DD191771D60023388F /* ChopeThirdpartyAccount.m in Sources */,
-				AC10C0A41839158200324068 /* ChopeViewController.m in Sources */,
-				ACEC198118631D790014E681 /* NSDictionary+ChopeValue.m in Sources */,
-				1DA166FC191A9AC200AF4466 /* ChopeLoadingView.m in Sources */,
-				ACEC19A118633DA90014E681 /* UIApplication+ChopeApplication.m in Sources */,
-				AC10C0A91839158200324068 /* ChopeDeviceUtil.m in Sources */,
-				ACEC198418631D790014E681 /* UIView+ChopeAnimation.m in Sources */,
-				1D55BC5A18BCD51F00901D5D /* ChopeTableViewController.m in Sources */,
-				ACEC1994186332F10014E681 /* UILabel+ChopeResize.m in Sources */,
+				1DFD68141940BD670005A09A /* CPTableViewCell.m in Sources */,
+				ACEC199E18633C9C0014E681 /* CPLinearView.m in Sources */,
+				1DDB64DB191771D60023388F /* CPFacebook.m in Sources */,
+				1DDB64DC191771D60023388F /* CPKakao.m in Sources */,
+				AC10BFDF1839139A00324068 /* CPAppDelegate.m in Sources */,
+				ACB7014618782F0700493580 /* CPDateUtil.m in Sources */,
+				AC10C0A61839158200324068 /* CPNetwork.m in Sources */,
+				1D6C2524194449C900340305 /* CPParseAccount.m in Sources */,
+				1DDB64DD191771D60023388F /* CPThirdpartyAccount.m in Sources */,
+				1DA166FC191A9AC200AF4466 /* CPLoadingView.m in Sources */,
+				AC10C0A91839158200324068 /* CPDeviceUtil.m in Sources */,
 				AC10BFDB1839139A00324068 /* main.m in Sources */,
-				AC10C0AA1839158200324068 /* ChopeStoryboardUtil.m in Sources */,
-				ACB7013E187823DD00493580 /* NSObject+ChopeValue.m in Sources */,
+				AC10C0AA1839158200324068 /* CPStoryboardUtil.m in Sources */,
+				3E11BD447061671EE0096D95 /* CPTestTableViewController.m in Sources */,
+				3E11B5EC4E9C39C6EA83ED31 /* CPTestLabelTableViewCell.m in Sources */,
+				3E11BDFDA3414B8E98BACFAE /* NSDictionary+ChopeValue.m in Sources */,
+				3E11BF4C0FEC48DB664153DB /* NSString+Chope.m in Sources */,
+				3E11B72B130BA845706DD2FE /* NSObject+ChopeValue.m in Sources */,
+				3E11B392CC9C57E499A021E5 /* UIApplication+ChopeApplication.m in Sources */,
+				3E11B896BBE9B6A7502D679E /* NSString+ChopeSize.m in Sources */,
+				3E11B9D56A84DC9103D2EB79 /* UIView+ChopeView.m in Sources */,
+				3E11BAF8CBE23D0AFA8DFB2E /* UIScrollView+ChopePage.m in Sources */,
+				3E11B5948B4218462741F457 /* UILabel+ChopeResize.m in Sources */,
+				3E11B6AA6DBC9C63ACDFA7FC /* UIImage+ChopeImage.m in Sources */,
+				3E11B4C41CE8A7920E79A6B9 /* UIViewController+Chope.m in Sources */,
+				3E11BCDF175E7BF0B742798D /* UIColor+ChopeColor.m in Sources */,
+				3E11BC44C9BF0008B8CA8866 /* UIView+ChopeAnimation.m in Sources */,
+				3E11B848D055E6D5CFE97547 /* CPAppearance.m in Sources */,
+				3E11BBB7669C3A2E793687F3 /* CPCoreTestViewController.m in Sources */,
+				3E11BE56EC64B040983C830B /* CPViewController.m in Sources */,
+				3E11B1C87252AB8FD6054BEE /* CPTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

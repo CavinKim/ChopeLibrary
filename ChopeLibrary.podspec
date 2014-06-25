@@ -17,7 +17,10 @@ Pod::Spec.new do |s|
   s.dependency 'AFNetworking', '~> 2.2'
   s.dependency 'StackBluriOS', '~> 0.0.1'
   s.dependency 'SDWebImage', '~> 3.6'
-  s.dependency 'ChopeToastView', '~> 0.1'
+
   s.dependency 'Facebook-iOS-SDK', '~> 3.10'
+
+  s.dependency 'ChopeToastView', '~> 0.1'
+  s.dependency 'ChopeTableController', '~> 0.1'
 
 end

@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.source_files = 'Classes/**/*.{h,m}'
   s.requires_arc = true
 
-  s.vendored_frameworks = 'Framework/KakaoOpenSDK.framework'
+  s.vendored_frameworks = 'Framework/*.framework'
 
   s.dependency 'AFNetworking', '~> 2.2'
   s.dependency 'StackBluriOS', '~> 0.0.1'

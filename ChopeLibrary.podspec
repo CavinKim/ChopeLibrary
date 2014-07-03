@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
 
   s.source      = { :git => 'git@github.com:chope-yoonhg84/ChopeLibrary.git'}
   s.source_files = 'Classes/**/*.{h,m}'
-  s.framework   = 'AudioToolbox', 'CFNetwork', 'CoreGraphics', 'CoreLocation', 'libz.dylib', 'MobileCoreServices', 'QuartzCore', 'Security', 'StoreKit', 'SystemConfiguration'
+  s.framework   = 'AudioToolbox', 'CFNetwork', 'CoreGraphics', 'CoreLocation', 'libz.dylib', 'MobileCoreServices', 'QuartzCore', 'Security', 'StoreKit', 'SystemConfiguration', 'libz.dylib'
   s.requires_arc = true
 
   s.vendored_frameworks = 'Framework/*.framework'

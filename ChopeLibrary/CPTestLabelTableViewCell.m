@@ -33,20 +33,24 @@
     }
 }
 
-- (void)selectedWithData:(id)data indexPath:(NSIndexPath *)indexPath {
+- (void)selectWithData:(id)data indexPath:(NSIndexPath *)indexPath {
     [self setBackgroundColor:[UIColor wisteriaFlatColor]];
+    NSLog(@"select cell : %d",indexPath.row);
 }
 
-- (void)deselectedWithData:(id)data indexPath:(NSIndexPath *)indexPath {
+- (void)deselectWithData:(id)data indexPath:(NSIndexPath *)indexPath {
     [self setNormalBackgroundColor:indexPath];
+    NSLog(@"deselected cell : %d",indexPath.row);
 }
 
-- (void)highlightedWithData:(id)data indexPath:(NSIndexPath *)indexPath {
+- (void)highlightWithData:(id)data indexPath:(NSIndexPath *)indexPath {
     [self setBackgroundColor:[UIColor belizeHoleFlatColor]];
+    NSLog(@"highlight cell : %d",indexPath.row);
 }
 
-- (void)unhighlightedWithData:(id)data indexPath:(NSIndexPath *)indexPath {
+- (void)unhighlightWithData:(id)data indexPath:(NSIndexPath *)indexPath {
     [self setNormalBackgroundColor:indexPath];
+    NSLog(@"unhighlight cell : %d",indexPath.row);
 }
 
 

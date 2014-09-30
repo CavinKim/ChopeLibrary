@@ -18,18 +18,15 @@
     [super viewDidLoad];
 
     self.tableController = [[ChopeTableController alloc] init];
-    ChopeTableInfo *chopeTableInfo = [self.tableController addTableInfo:self.tableView paging:NO];
 
-    Class cellClass = [CPTestLabelTableViewCell class];
+    ChopeTableInfo *chopeTableInfo = [self.tableController addTableView:self.tableView paging:NO];
+    [chopeTableInfo addCellClass:[CPTestLabelTableViewCell class] cellIdentifier:CELL_IDENTIFIER_LABEL];
 
-    [chopeTableInfo addCellClass:cellClass identifier:CELL_IDENTIFIER_LABEL data:@"Core"];
-    [chopeTableInfo addCellClass:cellClass identifier:CELL_IDENTIFIER_LABEL data:@"Appearance"];
-    [chopeTableInfo addCellClass:cellClass identifier:CELL_IDENTIFIER_LABEL data:@"섹션 테스트"];
-    [chopeTableInfo addCellClass:cellClass identifier:CELL_IDENTIFIER_LABEL data:@"로딩 테스트"];
-    [chopeTableInfo addCellClass:cellClass identifier:CELL_IDENTIFIER_LABEL data:@"섹션 테스트"];
-    [chopeTableInfo addCellClass:cellClass identifier:CELL_IDENTIFIER_LABEL data:@"로딩 테스트"];
+    [chopeTableInfo addData:@"Core" cellIdentifier:CELL_IDENTIFIER_LABEL];
+    [chopeTableInfo addData:@"Appearance" cellIdentifier:CELL_IDENTIFIER_LABEL];
+    [chopeTableInfo addData:@"Custom View" cellIdentifier:CELL_IDENTIFIER_LABEL];
 
-    [chopeTableInfo setDidSelectRow:^(ChopeTableInfo *tableViewInfo, NSIndexPath *indexPath) {
+    [chopeTableInfo setDidSelectRowBlock:^(ChopeTableInfo *cpTableInfo, NSIndexPath *indexPath) {
         if (indexPath.row == 0) {
             [self performSegueWithIdentifier:@"CoreIdentifier" sender:nil];
         }

@@ -15,6 +15,8 @@
 		1DDB64DF191772530023388F /* KakaoOpenSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DDB64DE191772530023388F /* KakaoOpenSDK.framework */; };
 		1DFD68141940BD670005A09A /* CPTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DFD68131940BD670005A09A /* CPTableViewCell.m */; };
 		3E11B1C87252AB8FD6054BEE /* CPTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E11B06BEF09E54519C21BAF /* CPTableViewController.m */; };
+		3E11B207EC06022598B0109F /* CPTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E11B27ABECFDDAB4C4C15C5 /* CPTextView.m */; };
+		3E11B2435D844AAE2BD761DD /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E11B9281AEBEEF34C3927A4 /* Parse.framework */; };
 		3E11B392CC9C57E499A021E5 /* UIApplication+ChopeApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E11BD69C1DFA26D6F5E577D /* UIApplication+ChopeApplication.m */; };
 		3E11B4C41CE8A7920E79A6B9 /* UIViewController+Chope.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E11BADAAAAA704187D41A9C /* UIViewController+Chope.m */; };
 		3E11B5948B4218462741F457 /* UILabel+ChopeResize.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E11B2B628196C23F4403209 /* UILabel+ChopeResize.m */; };
@@ -22,8 +24,12 @@
 		3E11B6AA6DBC9C63ACDFA7FC /* UIImage+ChopeImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E11B8F4AE3FB1298E26C1C0 /* UIImage+ChopeImage.m */; };
 		3E11B72B130BA845706DD2FE /* NSObject+ChopeValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E11B55146B8C15DDE523CBB /* NSObject+ChopeValue.m */; };
 		3E11B848D055E6D5CFE97547 /* CPAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E11BB01BDE474173A9C6D90 /* CPAppearance.m */; };
+		3E11B87A9746EBCF55C3004C /* CPLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E11BE61B60E227168485FFE /* CPLabel.m */; };
 		3E11B896BBE9B6A7502D679E /* NSString+ChopeSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E11B15658B707AA65CE207D /* NSString+ChopeSize.m */; };
+		3E11B948475FD2770EB5FCC8 /* CPTextFieldDelegator.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E11BCA239479E1AC5EFA310 /* CPTextFieldDelegator.m */; };
+		3E11B9966ED9A1017FFD59BA /* CPTextViewDelegator.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E11BA6DFD5BC956BEDE8F2D /* CPTextViewDelegator.m */; };
 		3E11B9D56A84DC9103D2EB79 /* UIView+ChopeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E11B59258146CCD8D6E1329 /* UIView+ChopeView.m */; };
+		3E11BABF6F1838384704E957 /* CPTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E11B0912EDA3588609E3E41 /* CPTextField.m */; };
 		3E11BAF8CBE23D0AFA8DFB2E /* UIScrollView+ChopePage.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E11BF3FD7F27A40E0119BA2 /* UIScrollView+ChopePage.m */; };
 		3E11BBB7669C3A2E793687F3 /* CPCoreTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E11B9B9905D7CD102F94AD9 /* CPCoreTestViewController.m */; };
 		3E11BC44C9BF0008B8CA8866 /* UIView+ChopeAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E11BB86A0C19B72428F43A7 /* UIView+ChopeAnimation.m */; };
@@ -87,10 +93,14 @@
 		1DFD68121940BD670005A09A /* CPTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTableViewCell.h; sourceTree = "<group>"; };
 		1DFD68131940BD670005A09A /* CPTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPTableViewCell.m; sourceTree = "<group>"; };
 		3E11B06BEF09E54519C21BAF /* CPTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPTableViewController.m; sourceTree = "<group>"; };
+		3E11B0912EDA3588609E3E41 /* CPTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPTextField.m; sourceTree = "<group>"; };
 		3E11B095543838B0EC4DFB3D /* UIApplication+ChopeApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+ChopeApplication.h"; sourceTree = "<group>"; };
+		3E11B0F5B90B1D05C6DBE2F6 /* CPTextFieldDelegator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTextFieldDelegator.h; sourceTree = "<group>"; };
+		3E11B1330B110250A14BF15F /* CPTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTextField.h; sourceTree = "<group>"; };
 		3E11B15658B707AA65CE207D /* NSString+ChopeSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+ChopeSize.m"; sourceTree = "<group>"; };
 		3E11B1C6244749645811F62C /* CPTestLabelTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPTestLabelTableViewCell.m; sourceTree = "<group>"; };
 		3E11B2761DA898A67BFFC0AF /* UILabel+ChopeResize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+ChopeResize.h"; sourceTree = "<group>"; };
+		3E11B27ABECFDDAB4C4C15C5 /* CPTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPTextView.m; sourceTree = "<group>"; };
 		3E11B2B628196C23F4403209 /* UILabel+ChopeResize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+ChopeResize.m"; sourceTree = "<group>"; };
 		3E11B3A372831B88384FDE19 /* UIScrollView+ChopePage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+ChopePage.h"; sourceTree = "<group>"; };
 		3E11B3B2D1A2E0A87B56196A /* CPCoreTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPCoreTestViewController.h; sourceTree = "<group>"; };
@@ -104,8 +114,10 @@
 		3E11B898BD0A923AF72ACBE8 /* CPTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTableViewController.h; sourceTree = "<group>"; };
 		3E11B8F4AE3FB1298E26C1C0 /* UIImage+ChopeImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ChopeImage.m"; sourceTree = "<group>"; };
 		3E11B925047E640363DFF944 /* NSDictionary+ChopeValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+ChopeValue.m"; sourceTree = "<group>"; };
+		3E11B9281AEBEEF34C3927A4 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = /Users/Chope/Documents/Projects/Xcode/ChopeLibrary/Framework/Parse.framework; sourceTree = "<absolute>"; };
 		3E11B9B9905D7CD102F94AD9 /* CPCoreTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPCoreTestViewController.m; sourceTree = "<group>"; };
 		3E11BA3A7CCB25371BB2ED89 /* UIViewController+Chope.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Chope.h"; sourceTree = "<group>"; };
+		3E11BA6DFD5BC956BEDE8F2D /* CPTextViewDelegator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPTextViewDelegator.m; sourceTree = "<group>"; };
 		3E11BAD9CF3BB645C6E7FA6A /* CPTestTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTestTableViewController.h; sourceTree = "<group>"; };
 		3E11BADAAAAA704187D41A9C /* UIViewController+Chope.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Chope.m"; sourceTree = "<group>"; };
 		3E11BB01BDE474173A9C6D90 /* CPAppearance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPAppearance.m; sourceTree = "<group>"; };
@@ -113,14 +125,19 @@
 		3E11BBA22F5218DA028BB8EE /* UIColor+ChopeColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ChopeColor.m"; sourceTree = "<group>"; };
 		3E11BBA396BCA4712282DA8D /* UIView+ChopeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ChopeView.h"; sourceTree = "<group>"; };
 		3E11BBD93A10852F5D06FF22 /* NSString+ChopeSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+ChopeSize.h"; sourceTree = "<group>"; };
+		3E11BC43375650F489615EE9 /* CPLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPLabel.h; sourceTree = "<group>"; };
+		3E11BCA239479E1AC5EFA310 /* CPTextFieldDelegator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPTextFieldDelegator.m; sourceTree = "<group>"; };
 		3E11BD20E54640D20B8F4A45 /* CPAppearance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPAppearance.h; sourceTree = "<group>"; };
 		3E11BD393100F18E35379D42 /* NSString+Chope.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Chope.m"; sourceTree = "<group>"; };
 		3E11BD69C1DFA26D6F5E577D /* UIApplication+ChopeApplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+ChopeApplication.m"; sourceTree = "<group>"; };
 		3E11BDFE0D63D14FA96643D0 /* NSString+Chope.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Chope.h"; sourceTree = "<group>"; };
 		3E11BE04CE21343842A33ED2 /* CPTestLabelTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTestLabelTableViewCell.h; sourceTree = "<group>"; };
+		3E11BE61B60E227168485FFE /* CPLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPLabel.m; sourceTree = "<group>"; };
 		3E11BEDE436B31200917A006 /* CPViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPViewController.m; sourceTree = "<group>"; };
 		3E11BF27D08A87C86A0E4FE5 /* CPViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPViewController.h; sourceTree = "<group>"; };
 		3E11BF3FD7F27A40E0119BA2 /* UIScrollView+ChopePage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+ChopePage.m"; sourceTree = "<group>"; };
+		3E11BF41D2C4B82BB4C40192 /* CPTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTextView.h; sourceTree = "<group>"; };
+		3E11BF865E03EC809DBCF22C /* CPTextViewDelegator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTextViewDelegator.h; sourceTree = "<group>"; };
 		3E11BFC12D9DFA0792FA1574 /* CPTestTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPTestTableViewController.m; sourceTree = "<group>"; };
 		4B7866A3B3B444648A647880 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		AC10BFC91839139900324068 /* ChopeLibrary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChopeLibrary.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -175,6 +192,7 @@
 				AC10BFD11839139900324068 /* UIKit.framework in Frameworks */,
 				AC10BFCD1839139900324068 /* Foundation.framework in Frameworks */,
 				4D57EF390F63447C85EFF1B7 /* libPods.a in Frameworks */,
+				3E11B2435D844AAE2BD761DD /* Parse.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +267,17 @@
 			path = Core;
 			sourceTree = "<group>";
 		};
+		3E11B967C88E209512FEC4B8 /* TextField */ = {
+			isa = PBXGroup;
+			children = (
+				3E11B1330B110250A14BF15F /* CPTextField.h */,
+				3E11B0912EDA3588609E3E41 /* CPTextField.m */,
+				3E11B0F5B90B1D05C6DBE2F6 /* CPTextFieldDelegator.h */,
+				3E11BCA239479E1AC5EFA310 /* CPTextFieldDelegator.m */,
+			);
+			path = TextField;
+			sourceTree = "<group>";
+		};
 		3E11BAB1A65ED527FCB8C719 /* Appearance */ = {
 			isa = PBXGroup;
 			children = (
@@ -256,6 +285,17 @@
 				3E11BD20E54640D20B8F4A45 /* CPAppearance.h */,
 			);
 			path = Appearance;
+			sourceTree = "<group>";
+		};
+		3E11BB76A8C7771868C8061B /* TextView */ = {
+			isa = PBXGroup;
+			children = (
+				3E11BF41D2C4B82BB4C40192 /* CPTextView.h */,
+				3E11B27ABECFDDAB4C4C15C5 /* CPTextView.m */,
+				3E11BF865E03EC809DBCF22C /* CPTextViewDelegator.h */,
+				3E11BA6DFD5BC956BEDE8F2D /* CPTextViewDelegator.m */,
+			);
+			path = TextView;
 			sourceTree = "<group>";
 		};
 		AC10BFC01839139900324068 = {
@@ -295,6 +335,7 @@
 				AC10BFD21839139900324068 /* CoreData.framework */,
 				AC10BFEA1839139A00324068 /* XCTest.framework */,
 				E0040420BDF14F82A25AD913 /* libPods.a */,
+				3E11B9281AEBEEF34C3927A4 /* Parse.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -427,6 +468,10 @@
 				1DA166FB191A9AC200AF4466 /* CPLoadingView.m */,
 				1DFD68121940BD670005A09A /* CPTableViewCell.h */,
 				1DFD68131940BD670005A09A /* CPTableViewCell.m */,
+				3E11B967C88E209512FEC4B8 /* TextField */,
+				3E11BB76A8C7771868C8061B /* TextView */,
+				3E11BC43375650F489615EE9 /* CPLabel.h */,
+				3E11BE61B60E227168485FFE /* CPLabel.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -600,6 +645,11 @@
 				3E11BBB7669C3A2E793687F3 /* CPCoreTestViewController.m in Sources */,
 				3E11BE56EC64B040983C830B /* CPViewController.m in Sources */,
 				3E11B1C87252AB8FD6054BEE /* CPTableViewController.m in Sources */,
+				3E11BABF6F1838384704E957 /* CPTextField.m in Sources */,
+				3E11B948475FD2770EB5FCC8 /* CPTextFieldDelegator.m in Sources */,
+				3E11B207EC06022598B0109F /* CPTextView.m in Sources */,
+				3E11B9966ED9A1017FFD59BA /* CPTextViewDelegator.m in Sources */,
+				3E11B87A9746EBCF55C3004C /* CPLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -728,11 +778,13 @@
 					"$(inherited)",
 					"$(SRCROOT)/Framework",
 					"$(PROJECT_DIR)/Framework",
+					"\"${PROJECT_DIR}/Framework\"/**",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ChopeLibrary/ChopeLibrary-Prefix.pch";
 				INFOPLIST_FILE = "ChopeLibrary/ChopeLibrary-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				VALID_ARCHS = "arm64 armv7 armv7s";
@@ -752,6 +804,7 @@
 					"$(inherited)",
 					"$(SRCROOT)/Framework",
 					"$(PROJECT_DIR)/Framework",
+					"\"${PROJECT_DIR}/Framework\"/**",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ChopeLibrary/ChopeLibrary-Prefix.pch";

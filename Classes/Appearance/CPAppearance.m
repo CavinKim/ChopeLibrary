@@ -85,6 +85,15 @@
 }
 
 
+#pragma mark - Navigation
++ (void)setNavigationBackgroundColor:(UIColor *)backgroundColor
+                           textColor:(UIColor *)textColor {
+    [[UINavigationBar appearance] setBarTintColor:backgroundColor];
+    [[UINavigationBar appearance] setTranslucent:NO];
+    [[UINavigationBar appearance] setTitleTextAttributes:@{NSForegroundColorAttributeName: textColor}];
+}
+
+
 #pragma mark - Private util method
 + (UIImage *)colorImage:(UIColor *)color {
     return color ? [UIImage imageWithColor:color size:CGSizeMake(1.0, 1.0)] : nil;

@@ -39,4 +39,8 @@
                   disabled:(UIImage *)disabledImage;
 
 
+#pragma mark - Navigation
++ (void)setNavigationBackgroundColor:(UIColor *)backgroundColor
+                           textColor:(UIColor *)textColor;
+
 @end

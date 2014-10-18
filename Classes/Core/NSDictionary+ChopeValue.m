@@ -9,7 +9,6 @@
 #import "NSDictionary+ChopeValue.h"
 #import "NSObject+ChopeValue.h"
 #import "CPDateUtil.h"
-#import "NSString+Chope.h"
 
 @implementation NSDictionary (ChopeValue)
 
@@ -18,7 +17,7 @@
 }
 
 - (NSInteger)integerForKey:(NSString*)key {
-    id value = [self objectForKey:key];
+    id value = self[key];
     
     if ([self isNull:value]) {
         return 0;
@@ -28,7 +27,7 @@
 }
 
 - (NSUInteger)unsignedIntegerForKey:(NSString*)key {
-    id value = [self objectForKey:key];
+    id value = self[key];
 
     if ([self isNull:value]) {
         return 0;
@@ -37,8 +36,18 @@
     return [value unsignedIntegerValue];
 }
 
+- (long long int)longLongForKey:(NSString *)key {
+    id value = self[key];
+
+    if ([self isNull:value]) {
+        return 0;
+    }
+
+    return [value longLongValue];
+}
+
 - (double)doubleForKey:(NSString*)key {
-    id value = [self objectForKey:key];
+    id value = self[key];
     
     if ([self isNull:value]) {
         return 0.0;
@@ -48,7 +57,7 @@
 }
 
 - (float)floatForKey:(NSString*)key {
-    id value = [self objectForKey:key];
+    id value = self[key];
     
     if ([self isNull:value]) {
         return 0.0;
@@ -58,7 +67,7 @@
 }
 
 - (BOOL)boolForKey:(NSString*)key {
-    id value = [self objectForKey:key];
+    id value = self[key];
 
     if ([self isNull:value]) {
         return false;
@@ -68,7 +77,7 @@
 }
 
 - (NSString*)stringForKey:(NSString*)key {
-    id value = [self objectForKey:key];
+    id value = self[key];
 
     if ([self isNull:value]) {
         return nil;
@@ -83,7 +92,7 @@
 }
 
 - (NSDate*)dateForKey:(NSString*)key {
-    id value = [self objectForKey:key];
+    id value = self[key];
     
     if ([self isNull:value] || ![value isKindOfClass:[NSString class]]) {
         return nil;

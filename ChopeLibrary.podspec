@@ -22,7 +22,4 @@ Pod::Spec.new do |s|
 
   s.dependency 'Facebook-iOS-SDK', '~> 3.10'
 
-  s.dependency 'ChopeToastView', '~> 0.1'
-  s.dependency 'ChopeTableController', '~> 0.1'
-
 end

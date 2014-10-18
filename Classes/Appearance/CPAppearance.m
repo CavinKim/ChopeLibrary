@@ -86,11 +86,26 @@
 
 
 #pragma mark - Navigation
-+ (void)setNavigationBackgroundColor:(UIColor *)backgroundColor
-                           textColor:(UIColor *)textColor {
++ (void)setNavigationBackgroundColor:(UIColor *)backgroundColor textColor:(UIColor *)textColor {
     [[UINavigationBar appearance] setBarTintColor:backgroundColor];
+    [[UINavigationBar appearance] setTintColor:textColor];
     [[UINavigationBar appearance] setTranslucent:NO];
-    [[UINavigationBar appearance] setTitleTextAttributes:@{NSForegroundColorAttributeName: textColor}];
+
+    [CPAppearance addNavigationTitleAttributes:@{NSForegroundColorAttributeName: textColor}];
+}
+
++ (void)setFlatNavigationBackgroundColor:(UIColor *)backgroundColor
+                               textColor:(UIColor *)textColor {
+    [CPAppearance setNavigationBackgroundColor:backgroundColor textColor:textColor];
+    [[UINavigationBar appearance] setShadowImage:[[UIImage alloc] init]];
+    [[UINavigationBar appearance] setBackgroundImage:[[UIImage alloc] init] forBarMetrics:UIBarMetricsDefault];
+}
+
++ (void)addNavigationTitleAttributes:(NSDictionary *)attributes {
+    NSMutableDictionary *mutableAttributes = [NSMutableDictionary dictionaryWithDictionary:[UINavigationBar appearance].titleTextAttributes];
+    [mutableAttributes addEntriesFromDictionary:attributes];
+
+    [UINavigationBar appearance].titleTextAttributes = mutableAttributes;
 }
 
 

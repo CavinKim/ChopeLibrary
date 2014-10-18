@@ -7,7 +7,6 @@
 #import "ChopeTableController.h"
 #import "CPTestLabelTableViewCell.h"
 #import "ChopeTableInfo.h"
-#import "CPParseAccount.h"
 
 #define CELL_IDENTIFIER_LABEL @"labelCell"
 
@@ -34,11 +33,7 @@
 }
 
 - (IBAction)signin:(id)sender {
-    [CPParseAccount login:ChopeThirdpartyLoginTypeKakao success:^(ChopeThirdpartyLoginType loginType) {
-        NSLog(@"success");
-    }             failure:^(NSError *error) {
-        NSLog(@"Error : %@", error);
-    }];
+
 }
 
 

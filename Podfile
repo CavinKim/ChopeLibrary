@@ -14,5 +14,3 @@ pod 'Facebook-iOS-SDK', '~> 3.18'
 
 # ETC
 pod 'StackBluriOS', '~> 0.0.1'
-
-pod 'iOS-WebP', '~> 0.3'

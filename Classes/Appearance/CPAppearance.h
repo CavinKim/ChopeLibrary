@@ -42,5 +42,8 @@
 #pragma mark - Navigation
 + (void)setNavigationBackgroundColor:(UIColor *)backgroundColor
                            textColor:(UIColor *)textColor;
++ (void)setFlatNavigationBackgroundColor:(UIColor *)backgroundColor
+                               textColor:(UIColor *)textColor;
++ (void)addNavigationTitleAttributes:(NSDictionary *)attributes;
 
 @end

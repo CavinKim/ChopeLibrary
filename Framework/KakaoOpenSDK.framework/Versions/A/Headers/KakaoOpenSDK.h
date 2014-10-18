@@ -32,4 +32,4 @@
 #import "KakaoTalkLinkObject.h"
 #import "KakaoTalkLinkAction.h"
 
-#define KAKAO_SDK_IOS_VERSION_STRING @"1.0.18"
+#define KAKAO_SDK_IOS_VERSION_STRING @"1.0.20"

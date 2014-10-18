@@ -20,12 +20,11 @@ PODS:
   - AFNetworking/UIKit (2.4.1):
     - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
-  - Bolts (1.1.2)
+  - Bolts (1.1.3)
   - ChopeTableController (0.4.1)
   - ChopeToastView (0.4.0)
-  - Facebook-iOS-SDK (3.18.2):
+  - Facebook-iOS-SDK (3.19.0):
     - Bolts (~> 1.0)
-  - iOS-WebP (0.3)
   - SDWebImage (3.7.1):
     - SDWebImage/Core
   - SDWebImage/Core (3.7.1)
@@ -36,18 +35,16 @@ DEPENDENCIES:
   - ChopeTableController (~> 0.4)
   - ChopeToastView (~> 0.4)
   - Facebook-iOS-SDK (~> 3.18)
-  - iOS-WebP (~> 0.3)
   - SDWebImage (~> 3.7)
   - StackBluriOS (~> 0.0.1)
 
 SPEC CHECKSUMS:
   AFNetworking: 0aabc6fae66d6e5d039eeb21c315843c7aae51ab
-  Bolts: 2635e8698a630774689441047f3465d78c48d485
+  Bolts: 3db0a875235e0c9042b013af13af0f00f79b102c
   ChopeTableController: c622eaafdcd0eb870284490eac5420f7889f390e
   ChopeToastView: bc0a157fef05ed47e973b869d68767b939cdd3fe
-  Facebook-iOS-SDK: 1193bafaca986a31d37c3e6fa845b99d6eaadaf8
-  iOS-WebP: f8c2766a491a196a08a5c801843a0ee2bd208647
+  Facebook-iOS-SDK: cb7d74759d0b1ba546e6e6f1dde407b0d4e448d6
   SDWebImage: 116e88633b5b416ea0ca4b334a4ac59cf72dd38d
   StackBluriOS: 6755faedc32f5025781fa4f474588ff580c7efa7
 
-COCOAPODS: 0.33.1
+COCOAPODS: 0.34.2

@@ -55,7 +55,7 @@
                             <outlet property="delegate" destination="GLT-kv-392" id="sRz-So-AJu"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="0ZF-KR-hBu">
+                    <navigationItem key="navigationItem" id="0ZF-KR-hBu" title="Chope Library">
                         <barButtonItem key="rightBarButtonItem" title="signin" id="bRA-8u-2rY">
                             <connections>
                                 <action selector="signin:" destination="GLT-kv-392" id="tGE-sz-H3T"/>

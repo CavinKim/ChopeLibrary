@@ -6,10 +6,10 @@
 //  Copyright (c) 2013년 Chope. All rights reserved.
 //
 
-#import <Parse/Parse.h>
 #import <FacebookSDK.h>
 #import <KakaoOpenSDK/KakaoOpenSDK.h>
 #import "CPAppDelegate.h"
+#import "CPAppearance.h"
 
 @implementation CPAppDelegate
 
@@ -23,8 +23,9 @@
 //    // Override point for customization after application launch.
 //    self.window.backgroundColor = [UIColor whiteColor];
 //    [self.window makeKeyAndVisible];
-    [Parse setApplicationId:@"nRRoaC0BamR0pZxj9HLYCruuExZvIeDBMuwglmDW"
-                  clientKey:@"V20btii78vM1EFqScldaNavj8eDUA6xrm0j0ue1H"];
+
+    [CPAppearance setFlatNavigationBackgroundColor:[UIColor blueColor] textColor:[UIColor whiteColor]];
+    [CPAppearance addNavigationTitleAttributes:@{NSFontAttributeName: [UIFont systemFontOfSize:40]}];
     
     return YES;
 }

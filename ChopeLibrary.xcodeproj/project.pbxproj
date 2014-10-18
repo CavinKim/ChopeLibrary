@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1D6C2524194449C900340305 /* CPParseAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6C2522194449C900340305 /* CPParseAccount.m */; };
 		1DA166FC191A9AC200AF4466 /* CPLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DA166FB191A9AC200AF4466 /* CPLoadingView.m */; };
 		1DDB64DB191771D60023388F /* CPFacebook.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DDB64D6191771D60023388F /* CPFacebook.m */; };
 		1DDB64DC191771D60023388F /* CPKakao.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DDB64D8191771D60023388F /* CPKakao.m */; };
@@ -16,7 +15,6 @@
 		1DFD68141940BD670005A09A /* CPTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DFD68131940BD670005A09A /* CPTableViewCell.m */; };
 		3E11B1C87252AB8FD6054BEE /* CPTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E11B06BEF09E54519C21BAF /* CPTableViewController.m */; };
 		3E11B207EC06022598B0109F /* CPTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E11B27ABECFDDAB4C4C15C5 /* CPTextView.m */; };
-		3E11B2435D844AAE2BD761DD /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E11B9281AEBEEF34C3927A4 /* Parse.framework */; };
 		3E11B392CC9C57E499A021E5 /* UIApplication+ChopeApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E11BD69C1DFA26D6F5E577D /* UIApplication+ChopeApplication.m */; };
 		3E11B4C41CE8A7920E79A6B9 /* UIViewController+Chope.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E11BADAAAAA704187D41A9C /* UIViewController+Chope.m */; };
 		3E11B5948B4218462741F457 /* UILabel+ChopeResize.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E11B2B628196C23F4403209 /* UILabel+ChopeResize.m */; };
@@ -79,8 +77,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1D6C2522194449C900340305 /* CPParseAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPParseAccount.m; sourceTree = "<group>"; };
-		1D6C2523194449C900340305 /* CPParseAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPParseAccount.h; sourceTree = "<group>"; };
 		1DA166FA191A9AC200AF4466 /* CPLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPLoadingView.h; sourceTree = "<group>"; };
 		1DA166FB191A9AC200AF4466 /* CPLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPLoadingView.m; sourceTree = "<group>"; };
 		1DDB64D5191771D60023388F /* CPFacebook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPFacebook.h; sourceTree = "<group>"; };
@@ -114,7 +110,6 @@
 		3E11B898BD0A923AF72ACBE8 /* CPTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTableViewController.h; sourceTree = "<group>"; };
 		3E11B8F4AE3FB1298E26C1C0 /* UIImage+ChopeImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ChopeImage.m"; sourceTree = "<group>"; };
 		3E11B925047E640363DFF944 /* NSDictionary+ChopeValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+ChopeValue.m"; sourceTree = "<group>"; };
-		3E11B9281AEBEEF34C3927A4 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = /Users/Chope/Documents/Projects/Xcode/ChopeLibrary/Framework/Parse.framework; sourceTree = "<absolute>"; };
 		3E11B9B9905D7CD102F94AD9 /* CPCoreTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPCoreTestViewController.m; sourceTree = "<group>"; };
 		3E11BA3A7CCB25371BB2ED89 /* UIViewController+Chope.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Chope.h"; sourceTree = "<group>"; };
 		3E11BA6DFD5BC956BEDE8F2D /* CPTextViewDelegator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPTextViewDelegator.m; sourceTree = "<group>"; };
@@ -139,7 +134,7 @@
 		3E11BF41D2C4B82BB4C40192 /* CPTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTextView.h; sourceTree = "<group>"; };
 		3E11BF865E03EC809DBCF22C /* CPTextViewDelegator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTextViewDelegator.h; sourceTree = "<group>"; };
 		3E11BFC12D9DFA0792FA1574 /* CPTestTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPTestTableViewController.m; sourceTree = "<group>"; };
-		4B7866A3B3B444648A647880 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		441D449AF075CAC9846D491D /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		AC10BFC91839139900324068 /* ChopeLibrary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChopeLibrary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC10BFCC1839139900324068 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		AC10BFCE1839139900324068 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -166,7 +161,6 @@
 		AC10C09E1839158200324068 /* CPDeviceUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPDeviceUtil.m; sourceTree = "<group>"; };
 		AC10C09F1839158200324068 /* CPStoryboardUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPStoryboardUtil.h; sourceTree = "<group>"; };
 		AC10C0A01839158200324068 /* CPStoryboardUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPStoryboardUtil.m; sourceTree = "<group>"; };
-		AC96749A1865C3590018F900 /* WebP.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebP.framework; path = Framework/WebP.framework; sourceTree = "<group>"; };
 		ACB688011872005D0058A00F /* CPTest.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CPTest.storyboard; sourceTree = "<group>"; };
 		ACB701401878244000493580 /* NSObjectChopeValueTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSObjectChopeValueTest.m; sourceTree = "<group>"; };
 		ACB701421878262300493580 /* NSDictionaryChopeValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDictionaryChopeValue.m; sourceTree = "<group>"; };
@@ -178,6 +172,7 @@
 		ACEC198818632ADE0014E681 /* ChopeLibrary.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ChopeLibrary.podspec; sourceTree = "<group>"; };
 		ACEC199C18633C9C0014E681 /* CPLinearView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPLinearView.h; sourceTree = "<group>"; };
 		ACEC199D18633C9C0014E681 /* CPLinearView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPLinearView.m; sourceTree = "<group>"; };
+		BC2E7E584E723A85358FEAEA /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		E0040420BDF14F82A25AD913 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -192,7 +187,6 @@
 				AC10BFD11839139900324068 /* UIKit.framework in Frameworks */,
 				AC10BFCD1839139900324068 /* Foundation.framework in Frameworks */,
 				4D57EF390F63447C85EFF1B7 /* libPods.a in Frameworks */,
-				3E11B2435D844AAE2BD761DD /* Parse.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,8 +213,6 @@
 				1DDB64D8191771D60023388F /* CPKakao.m */,
 				1DDB64D9191771D60023388F /* CPThirdpartyAccount.h */,
 				1DDB64DA191771D60023388F /* CPThirdpartyAccount.m */,
-				1D6C2522194449C900340305 /* CPParseAccount.m */,
-				1D6C2523194449C900340305 /* CPParseAccount.h */,
 			);
 			path = Thirdparty;
 			sourceTree = "<group>";
@@ -298,6 +290,15 @@
 			path = TextView;
 			sourceTree = "<group>";
 		};
+		9B2EEB05DB429A2C36297326 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BC2E7E584E723A85358FEAEA /* Pods.debug.xcconfig */,
+				441D449AF075CAC9846D491D /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		AC10BFC01839139900324068 = {
 			isa = PBXGroup;
 			children = (
@@ -309,7 +310,7 @@
 				ACEC197118631A7B0014E681 /* README.md */,
 				ACEC197318631AB80014E681 /* Podfile */,
 				ACEC198818632ADE0014E681 /* ChopeLibrary.podspec */,
-				4B7866A3B3B444648A647880 /* Pods.xcconfig */,
+				9B2EEB05DB429A2C36297326 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -326,7 +327,6 @@
 			isa = PBXGroup;
 			children = (
 				1DDB64DE191772530023388F /* KakaoOpenSDK.framework */,
-				AC96749A1865C3590018F900 /* WebP.framework */,
 				AC10C0571839147700324068 /* MobileCoreServices.framework */,
 				AC10C0551839147200324068 /* SystemConfiguration.framework */,
 				AC10BFCC1839139900324068 /* Foundation.framework */,
@@ -335,7 +335,6 @@
 				AC10BFD21839139900324068 /* CoreData.framework */,
 				AC10BFEA1839139A00324068 /* XCTest.framework */,
 				E0040420BDF14F82A25AD913 /* libPods.a */,
-				3E11B9281AEBEEF34C3927A4 /* Parse.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -544,6 +543,8 @@
 			mainGroup = AC10BFC01839139900324068;
 			productRefGroup = AC10BFCA1839139900324068 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+			);
 			projectRoot = "";
 			targets = (
 				AC10BFC81839139900324068 /* ChopeLibrary */,
@@ -589,7 +590,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		D75E65AAEF5F479FB1305D73 /* Check Pods Manifest.lock */ = {
@@ -621,7 +622,6 @@
 				AC10BFDF1839139A00324068 /* CPAppDelegate.m in Sources */,
 				ACB7014618782F0700493580 /* CPDateUtil.m in Sources */,
 				AC10C0A61839158200324068 /* CPNetwork.m in Sources */,
-				1D6C2524194449C900340305 /* CPParseAccount.m in Sources */,
 				1DDB64DD191771D60023388F /* CPThirdpartyAccount.m in Sources */,
 				1DA166FC191A9AC200AF4466 /* CPLoadingView.m in Sources */,
 				AC10C0A91839158200324068 /* CPDeviceUtil.m in Sources */,
@@ -768,7 +768,7 @@
 		};
 		AC10BFFC1839139A00324068 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4B7866A3B3B444648A647880 /* Pods.xcconfig */;
+			baseConfigurationReference = BC2E7E584E723A85358FEAEA /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -794,7 +794,7 @@
 		};
 		AC10BFFD1839139A00324068 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4B7866A3B3B444648A647880 /* Pods.xcconfig */;
+			baseConfigurationReference = 441D449AF075CAC9846D491D /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;

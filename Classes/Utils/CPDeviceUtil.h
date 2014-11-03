@@ -14,4 +14,6 @@
 + (NSString*)currentCountryCode;
 + (NSString*)currentLanguageCode;
 
++ (BOOL)iPhone6Plus;
+
 @end

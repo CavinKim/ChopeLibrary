@@ -25,4 +25,8 @@
     return [[NSLocale currentLocale] objectForKey:NSLocaleLanguageCode];
 }
 
++ (BOOL)iPhone6Plus {
+    return [UIScreen mainScreen].scale > 2.1;
+}
+
 @end

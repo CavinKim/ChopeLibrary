@@ -4,10 +4,11 @@
 //
 
 #import "CPCoreTestViewController.h"
+#import "CPLinearView.h"
 
 @interface CPCoreTestViewController ()
 
-@property (nonatomic, weak) IBOutlet UILabel *label;
+@property (nonatomic, weak) IBOutlet CPLinearView *linearView;
 
 @end
 
@@ -17,6 +18,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
+    self.linearView.linearViewAlignType = CPLinearViewAlignTypeHorizontal;
+//    self.linearView.centerAfterLayout = YES;
+    self.linearView.resizeAfterLayout = YES;
+    self.linearView.interViewSpacing = 10;
+    self.linearView.contentInset = UIEdgeInsetsMake(10, 10, 10, 10);
 }
 
 

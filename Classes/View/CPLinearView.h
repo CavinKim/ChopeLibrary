@@ -8,18 +8,19 @@
 
 #import <UIKit/UIKit.h>
 
-enum ChopeLinearViewAlignType {
-    ChopeLinearViewAlignTypeVertical = 1,
-    ChopeLinearViewAlignTypeHorizontal = 2
+enum CPLinearViewAlignType {
+    CPLinearViewAlignTypeVertical = 1,
+    CPLinearViewAlignTypeHorizontal = 2
 };
 
 
 @interface CPLinearView : UIView
 
-@property (nonatomic) enum ChopeLinearViewAlignType linearViewAlignType;
+@property (nonatomic) enum CPLinearViewAlignType linearViewAlignType;
 @property (nonatomic) BOOL resizeAfterLayout;
 @property (nonatomic) BOOL centerAfterLayout;
 @property (nonatomic) CGFloat interViewSpacing;
 @property (nonatomic) CGFloat maxSize;
+@property (nonatomic) UIEdgeInsets contentInset;
 
 @end

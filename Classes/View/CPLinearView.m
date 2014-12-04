@@ -15,7 +15,7 @@
     [super layoutSubviews];
     
     NSArray *views = self.subviews;
-    CGFloat origin = 0;
+    CGFloat origin = (self.linearViewAlignType == CPLinearViewAlignTypeVertical ? self.contentInset.top : self.contentInset.left);
     
     for (NSUInteger i=0; i<self.subviews.count; i++) {
         UIView *view = views[i];
@@ -35,15 +35,15 @@
     CGRect frame = view.frame;
     CGFloat newOrigin = origin;
     
-    if (self.linearViewAlignType == ChopeLinearViewAlignTypeVertical) {
-        frame.origin.x = 0;
+    if (self.linearViewAlignType == CPLinearViewAlignTypeVertical) {
+        frame.origin.x = self.contentInset.left;
         frame.origin.y = origin;
         newOrigin += frame.size.height;
         self.maxSize = frame.size.width > self.maxSize ? frame.size.width : self.maxSize;
     }
     else {
         frame.origin.x = origin;
-        frame.origin.y = 0;
+        frame.origin.y = self.contentInset.top;
         newOrigin += frame.size.width;
         self.maxSize = frame.size.height > self.maxSize ? frame.size.height : self.maxSize;
     }
@@ -58,13 +58,13 @@
     CGRect frame = self.frame;
     
     if (self.resizeAfterLayout) {
-        if (self.linearViewAlignType == ChopeLinearViewAlignTypeVertical) {
-            frame.size.width = self.maxSize;
-            frame.size.height = newSize;
+        if (self.linearViewAlignType == CPLinearViewAlignTypeVertical) {
+            frame.size.width = self.maxSize + (self.contentInset.left + self.contentInset.right);
+            frame.size.height = newSize + self.contentInset.bottom;
         }
         else {
-            frame.size.width = newSize;
-            frame.size.height = self.maxSize;
+            frame.size.width = newSize + self.contentInset.right;
+            frame.size.height = self.maxSize + (self.contentInset.top + self.contentInset.bottom);
         }
     }
     
@@ -80,7 +80,7 @@
         
         CGPoint center = view.center;
 
-        if (self.linearViewAlignType == ChopeLinearViewAlignTypeVertical) {
+        if (self.linearViewAlignType == CPLinearViewAlignTypeVertical) {
             center.x = (CGFloat) (self.frame.size.width / 2.0);
         }
         else {

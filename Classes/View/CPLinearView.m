@@ -81,10 +81,10 @@
         CGPoint center = view.center;
 
         if (self.linearViewAlignType == ChopeLinearViewAlignTypeVertical) {
-            center.x = CGRectGetMidX(self.frame);
+            center.x = (CGFloat) (self.frame.size.width / 2.0);
         }
         else {
-            center.y = CGRectGetMidY(self.frame);
+            center.y = (CGFloat) (self.frame.size.height / 2.0);
         }
         
         [view setCenter:center];

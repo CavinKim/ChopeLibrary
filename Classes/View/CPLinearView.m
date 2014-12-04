@@ -17,8 +17,8 @@
     NSArray *views = self.subviews;
     CGFloat origin = 0;
     
-    for (NSInteger i=0; i<self.subviews.count; i++) {
-        UIView *view = [views objectAtIndex:i];
+    for (NSUInteger i=0; i<self.subviews.count; i++) {
+        UIView *view = views[i];
         origin += i > 0 ? self.interViewSpacing : 0;
         origin = [self setSubviewOrigin:origin view:view];
     }
@@ -50,7 +50,7 @@
     
     view.frame = frame;
     
-    return newOrigin;
+    return (NSInteger) newOrigin;
 }
 
 - (void)setSize:(CGFloat)newSize
@@ -75,16 +75,16 @@
 {
     NSArray *views = self.subviews;
     
-    for (NSInteger i=0; i<self.subviews.count; i++) {
-        UIView *view = [views objectAtIndex:i];
+    for (NSUInteger i=0; i<self.subviews.count; i++) {
+        UIView *view = views[i];
         
         CGPoint center = view.center;
 
         if (self.linearViewAlignType == ChopeLinearViewAlignTypeVertical) {
-            center.x = self.center.x;
+            center.x = CGRectGetMidX(self.frame);
         }
         else {
-            center.y = self.center.y;
+            center.y = CGRectGetMidY(self.frame);
         }
         
         [view setCenter:center];
